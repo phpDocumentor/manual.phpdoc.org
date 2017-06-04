@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+   <html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>@abstract</title>
+  <link rel="stylesheet" href="../media/stylesheet.css" />
+<!-- template designed by Julien Damon based on PHPEdit's generated templates, and tweaked by Greg Beaver -->
+<body bgcolor="#ffffff" ><table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="10%" align="left" valign="bottom"><a href=
+"../phpDocumentor/tutorial_tags.pkg.html">Prev</a></td>
+<td width="80%" align="center" valign="bottom"></td>
+<td width="10%" align="right" valign="bottom"><a href=
+"../phpDocumentor/tutorial_tags.access.pkg.html">Next</a></td>
+</tr>
+</table>
+<div><a name=""></a><div class="refname"><h1>@abstract</h1>
+  <h2 class="refpurpose"><em>Document an abstract class or method</em></h2></div>
+ <div class="refsynopsis"><font size="-1"><strong>by <em>Gregory Beaver
+    <blockquote>Tag Documentation written by <a href="mailto:cellog@php.net">cellog@php.net</a></blockquote></em></strong></font>
+   <font size="-1"><strong>by <em>Chuck Burgess
+    <blockquote>Edited by <a href="mailto:ashnazg@php.net">ashnazg@php.net</a></blockquote></em></strong></font>
+   <em>Copyright 2002, Gregory Beaver</em><br />
+   (phpDocumentor 1.1+)<br />
+  <div id="cmdsynopsis"><b class="cmd">@abstract</b></div></div>
+ <span><a name="description"></a><h2 class="title" align="center">Description</h1><p>Use the @abstract tag to declare a class as abstract, as well as for declaring what methods must be redefined in a child class.</p>
+  <table border="1"><tr><td>The @abstract tag is only valid in PHP 4, PHP 5 has a keyword abstract.</td></tr></table></span>
+ <span><a name="example"></a><h2 class="title" align="center">Example</h1><p>Here's an example:</p>
+  <p><div class="src-code"><ol><li><div class="src-line"><font color="#009999">/**</font></div></li>
+<li><div class="src-line"><font color="#009999">&nbsp;*&nbsp;example&nbsp;of&nbsp;@abstract&nbsp;usage&nbsp;in&nbsp;a&nbsp;class</font></div></li>
+<li><div class="src-line"><font color="#009999">&nbsp;*</font></div></li>
+<li><div class="src-line"><font color="#009999">&nbsp;*&nbsp;if&nbsp;even&nbsp;one&nbsp;method&nbsp;is&nbsp;declared&nbsp;abstract,</font></div></li>
+<li><div class="src-line"><font color="#009999">&nbsp;*&nbsp;then&nbsp;the&nbsp;class&nbsp;itself&nbsp;should&nbsp;be&nbsp;also</font></div></li>
+<li><div class="src-line"><font color="#009999">&nbsp;*&nbsp;</font><strong><font color = "#0099FF">@abstract</font></strong></div></li>
+<li><div class="src-line"><font color="#009999">&nbsp;*/</font></div></li>
+<li><div class="src-line"><font color="blue">class&nbsp;</font>myAbstractClass</div></li>
+<li><div class="src-line"><strong>{</strong></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;<font color="#009999">/**</font></div></li>
+<li><div class="src-line"><font color="#009999">&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;this&nbsp;method&nbsp;is&nbsp;abstract...</font></div></li>
+<li><div class="src-line"><font color="#009999">&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;it&nbsp;has&nbsp;no&nbsp;body...</font></div></li>
+<li><div class="src-line"><font color="#009999">&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;</font><strong><font color = "#0099FF">@abstract</font></strong></div></li>
+<li><div class="src-line"><font color="#009999">&nbsp;&nbsp;&nbsp;&nbsp;*/</font></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;<font color="blue">function&nbsp;</font>function1<strong>(</strong><strong>$baz</strong><strong>)&nbsp;</strong></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;<strong>{</strong></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="green">//&nbsp;no&nbsp;body</font></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;<strong>}</strong></div></li>
+<li><div class="src-line">&nbsp;</div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;<font color="#009999">/**</font></div></li>
+<li><div class="src-line"><font color="#009999">&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;this&nbsp;method&nbsp;is&nbsp;not&nbsp;abstract</font></div></li>
+<li><div class="src-line"><font color="#009999">&nbsp;&nbsp;&nbsp;&nbsp;*/&nbsp;&nbsp;&nbsp;</font></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;<font color="blue">function&nbsp;</font>function2<strong>(</strong><strong>)</strong></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;<strong>{</strong></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="green">//&nbsp;does&nbsp;something</font></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...</div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;<strong>}</strong></div></li>
+<li><div class="src-line"><strong>}</strong></div></li>
+</ol></div></p></span></div>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="33%" align="left" valign="top"><a href="../phpDocumentor/tutorial_tags.pkg.html">Prev</a></td>
+<td width="34%" align="center" valign="top"><a href=
+"../phpDocumentor/tutorial_tags.pkg.html">Up</a></td>
+<td width="33%" align="right" valign="top"><a href=
+"../phpDocumentor/tutorial_tags.access.pkg.html">Next</a></td>
+</tr>
+
+<tr>
+<td width="33%" align="left" valign="top">phpDocumentor tags</td>
+<td width="34%" align="center" valign="top">phpDocumentor tags</td>
+<td width="33%" align="right" valign="top">@access</td>
+</tr>
+</table>
+	<div id="credit">
+		<hr />
+		Documentation generated on Mon, 05 Dec 2011 21:24:12 -0600 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.4</a>
+	</div>
+</body>
+</html>

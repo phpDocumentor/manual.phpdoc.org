@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Docs For Class phpDocumentor_HighlightWordParser</title>
+	<link rel="stylesheet" type="text/css" href="../../media/style.css">
+	<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+	<td class="header-top-left"><img src="../../media/logo.png" border="0" alt="phpDocumentor " /></td>
+    <td class="header-top-right">phpDocumentor<br /><div class="header-top-right-subpackage">Parsers</div></td>
+  </tr>
+  <tr><td colspan="2" class="header-line"><img src="../../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td colspan="2" class="header-menu">
+      
+                        
+                                    		[ <a href="../../classtrees_phpDocumentor.html" class="menu">class tree: phpDocumentor</a> ]
+		[ <a href="../../elementindex_phpDocumentor.html" class="menu">index: phpDocumentor</a> ]
+            [ <a href="../../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td colspan="2" class="header-line"><img src="../../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="195" class="menu">
+		<div class="package-title">phpDocumentor</div>
+  <div class="package">
+	<div id="ric">
+					<p><a href="../../ric_FAQ.html">FAQ</a></p>
+					<p><a href="../../ric_ChangeLog.html">ChangeLog</a></p>
+					<p><a href="../../ric_INSTALL.html">INSTALL</a></p>
+					<p><a href="../../ric_README.html">README</a></p>
+			</div>
+	</div>
+  <div class="package">
+	<div id="todolist">
+			<p><a href="../../todolist.html">Todo List</a></p>
+	</div>
+	</div>
+      <b>Packages:</b><br />
+  <div class="package">
+              <a href="../../li_phpDocumentor.html">phpDocumentor</a><br />
+              <a href="../../li_Converters.html">Converters</a><br />
+      	</div>
+      <br />
+		<b>Tutorials/Manuals:</b><br />
+  <div class="package">
+					<strong>Package-level:</strong>
+							<ul>
+	<li><a href="../../phpDocumentor/tutorial_phpDocumentor.pkg.html">phpDocumentor Guide to Creating Fantastic Documentation</a>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_phpDocumentor.quickstart.pkg.html">phpDocumentor Quickstart</a>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_sample1.pkg.html">Source code for sample1.php</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_sample2.pkg.html">Source code for sample2.php</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_sample3.pkg.html">Source code for sample3.php</a>
+</ul>
+</li></ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_phpDocumentor.howto.pkg.html"> phpDocumentor  Tutorial</a>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_elements.pkg.html">Documentable PHP Elements</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tutorials.pkg.html">phpDocumentor Tutorials</a>
+</ul>
+</li></ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_manual.pkg.html"> phpDocumentor  Manual</a>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.pkg.html">phpDocumentor tags</a>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.abstract.pkg.html">@abstract</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.access.pkg.html">@access</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.author.pkg.html">@author</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.category.pkg.html">@category</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.copyright.pkg.html">@copyright</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.deprecated.pkg.html">@deprecated</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.example.pkg.html">@example</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.final.pkg.html">@final</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.filesource.pkg.html">@filesource</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.global.pkg.html">@global</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.ignore.pkg.html">@ignore</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.internal.pkg.html">@internal</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.license.pkg.html">@license</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.link.pkg.html">@link</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.method.pkg.html">@method</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.name.pkg.html">@name</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.package.pkg.html">@package</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.param.pkg.html">@param</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.property.pkg.html">@property</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.return.pkg.html">@return</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.see.pkg.html">@see</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.since.pkg.html">@since</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.static.pkg.html">@static</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.staticvar.pkg.html">@staticvar</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.subpackage.pkg.html">@subpackage</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.todo.pkg.html">@todo</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.tutorial.pkg.html">@tutorial</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.uses.pkg.html">@uses</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.var.pkg.html">@var</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.version.pkg.html">@version</a>
+</ul>
+</li></ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_inlinetags.pkg.html">phpDocumentor Inline tags</a>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlineexample.pkg.html">inline {@example}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlineid.pkg.html">inline {@id}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlineinternal.pkg.html">inline {@internal}}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlineinheritdoc.pkg.html">inline {@inheritdoc}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlinelink.pkg.html">inline {@link}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlinesource.pkg.html">inline {@source}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlinetoc.pkg.html">inline {@toc}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlinetutorial.pkg.html">inline {@tutorial}</a>
+</ul>
+</li></ul>
+</li></ul>
+</li></ul>
+
+									                        <b>Files:</b><br />
+        <div class="package">
+				<span style="padding-left: 1em;"><a href="../../phpDocumentor/_docbuilder---actions.php.html">actions.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_Documentation---tests---bug-560532.php.html">bug-560532.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_Documentation---tests---bug-772441.php.html">bug-772441.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_docbuilder---builder.php.html">builder.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpDocumentor---Classes.inc.html">Classes.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpDocumentor---clone.inc.php.html">clone.inc.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpDocumentor---clone5.inc.php.html">clone5.inc.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpDocumentor---common.inc.php.html">common.inc.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_docbuilder---config.php.html">config.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpDocumentor---EventStack.inc.html">EventStack.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_docbuilder---file_dialog.php.html">file_dialog.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_tests---HighlightParserTests.php.html">HighlightParserTests.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpDocumentor---IntermediateParser.inc.html">IntermediateParser.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_tests---IntermediateParserTests.php.html">IntermediateParserTests.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpDocumentor---Io.inc.html">Io.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_new_phpdoc.php.html">new_phpdoc.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_tests---ParserClassTests.php.html">ParserClassTests.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpDocumentor---ParserDescCleanup.inc.html">ParserDescCleanup.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_tests---ParserPageTests.php.html">ParserPageTests.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpDocumentor---phpdoc.inc.html">phpdoc.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpdoc.php.html">phpdoc.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_tests---phpDocumentorSetupTests.php.html">phpDocumentorSetupTests.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_tests---phpDocumentorTParserTests.php.html">phpDocumentorTParserTests.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpDocumentor---ProceduralPages.inc.html">ProceduralPages.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpDocumentor---Publisher.inc.html">Publisher.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpDocumentor---Setup.inc.php.html">Setup.inc.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_docbuilder---top.php.html">top.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_docbuilder---includes---utilities.php.html">utilities.php</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>DescHTML</strong><br />			<span style="padding-left: 1em;"><a href="../../phpDocumentor/DescHTML/_phpDocumentor---DescHTML.inc.html">DescHTML.inc</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>DocBlockTags</strong><br />			<span style="padding-left: 1em;"><a href="../../phpDocumentor/DocBlockTags/_phpDocumentor---DocBlockTags.inc.html">DocBlockTags.inc</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>Errors</strong><br />			<span style="padding-left: 1em;"><a href="../../phpDocumentor/Errors/_phpDocumentor---Errors.inc.html">Errors.inc</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>InlineTags</strong><br />			<span style="padding-left: 1em;"><a href="../../phpDocumentor/InlineTags/_phpDocumentor---InlineTags.inc.html">InlineTags.inc</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>Links</strong><br />			<span style="padding-left: 1em;"><a href="../../phpDocumentor/Links/_phpDocumentor---LinkClasses.inc.html">LinkClasses.inc</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>ParserData</strong><br />			<span style="padding-left: 1em;"><a href="../../phpDocumentor/ParserData/_phpDocumentor---ParserData.inc.html">ParserData.inc</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>ParserDocBlock</strong><br />			<span style="padding-left: 1em;"><a href="../../phpDocumentor/ParserDocBlock/_phpDocumentor---ParserDocBlock.inc.html">ParserDocBlock.inc</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>ParserElements</strong><br />			<span style="padding-left: 1em;"><a href="../../phpDocumentor/ParserElements/_phpDocumentor---ParserElements.inc.html">ParserElements.inc</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>Parsers</strong><br />			<span style="padding-left: 1em;"><a href="../../phpDocumentor/Parsers/_phpDocumentor---Converters---XML---DocBook---peardoc2---Beautifier.php.html">Beautifier.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/Parsers/_phpDocumentor---HighlightParser.inc.html">HighlightParser.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/Parsers/_phpDocumentor---Parser.inc.html">Parser.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/Parsers/_phpDocumentor---phpDocumentorTParser.inc.html">phpDocumentorTParser.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/Parsers/_phpDocumentor---Converters---XML---DocBook---peardoc2---Tokenizer.php.html">Tokenizer.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/Parsers/_phpDocumentor---TutorialHighlightParser.inc.html">TutorialHighlightParser.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/Parsers/_phpDocumentor---XMLpackagePageParser.inc.html">XMLpackagePageParser.inc</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>setup</strong><br />			<span style="padding-left: 1em;"><a href="../../phpDocumentor/setup/_phpDocumentor---find_phpdoc.php.html">find_phpdoc.php</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>Tutorial</strong><br />			<span style="padding-left: 1em;"><a href="../../phpDocumentor/Tutorial/_phpDocumentor---PackagePageElements.inc.html">PackagePageElements.inc</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>WordParsers</strong><br />			<span style="padding-left: 1em;"><a href="../../phpDocumentor/WordParsers/_phpDocumentor---phpDocumentorTWordParser.inc.html">phpDocumentorTWordParser.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/WordParsers/_phpDocumentor---WordParser.inc.html">WordParser.inc</a></span><br />
+	  </div>
+            <br />
+                  <b>Classes:</b><br />
+        <div class="package">
+	Parsers<br />	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Parsers/Parser.html">Parser</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Parsers/parserDescParser.html">parserDescParser</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Parsers/phpDocumentorTParser.html">phpDocumentorTParser</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Parsers/phpDocumentor_HighlightParser.html">phpDocumentor_HighlightParser</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Parsers/phpDocumentor_HighlightWordParser.html">phpDocumentor_HighlightWordParser</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Parsers/phpDocumentor_peardoc2_XML_Beautifier.html">phpDocumentor_peardoc2_XML_Beautifier</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Parsers/phpDocumentor_TutorialHighlightParser.html">phpDocumentor_TutorialHighlightParser</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Parsers/phpDocumentor_XML_Beautifier_Tokenizer.html">phpDocumentor_XML_Beautifier_Tokenizer</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Parsers/ppageParser.html">ppageParser</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Parsers/XMLPackagePageParser.html">XMLPackagePageParser</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+		    		<a href="../../phpDocumentor/bug_772441.html">bug_772441</a>    	 <br />
+	    		<a href="../../phpDocumentor/Classes.html">Classes</a>    	 <br />
+	    		<a href="../../phpDocumentor/EventStack.html">EventStack</a>    	 <br />
+	    		<a href="../../phpDocumentor/Io.html">Io</a>    	 <br />
+	    		<a href="../../phpDocumentor/phpDocumentor_IntermediateParser.html">phpDocumentor_IntermediateParser</a>    	 <br />
+	    		<a href="../../phpDocumentor/phpDocumentor_setup.html">phpDocumentor_setup</a>    	 <br />
+	    		<a href="../../phpDocumentor/ProceduralPages.html">ProceduralPages</a>    	 <br />
+	    		<a href="../../phpDocumentor/Publisher.html">Publisher</a>    	 <br />
+	    		<a href="../../phpDocumentor/tests_HighlightParserTests.html">tests_HighlightParserTests</a>    	 <br />
+	    		<a href="../../phpDocumentor/tests_IntermediateParserTests.html">tests_IntermediateParserTests</a>    	 <br />
+	    		<a href="../../phpDocumentor/tests_ParserClassTests.html">tests_ParserClassTests</a>    	 <br />
+	    		<a href="../../phpDocumentor/tests_ParserPageTests.html">tests_ParserPageTests</a>    	 <br />
+	    		<a href="../../phpDocumentor/tests_phpDocumentorSetupTests.html">tests_phpDocumentorSetupTests</a>    	 <br />
+	    		<a href="../../phpDocumentor/tests_phpDocumentorTParserTests.html">tests_phpDocumentorTParserTests</a>    	 <br />
+	  </div>
+  <div class="package">
+	DescHTML<br />	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DescHTML/parserB.html">parserB</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DescHTML/parserBr.html">parserBr</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DescHTML/parserCode.html">parserCode</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DescHTML/parserDescVar.html">parserDescVar</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DescHTML/parserI.html">parserI</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DescHTML/parserKbd.html">parserKbd</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DescHTML/parserList.html">parserList</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DescHTML/parserPre.html">parserPre</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DescHTML/parserSamp.html">parserSamp</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+	DocBlockTags<br />	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserAccessTag.html">parserAccessTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserExampleTag.html">parserExampleTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserFileSourceTag.html">parserFileSourceTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserLicenseTag.html">parserLicenseTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserLinkTag.html">parserLinkTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserMethodTag.html">parserMethodTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserNameTag.html">parserNameTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserParamTag.html">parserParamTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserPropertyReadTag.html">parserPropertyReadTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserPropertyTag.html">parserPropertyTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserPropertyWriteTag.html">parserPropertyWriteTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserReturnTag.html">parserReturnTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserSeeTag.html">parserSeeTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserStaticvarTag.html">parserStaticvarTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserTag.html">parserTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserTutorialTag.html">parserTutorialTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserUsedByTag.html">parserUsedByTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserUsesTag.html">parserUsesTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserVarTag.html">parserVarTag</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+	Errors<br />	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Errors/ErrorTracker.html">ErrorTracker</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Errors/RecordError.html">RecordError</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Errors/RecordWarning.html">RecordWarning</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+	InlineTags<br />	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/InlineTags/parserExampleInlineTag.html">parserExampleInlineTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/InlineTags/parserIdInlineTag.html">parserIdInlineTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/InlineTags/parserInheritdocInlineTag.html">parserInheritdocInlineTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/InlineTags/parserInlineTag.html">parserInlineTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/InlineTags/parserLinkInlineTag.html">parserLinkInlineTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/InlineTags/parserSourceInlineTag.html">parserSourceInlineTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/InlineTags/parserTocInlineTag.html">parserTocInlineTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/InlineTags/parserTutorialInlineTag.html">parserTutorialInlineTag</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+	Links<br />	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Links/abstractLink.html">abstractLink</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Links/classLink.html">classLink</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Links/constLink.html">constLink</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Links/defineLink.html">defineLink</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Links/functionLink.html">functionLink</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Links/globalLink.html">globalLink</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Links/methodLink.html">methodLink</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Links/pageLink.html">pageLink</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Links/tutorialLink.html">tutorialLink</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Links/varLink.html">varLink</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+	Tutorial<br />	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Tutorial/parserCData.html">parserCData</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Tutorial/parserEntity.html">parserEntity</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Tutorial/parserXMLDocBookTag.html">parserXMLDocBookTag</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+	ParserData<br />	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserData/parserBase.html">parserBase</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserData/parserData.html">parserData</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserData/parserPage.html">parserPage</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserData/parserStringWithInlineTags.html">parserStringWithInlineTags</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+	WordParsers<br />	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/WordParsers/ObjectWordParser.html">ObjectWordParser</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/WordParsers/phpDocumentorTWordParser.html">phpDocumentorTWordParser</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/WordParsers/WordParser.html">WordParser</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+	ParserDocBlock<br />	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserDocBlock/parserDesc.html">parserDesc</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html">parserDocBlock</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+	ParserElements<br />	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserElements/parserClass.html">parserClass</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserElements/parserConst.html">parserConst</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserElements/parserDefine.html">parserDefine</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserElements/parserElement.html">parserElement</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserElements/parserFunction.html">parserFunction</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserElements/parserGlobal.html">parserGlobal</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserElements/parserInclude.html">parserInclude</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserElements/parserMethod.html">parserMethod</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserElements/parserPackagePage.html">parserPackagePage</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserElements/parserTutorial.html">parserTutorial</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserElements/parserVar.html">parserVar</a>    </span>	 <br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Class: phpDocumentor_HighlightWordParser</h1>
+Source Location: /phpDocumentor/HighlightParser.inc<br /><br />
+
+<h2 class="class-name">Class phpDocumentor_HighlightWordParser</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Class Overview</div>
+	<div class="nav-bar">
+					<span class="disabled">Class Overview</span>
+						
+					| <a href="#sec-inherited">Inherited Properties, Constants, and Methods</a>
+													| <a href="#sec-method-summary">Method Summary</a> | <a href="#sec-methods">Methods Detail</a>
+								</div>
+	<div class="info-box-body">
+		<table width="100%" border="0">
+		<tr><td valign="top" width="60%" class="class-overview">
+
+        		<p align="center" class="short-description"><strong>Retrieve tokens from an array of tokens organized by line numbers
+</strong></p>
+
+		<p class="notes">
+			Located in <a class="field" href="_phpDocumentor---HighlightParser.inc.html">/phpDocumentor/HighlightParser.inc</a> [<span class="field">line <a href="../../__filesource/fsource_phpDocumentor_Parsers_phpDocumentorHighlightParser.inc.html#a69">69</a></span>]
+		</p>
+
+		
+		<pre><a href="../../phpDocumentor/WordParsers/WordParser.html">WordParser</a>
+   |
+   --<a href="../../phpDocumentor/WordParsers/phpDocumentorTWordParser.html">phpDocumentorTWordParser</a>
+      |
+      --phpDocumentor_HighlightWordParser</pre>
+
+		
+				<strong>Author(s):</strong>
+		<ul>
+		  			 			 <li>Gregory Beaver &lt;<a href="mailto:cellog@php.net">cellog@php.net</a>&gt;</li>
+			 		  			 		  			 		  			 		  			 		  			 		  			 		  			 		  			 		  		</ul>
+		
+		
+<strong>Information Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+				<tr><td><strong>Version:</strong>&nbsp;&nbsp;</td><td>Release: @VER@</td></tr>
+				<tr><td><strong>Copyright:</strong>&nbsp;&nbsp;</td><td>2002-2008 Gregory Beaver</td></tr>
+				<tr><td><strong>Link:</strong>&nbsp;&nbsp;</td><td><a href="http://pear.php.net/PhpDocumentor">http://pear.php.net/PhpDocumentor</a></td></tr>
+				<tr><td><strong>Link:</strong>&nbsp;&nbsp;</td><td><a href="http://www.phpdoc.org">http://www.phpdoc.org</a></td></tr>
+				<tr><td><strong>Todo:</strong>&nbsp;&nbsp;</td><td>CS cleanup - change package to PhpDocumentor</td></tr>
+				<tr><td><strong>Todo:</strong>&nbsp;&nbsp;</td><td>CS cleanup - change class name to PhpDocumentor_*</td></tr>
+				<tr><td><strong>Since:</strong>&nbsp;&nbsp;</td><td>1.2.0beta3</td></tr>
+				<tr><td><strong>License:</strong>&nbsp;&nbsp;</td><td><a href="http://www.opensource.org/licenses/lgpl-license.php">LGPL</a></td></tr>
+	</table>
+		</td>
+
+		
+				<td valign="top" width="20%" class="class-overview">
+		<p align="center" class="short-description"><strong><a href="#sec_methods">Methods</a></strong></p>
+		<ul>
+		  		  <li><a href="../../phpDocumentor/Parsers/phpDocumentor_HighlightWordParser.html#methodbackupPos">backupPos</a></li>
+		  		  <li><a href="../../phpDocumentor/Parsers/phpDocumentor_HighlightWordParser.html#methodgetWord">getWord</a></li>
+		  		  <li><a href="../../phpDocumentor/Parsers/phpDocumentor_HighlightWordParser.html#methodnextToken">nextToken</a></li>
+		  		  <li><a href="../../phpDocumentor/Parsers/phpDocumentor_HighlightWordParser.html#methodsetup">setup</a></li>
+		  		</ul>
+		</td>
+		
+		</tr></table>
+		<div class="top">[ <a href="#top">Top</a> ]</div>
+	</div>
+</div>
+
+
+	<a name="sec-inherited"></a>
+	<div class="info-box">
+		<div class="info-box-title">Inherited Properties, Constants, and Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a>
+						| <span class="disabled">Inherited Properties, Constants, and Methods</span>
+															| <a href="#sec-method-summary">Method Summary</a> | <a href="#sec-methods">Methods Detail</a>
+							    				</div>
+		<div class="info-box-body">
+			<table cellpadding="2" cellspacing="0" class="class-table">
+				<tr>
+					<th class="class-table-header" width="30%">Inherited Properties</th>
+					<th class="class-table-header" width="40%">Inherited Methods</th>
+					<th class="class-table-header" width="30%">Inherited Constants</th>
+				</tr>
+				<tr>
+					<td width="30%">
+											</td>
+					<td width="40%">
+													<p>Inherited From <span class="classname"><a href="../../phpDocumentor/WordParsers/phpDocumentorTWordParser.html">phpDocumentorTWordParser</a></span></p>
+							<blockquote>
+								<dl>
+																			<dt>
+											<span class="method-definition"><a href="../../phpDocumentor/WordParsers/phpDocumentorTWordParser.html#methodaddFileSource">phpDocumentorTWordParser::addFileSource()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Wrapper for addSource() used to retrieve the entire source code  organized by line number in setup()</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../phpDocumentor/WordParsers/phpDocumentorTWordParser.html#methodaddSource">phpDocumentorTWordParser::addSource()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Generate source token arrays organized by line number</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../phpDocumentor/WordParsers/phpDocumentorTWordParser.html#methodbackupPos">phpDocumentorTWordParser::backupPos()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">backs the parser up to the previous position</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../phpDocumentor/WordParsers/phpDocumentorTWordParser.html#methodconcatTokens">phpDocumentorTWordParser::concatTokens()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Utility function to convert a series of tokens into a string</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../phpDocumentor/WordParsers/phpDocumentorTWordParser.html#methodfindGlobal">phpDocumentorTWordParser::findGlobal()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Tell the phpDocumentorTWordParser to return the entire global variable  if it is found.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../phpDocumentor/WordParsers/phpDocumentorTWordParser.html#methodgetFileSource">phpDocumentorTWordParser::getFileSource()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">gets the source code tokens</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../phpDocumentor/WordParsers/phpDocumentorTWordParser.html#methodgetSource">phpDocumentorTWordParser::getSource()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">loads up next set of source code</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../phpDocumentor/WordParsers/phpDocumentorTWordParser.html#methodgetWord">phpDocumentorTWordParser::getWord()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Retrieve a token for the phpDocumentorTParser</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../phpDocumentor/WordParsers/phpDocumentorTWordParser.html#methodsetup">phpDocumentorTWordParser::setup()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Uses <a href="http://www.php.net/token_get_all">http://www.php.net/token_get_all</a> to tokenize the source code.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../phpDocumentor/WordParsers/phpDocumentorTWordParser.html#methodtokenEquals">phpDocumentorTWordParser::tokenEquals()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Utility function to determine whether two tokens from the tokenizer are equal</span>
+										</dd>
+																	</dl>
+							</blockquote>
+													<p>Inherited From <span class="classname"><a href="../../phpDocumentor/WordParsers/WordParser.html">WordParser</a></span></p>
+							<blockquote>
+								<dl>
+																			<dt>
+											<span class="method-definition"><a href="../../phpDocumentor/WordParsers/WordParser.html#methodbackupPos">WordParser::backupPos()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Backup to the previous token so that it can be retrieved again in a new  context.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../phpDocumentor/WordParsers/WordParser.html#methodgetBlock">WordParser::getBlock()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Unused</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../phpDocumentor/WordParsers/WordParser.html#methodgetPos">WordParser::getPos()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Returns the current pointer position, or 1 character after the end of the word</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../phpDocumentor/WordParsers/WordParser.html#methodgetSource">WordParser::getSource()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Retrieve source code for the last function/method</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../phpDocumentor/WordParsers/WordParser.html#methodgetWord">WordParser::getWord()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Retrieve a token from the token list</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../phpDocumentor/WordParsers/WordParser.html#methodsetPos">WordParser::setPos()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Set the internal cursor within the source code</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../phpDocumentor/WordParsers/WordParser.html#methodsetSeperator">WordParser::setSeperator()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Sets the list of possible separator tokens</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../phpDocumentor/WordParsers/WordParser.html#methodsetup">WordParser::setup()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Initialize the WordParser</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../phpDocumentor/WordParsers/WordParser.html#methodsetWhitespace">WordParser::setWhitespace()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">set parser to return or strip whitespace</span>
+										</dd>
+																	</dl>
+							</blockquote>
+											</td>
+					<td width="30%">
+											</td>
+				</tr>
+			</table>
+			<br /><div class="top">[ <a href="#top">Top</a> ]</div>
+		</div>
+	</div>
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a>
+										| <a href="#sec-inherited">Inherited Properties and Methods</a>
+						    					| <span class="disabled">Method Summary</span> | <a href="#sec-methods">Methods Detail</a>
+		</div>
+		<div class="info-box-body">
+			<div class="method-summary">
+				<table border="0" cellspacing="0" cellpadding="0" class="method-summary">
+																																																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#backupPos" title="details" class="method-name">backupPos</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">back the word parser to the previous token as defined by $last_token</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">array|string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#getWord" title="details" class="method-name">getWord</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Retrieve the next token</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">array</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#nextToken" title="details" class="method-name">nextToken</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Retrieve the position of the next token that will be parsed  in the internal token array</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#setup" title="details" class="method-name">setup</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Initialize the parser object</td></tr>
+				</div>
+												</table>
+			</div>
+			<br /><div class="top">[ <a href="#top">Top</a> ]</div>
+		</div>
+	</div>
+
+
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a>
+										| <a href="#sec-inherited">Inherited Properties and Methods</a>
+																| <a href="#sec-method-summary">Method Summary</a> | <span class="disabled">Methods Detail</span>
+					</div>
+		<div class="info-box-body">
+			<a name='method_detail'></a>
+
+<a name="methodbackupPos" id="backupPos"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">backupPos</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_phpDocumentor_Parsers_phpDocumentorHighlightParser.inc.html#a172">172</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void backupPos(
+array|string
+$last_token, [bool
+$is_pos = false]&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>back the word parser to the previous token as defined by $last_token
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">array|string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$last_token:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> token, or output from <a href="../../phpDocumentor/Parsers/phpDocumentor_HighlightWordParser.html#methodnextToken">nextToken()</a></span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">bool</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$is_pos:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> if true, backupPos interprets $last_token                                  to be the position in the internal token                                  array of the last token</span>			</td></tr>
+				</table>
+
+	<br />
+	
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../phpDocumentor/WordParsers/phpDocumentorTWordParser.html#methodbackupPos">phpDocumentorTWordParser::backupPos()</a></dt>
+						<dd>backs the parser up to the previous position</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgetWord" id="getWord"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">getWord</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_phpDocumentor_Parsers_phpDocumentorHighlightParser.inc.html#a147">147</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>array|string getWord(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Retrieve the next token
+</strong></p>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Return:</strong>&nbsp;&nbsp;</td><td>either array(PHP token constant, token) or string                       non-specific separator</td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../phpDocumentor/WordParsers/phpDocumentorTWordParser.html#methodgetWord">phpDocumentorTWordParser::getWord()</a></dt>
+						<dd>Retrieve a token for the phpDocumentorTParser</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodnextToken" id="nextToken"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">nextToken</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_phpDocumentor_Parsers_phpDocumentorHighlightParser.inc.html#a127">127</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>array nextToken(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Retrieve the position of the next token that will be parsed  in the internal token array
+</strong></p>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Return:</strong>&nbsp;&nbsp;</td><td>format: array(line number, position)</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodsetup" id="setup"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">setup</span>&nbsp;&nbsp;<span class="smalllinenumber">[line <a href="../../__filesource/fsource_phpDocumentor_Parsers_phpDocumentorHighlightParser.inc.html#a85">85</a>]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void setup(
+array
+&$input, <a href="../../phpDocumentor/Parsers/phpDocumentor_HighlightParser.html">phpDocumentor_HighlightParser</a>
+&$parser&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Initialize the parser object
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">array</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">&$input:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> the input</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../phpDocumentor/Parsers/phpDocumentor_HighlightParser.html">phpDocumentor_HighlightParser</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">&$parser:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> the parser</span>			</td></tr>
+				</table>
+
+	<br />
+	
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../phpDocumentor/WordParsers/phpDocumentorTWordParser.html#methodsetup">phpDocumentorTWordParser::setup()</a></dt>
+						<dd>Uses <a href="http://www.php.net/token_get_all">http://www.php.net/token_get_all</a> to tokenize the source code.</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+		</div>
+	</div>
+
+
+        <div class="credit">
+		    <hr class="separator" />
+		    Documentation generated on Tue, 06 Dec 2011 07:19:09 -0600 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.4</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

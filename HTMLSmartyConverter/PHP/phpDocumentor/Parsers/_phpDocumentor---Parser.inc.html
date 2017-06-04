@@ -1,0 +1,2064 @@
+<html>
+<head>
+<title>Docs for page Parser.inc</title>
+<link rel="stylesheet" type="text/css" href="../../media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+    <td class="header_top">phpDocumentor</td>
+  </tr>
+  <tr><td class="header_line"><img src="../../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td class="header_menu">
+        
+                                    
+                                                  		  [ <a href="../../classtrees_phpDocumentor.html" class="menu">class tree: phpDocumentor</a> ]
+		  [ <a href="../../elementindex_phpDocumentor.html" class="menu">index: phpDocumentor</a> ]
+		  	    [ <a href="../../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td class="header_line"><img src="../../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="200" class="menu">
+	<div id="ric">
+					<p><a href="../../ric_FAQ.html">FAQ</a></p>
+					<p><a href="../../ric_ChangeLog.html">ChangeLog</a></p>
+					<p><a href="../../ric_INSTALL.html">INSTALL</a></p>
+					<p><a href="../../ric_README.html">README</a></p>
+			</div>
+	<div id="todolist">
+			<p><a href="../../todolist.html">Todo List</a></p>
+	</div>
+      <b>Packages:</b><br />
+              <a href="../../li_phpDocumentor.html">phpDocumentor</a><br />
+              <a href="../../li_Converters.html">Converters</a><br />
+            <br /><br />
+		<b>Tutorials/Manuals:</b><br />
+					<strong>Package-level:</strong>
+							<ul>
+	<li><a href="../../phpDocumentor/tutorial_phpDocumentor.pkg.html">phpDocumentor Guide to Creating Fantastic Documentation</a>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_phpDocumentor.quickstart.pkg.html">phpDocumentor Quickstart</a>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_sample1.pkg.html">Source code for sample1.php</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_sample2.pkg.html">Source code for sample2.php</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_sample3.pkg.html">Source code for sample3.php</a>
+</ul>
+</li></ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_phpDocumentor.howto.pkg.html"> phpDocumentor  Tutorial</a>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_elements.pkg.html">Documentable PHP Elements</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tutorials.pkg.html">phpDocumentor Tutorials</a>
+</ul>
+</li></ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_manual.pkg.html"> phpDocumentor  Manual</a>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.pkg.html">phpDocumentor tags</a>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.abstract.pkg.html">@abstract</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.access.pkg.html">@access</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.author.pkg.html">@author</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.category.pkg.html">@category</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.copyright.pkg.html">@copyright</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.deprecated.pkg.html">@deprecated</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.example.pkg.html">@example</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.final.pkg.html">@final</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.filesource.pkg.html">@filesource</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.global.pkg.html">@global</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.ignore.pkg.html">@ignore</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.internal.pkg.html">@internal</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.license.pkg.html">@license</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.link.pkg.html">@link</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.method.pkg.html">@method</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.name.pkg.html">@name</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.package.pkg.html">@package</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.param.pkg.html">@param</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.property.pkg.html">@property</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.return.pkg.html">@return</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.see.pkg.html">@see</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.since.pkg.html">@since</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.static.pkg.html">@static</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.staticvar.pkg.html">@staticvar</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.subpackage.pkg.html">@subpackage</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.todo.pkg.html">@todo</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.tutorial.pkg.html">@tutorial</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.uses.pkg.html">@uses</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.var.pkg.html">@var</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.version.pkg.html">@version</a>
+</ul>
+</li></ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_inlinetags.pkg.html">phpDocumentor Inline tags</a>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlineexample.pkg.html">inline {@example}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlineid.pkg.html">inline {@id}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlineinternal.pkg.html">inline {@internal}}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlineinheritdoc.pkg.html">inline {@inheritdoc}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlinelink.pkg.html">inline {@link}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlinesource.pkg.html">inline {@source}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlinetoc.pkg.html">inline {@toc}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlinetutorial.pkg.html">inline {@tutorial}</a>
+</ul>
+</li></ul>
+</li></ul>
+</li></ul>
+
+									                        <b>Files:</b><br />
+      	  <div class="package">
+			<a href="../../phpDocumentor/_docbuilder---actions.php.html">		actions.php
+		</a><br>
+			<a href="../../phpDocumentor/_Documentation---tests---bug-560532.php.html">		bug-560532.php
+		</a><br>
+			<a href="../../phpDocumentor/_Documentation---tests---bug-772441.php.html">		bug-772441.php
+		</a><br>
+			<a href="../../phpDocumentor/_docbuilder---builder.php.html">		builder.php
+		</a><br>
+			<a href="../../phpDocumentor/_phpDocumentor---Classes.inc.html">		Classes.inc
+		</a><br>
+			<a href="../../phpDocumentor/_phpDocumentor---clone.inc.php.html">		clone.inc.php
+		</a><br>
+			<a href="../../phpDocumentor/_phpDocumentor---clone5.inc.php.html">		clone5.inc.php
+		</a><br>
+			<a href="../../phpDocumentor/_phpDocumentor---common.inc.php.html">		common.inc.php
+		</a><br>
+			<a href="../../phpDocumentor/_docbuilder---config.php.html">		config.php
+		</a><br>
+			<a href="../../phpDocumentor/_phpDocumentor---EventStack.inc.html">		EventStack.inc
+		</a><br>
+			<a href="../../phpDocumentor/_docbuilder---file_dialog.php.html">		file_dialog.php
+		</a><br>
+			<a href="../../phpDocumentor/_tests---HighlightParserTests.php.html">		HighlightParserTests.php
+		</a><br>
+			<a href="../../phpDocumentor/_phpDocumentor---IntermediateParser.inc.html">		IntermediateParser.inc
+		</a><br>
+			<a href="../../phpDocumentor/_tests---IntermediateParserTests.php.html">		IntermediateParserTests.php
+		</a><br>
+			<a href="../../phpDocumentor/_phpDocumentor---Io.inc.html">		Io.inc
+		</a><br>
+			<a href="../../phpDocumentor/_new_phpdoc.php.html">		new_phpdoc.php
+		</a><br>
+			<a href="../../phpDocumentor/_tests---ParserClassTests.php.html">		ParserClassTests.php
+		</a><br>
+			<a href="../../phpDocumentor/_phpDocumentor---ParserDescCleanup.inc.html">		ParserDescCleanup.inc
+		</a><br>
+			<a href="../../phpDocumentor/_tests---ParserPageTests.php.html">		ParserPageTests.php
+		</a><br>
+			<a href="../../phpDocumentor/_phpDocumentor---phpdoc.inc.html">		phpdoc.inc
+		</a><br>
+			<a href="../../phpDocumentor/_phpdoc.php.html">		phpdoc.php
+		</a><br>
+			<a href="../../phpDocumentor/_tests---phpDocumentorSetupTests.php.html">		phpDocumentorSetupTests.php
+		</a><br>
+			<a href="../../phpDocumentor/_tests---phpDocumentorTParserTests.php.html">		phpDocumentorTParserTests.php
+		</a><br>
+			<a href="../../phpDocumentor/_phpDocumentor---ProceduralPages.inc.html">		ProceduralPages.inc
+		</a><br>
+			<a href="../../phpDocumentor/_phpDocumentor---Publisher.inc.html">		Publisher.inc
+		</a><br>
+			<a href="../../phpDocumentor/_phpDocumentor---Setup.inc.php.html">		Setup.inc.php
+		</a><br>
+			<a href="../../phpDocumentor/_docbuilder---top.php.html">		top.php
+		</a><br>
+			<a href="../../phpDocumentor/_docbuilder---includes---utilities.php.html">		utilities.php
+		</a><br>
+	  </div><br />
+	subpackage <b>DescHTML</b><br>  <div class="package">
+			<a href="../../phpDocumentor/DescHTML/_phpDocumentor---DescHTML.inc.html">		DescHTML.inc
+		</a><br>
+	  </div><br />
+	subpackage <b>DocBlockTags</b><br>  <div class="package">
+			<a href="../../phpDocumentor/DocBlockTags/_phpDocumentor---DocBlockTags.inc.html">		DocBlockTags.inc
+		</a><br>
+	  </div><br />
+	subpackage <b>Errors</b><br>  <div class="package">
+			<a href="../../phpDocumentor/Errors/_phpDocumentor---Errors.inc.html">		Errors.inc
+		</a><br>
+	  </div><br />
+	subpackage <b>InlineTags</b><br>  <div class="package">
+			<a href="../../phpDocumentor/InlineTags/_phpDocumentor---InlineTags.inc.html">		InlineTags.inc
+		</a><br>
+	  </div><br />
+	subpackage <b>Links</b><br>  <div class="package">
+			<a href="../../phpDocumentor/Links/_phpDocumentor---LinkClasses.inc.html">		LinkClasses.inc
+		</a><br>
+	  </div><br />
+	subpackage <b>ParserData</b><br>  <div class="package">
+			<a href="../../phpDocumentor/ParserData/_phpDocumentor---ParserData.inc.html">		ParserData.inc
+		</a><br>
+	  </div><br />
+	subpackage <b>ParserDocBlock</b><br>  <div class="package">
+			<a href="../../phpDocumentor/ParserDocBlock/_phpDocumentor---ParserDocBlock.inc.html">		ParserDocBlock.inc
+		</a><br>
+	  </div><br />
+	subpackage <b>ParserElements</b><br>  <div class="package">
+			<a href="../../phpDocumentor/ParserElements/_phpDocumentor---ParserElements.inc.html">		ParserElements.inc
+		</a><br>
+	  </div><br />
+	subpackage <b>Parsers</b><br>  <div class="package">
+			<a href="../../phpDocumentor/Parsers/_phpDocumentor---Converters---XML---DocBook---peardoc2---Beautifier.php.html">		Beautifier.php
+		</a><br>
+			<a href="../../phpDocumentor/Parsers/_phpDocumentor---HighlightParser.inc.html">		HighlightParser.inc
+		</a><br>
+			<a href="../../phpDocumentor/Parsers/_phpDocumentor---Parser.inc.html">		Parser.inc
+		</a><br>
+			<a href="../../phpDocumentor/Parsers/_phpDocumentor---phpDocumentorTParser.inc.html">		phpDocumentorTParser.inc
+		</a><br>
+			<a href="../../phpDocumentor/Parsers/_phpDocumentor---Converters---XML---DocBook---peardoc2---Tokenizer.php.html">		Tokenizer.php
+		</a><br>
+			<a href="../../phpDocumentor/Parsers/_phpDocumentor---TutorialHighlightParser.inc.html">		TutorialHighlightParser.inc
+		</a><br>
+			<a href="../../phpDocumentor/Parsers/_phpDocumentor---XMLpackagePageParser.inc.html">		XMLpackagePageParser.inc
+		</a><br>
+	  </div><br />
+	subpackage <b>setup</b><br>  <div class="package">
+			<a href="../../phpDocumentor/setup/_phpDocumentor---find_phpdoc.php.html">		find_phpdoc.php
+		</a><br>
+	  </div><br />
+	subpackage <b>Tutorial</b><br>  <div class="package">
+			<a href="../../phpDocumentor/Tutorial/_phpDocumentor---PackagePageElements.inc.html">		PackagePageElements.inc
+		</a><br>
+	  </div><br />
+	subpackage <b>WordParsers</b><br>  <div class="package">
+			<a href="../../phpDocumentor/WordParsers/_phpDocumentor---phpDocumentorTWordParser.inc.html">		phpDocumentorTWordParser.inc
+		</a><br>
+			<a href="../../phpDocumentor/WordParsers/_phpDocumentor---WordParser.inc.html">		WordParser.inc
+		</a><br>
+	  </div><br />
+      
+      
+            <b>Classes:</b><br />
+        <div class="package">
+	Parsers<br />	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Parsers/Parser.html">Parser</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Parsers/parserDescParser.html">parserDescParser</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Parsers/phpDocumentorTParser.html">phpDocumentorTParser</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Parsers/phpDocumentor_HighlightParser.html">phpDocumentor_HighlightParser</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Parsers/phpDocumentor_HighlightWordParser.html">phpDocumentor_HighlightWordParser</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Parsers/phpDocumentor_peardoc2_XML_Beautifier.html">phpDocumentor_peardoc2_XML_Beautifier</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Parsers/phpDocumentor_TutorialHighlightParser.html">phpDocumentor_TutorialHighlightParser</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Parsers/phpDocumentor_XML_Beautifier_Tokenizer.html">phpDocumentor_XML_Beautifier_Tokenizer</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Parsers/ppageParser.html">ppageParser</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Parsers/XMLPackagePageParser.html">XMLPackagePageParser</a><br />
+	  </div>
+  <div class="package">
+		    		<a href="../../phpDocumentor/bug_772441.html">bug_772441</a><br />
+	    		<a href="../../phpDocumentor/Classes.html">Classes</a><br />
+	    		<a href="../../phpDocumentor/EventStack.html">EventStack</a><br />
+	    		<a href="../../phpDocumentor/Io.html">Io</a><br />
+	    		<a href="../../phpDocumentor/phpDocumentor_IntermediateParser.html">phpDocumentor_IntermediateParser</a><br />
+	    		<a href="../../phpDocumentor/phpDocumentor_setup.html">phpDocumentor_setup</a><br />
+	    		<a href="../../phpDocumentor/ProceduralPages.html">ProceduralPages</a><br />
+	    		<a href="../../phpDocumentor/Publisher.html">Publisher</a><br />
+	    		<a href="../../phpDocumentor/tests_HighlightParserTests.html">tests_HighlightParserTests</a><br />
+	    		<a href="../../phpDocumentor/tests_IntermediateParserTests.html">tests_IntermediateParserTests</a><br />
+	    		<a href="../../phpDocumentor/tests_ParserClassTests.html">tests_ParserClassTests</a><br />
+	    		<a href="../../phpDocumentor/tests_ParserPageTests.html">tests_ParserPageTests</a><br />
+	    		<a href="../../phpDocumentor/tests_phpDocumentorSetupTests.html">tests_phpDocumentorSetupTests</a><br />
+	    		<a href="../../phpDocumentor/tests_phpDocumentorTParserTests.html">tests_phpDocumentorTParserTests</a><br />
+	  </div>
+  <div class="package">
+	DescHTML<br />	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DescHTML/parserB.html">parserB</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DescHTML/parserBr.html">parserBr</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DescHTML/parserCode.html">parserCode</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DescHTML/parserDescVar.html">parserDescVar</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DescHTML/parserI.html">parserI</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DescHTML/parserKbd.html">parserKbd</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DescHTML/parserList.html">parserList</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DescHTML/parserPre.html">parserPre</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DescHTML/parserSamp.html">parserSamp</a><br />
+	  </div>
+  <div class="package">
+	DocBlockTags<br />	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DocBlockTags/parserAccessTag.html">parserAccessTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DocBlockTags/parserExampleTag.html">parserExampleTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DocBlockTags/parserFileSourceTag.html">parserFileSourceTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DocBlockTags/parserLicenseTag.html">parserLicenseTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DocBlockTags/parserLinkTag.html">parserLinkTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DocBlockTags/parserMethodTag.html">parserMethodTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DocBlockTags/parserNameTag.html">parserNameTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DocBlockTags/parserParamTag.html">parserParamTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DocBlockTags/parserPropertyReadTag.html">parserPropertyReadTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DocBlockTags/parserPropertyTag.html">parserPropertyTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DocBlockTags/parserPropertyWriteTag.html">parserPropertyWriteTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DocBlockTags/parserReturnTag.html">parserReturnTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DocBlockTags/parserSeeTag.html">parserSeeTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DocBlockTags/parserStaticvarTag.html">parserStaticvarTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DocBlockTags/parserTag.html">parserTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DocBlockTags/parserTutorialTag.html">parserTutorialTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DocBlockTags/parserUsedByTag.html">parserUsedByTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DocBlockTags/parserUsesTag.html">parserUsesTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/DocBlockTags/parserVarTag.html">parserVarTag</a><br />
+	  </div>
+  <div class="package">
+	Errors<br />	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Errors/ErrorTracker.html">ErrorTracker</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Errors/RecordError.html">RecordError</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Errors/RecordWarning.html">RecordWarning</a><br />
+	  </div>
+  <div class="package">
+	InlineTags<br />	    &nbsp;&nbsp;		<a href="../../phpDocumentor/InlineTags/parserExampleInlineTag.html">parserExampleInlineTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/InlineTags/parserIdInlineTag.html">parserIdInlineTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/InlineTags/parserInheritdocInlineTag.html">parserInheritdocInlineTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/InlineTags/parserInlineTag.html">parserInlineTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/InlineTags/parserLinkInlineTag.html">parserLinkInlineTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/InlineTags/parserSourceInlineTag.html">parserSourceInlineTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/InlineTags/parserTocInlineTag.html">parserTocInlineTag</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/InlineTags/parserTutorialInlineTag.html">parserTutorialInlineTag</a><br />
+	  </div>
+  <div class="package">
+	Links<br />	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Links/abstractLink.html">abstractLink</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Links/classLink.html">classLink</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Links/constLink.html">constLink</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Links/defineLink.html">defineLink</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Links/functionLink.html">functionLink</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Links/globalLink.html">globalLink</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Links/methodLink.html">methodLink</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Links/pageLink.html">pageLink</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Links/tutorialLink.html">tutorialLink</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Links/varLink.html">varLink</a><br />
+	  </div>
+  <div class="package">
+	Tutorial<br />	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Tutorial/parserCData.html">parserCData</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Tutorial/parserEntity.html">parserEntity</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/Tutorial/parserXMLDocBookTag.html">parserXMLDocBookTag</a><br />
+	  </div>
+  <div class="package">
+	ParserData<br />	    &nbsp;&nbsp;		<a href="../../phpDocumentor/ParserData/parserBase.html">parserBase</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/ParserData/parserData.html">parserData</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/ParserData/parserPage.html">parserPage</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/ParserData/parserStringWithInlineTags.html">parserStringWithInlineTags</a><br />
+	  </div>
+  <div class="package">
+	WordParsers<br />	    &nbsp;&nbsp;		<a href="../../phpDocumentor/WordParsers/ObjectWordParser.html">ObjectWordParser</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/WordParsers/phpDocumentorTWordParser.html">phpDocumentorTWordParser</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/WordParsers/WordParser.html">WordParser</a><br />
+	  </div>
+  <div class="package">
+	ParserDocBlock<br />	    &nbsp;&nbsp;		<a href="../../phpDocumentor/ParserDocBlock/parserDesc.html">parserDesc</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html">parserDocBlock</a><br />
+	  </div>
+  <div class="package">
+	ParserElements<br />	    &nbsp;&nbsp;		<a href="../../phpDocumentor/ParserElements/parserClass.html">parserClass</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/ParserElements/parserConst.html">parserConst</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/ParserElements/parserDefine.html">parserDefine</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/ParserElements/parserElement.html">parserElement</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/ParserElements/parserFunction.html">parserFunction</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/ParserElements/parserGlobal.html">parserGlobal</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/ParserElements/parserInclude.html">parserInclude</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/ParserElements/parserMethod.html">parserMethod</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/ParserElements/parserPackagePage.html">parserPackagePage</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/ParserElements/parserTutorial.html">parserTutorial</a><br />
+	    &nbsp;&nbsp;		<a href="../../phpDocumentor/ParserElements/parserVar.html">parserVar</a><br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Procedural File: Parser.inc</h1>
+Source Location: /phpDocumentor/Parser.inc<br /><br />
+
+<br>
+<br>
+
+<div class="contents">
+<h2>Classes:</h2>
+<dt><a href="../../phpDocumentor/Parsers/Parser.html">Parser</a></dt>
+	<dd>PHP Parser for PHP 4.2.3-</dd>
+<dt><a href="../../phpDocumentor/Parsers/ppageParser.html">ppageParser</a></dt>
+	<dd>Global package page parser</dd>
+</div><br /><br />
+
+<h2>Page Details:</h2>
+Base parser for all parsers<br /><br /><p>phpDocumentor :: automatic documentation generator</p><p>PHP versions 4 and 5</p><p>Copyright (c) 2000-2006 Joshua Eichorn, Gregory Beaver</p><p>LICENSE:</p><p>This library is free software; you can redistribute it  and/or modify it under the terms of the GNU Lesser General  Public License as published by the Free Software Foundation;  either version 2.1 of the License, or (at your option) any  later version.</p><p>This library is distributed in the hope that it will be useful,  but WITHOUT ANY WARRANTY; without even the implied warranty of  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU  Lesser General Public License for more details.</p><p>You should have received a copy of the GNU Lesser General Public  License along with this library; if not, write to the Free Software  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>author:</b>&nbsp;&nbsp;</td><td>Joshua Eichorn &lt;<a href="mailto:jeichorn@phpdoc.org">jeichorn@phpdoc.org</a>&gt;</td>
+  </tr>
+  <tr>
+    <td><b>author:</b>&nbsp;&nbsp;</td><td>Gregory Beaver &lt;<a href="mailto:cellog@php.net">cellog@php.net</a>&gt;</td>
+  </tr>
+  <tr>
+    <td><b>version:</b>&nbsp;&nbsp;</td><td>CVS: $Id: Parser.inc 238276 2007-06-22 14:58:30Z ashnazg $</td>
+  </tr>
+  <tr>
+    <td><b>copyright:</b>&nbsp;&nbsp;</td><td>2000-2006 Joshua Eichorn, Gregory Beaver</td>
+  </tr>
+  <tr>
+    <td><b>link:</b>&nbsp;&nbsp;</td><td><a href="http://pear.php.net/PhpDocumentor">http://pear.php.net/PhpDocumentor</a></td>
+  </tr>
+  <tr>
+    <td><b>link:</b>&nbsp;&nbsp;</td><td><a href="http://www.phpdoc.org">http://www.phpdoc.org</a></td>
+  </tr>
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>0.1</td>
+  </tr>
+  <tr>
+    <td><b>license:</b>&nbsp;&nbsp;</td><td><a href="http://www.opensource.org/licenses/lgpl-license.php">LGPL</a></td>
+  </tr>
+</table>
+</div>
+<br /><br />
+<br /><br />
+<br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_ACCESS_MODIFIER"></a>
+	<h3>PARSER_EVENT_ACCESS_MODIFIER <span class="smalllinenumber">[line 277]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_ACCESS_MODIFIER = 139</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when parsing an access modifier<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_ARRAY"></a>
+	<h3>PARSER_EVENT_ARRAY <span class="smalllinenumber">[line 160]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_ARRAY = 115</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when an array definition is encountered in parsing<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_CLASS"></a>
+	<h3>PARSER_EVENT_CLASS <span class="smalllinenumber">[line 138]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_CLASS = 111</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when a class definition is encountered in parsing<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_CLASS_CONSTANT"></a>
+	<h3>PARSER_EVENT_CLASS_CONSTANT <span class="smalllinenumber">[line 287]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_CLASS_CONSTANT = 141</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when a class implements interfaces<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_CLASS_MEMBER"></a>
+	<h3>PARSER_EVENT_CLASS_MEMBER <span class="smalllinenumber">[line 267]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_CLASS_MEMBER = 137</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used by the HighlightParser only, when -&gt;var or -&gt;function() is encountered in a method<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_COMMENT"></a>
+	<h3>PARSER_EVENT_COMMENT <span class="smalllinenumber">[line 108]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_COMMENT = 105</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when short comment // is encountered in parsing<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_COMMENTBLOCK"></a>
+	<h3>PARSER_EVENT_COMMENTBLOCK <span class="smalllinenumber">[line 103]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_COMMENTBLOCK = 104</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when long comment /x x/ where x is an asterisk is encountered in parsing<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_DEFINE"></a>
+	<h3>PARSER_EVENT_DEFINE <span class="smalllinenumber">[line 118]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_DEFINE = 107</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when a define statement is encountered in parsing<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_DEFINE_GLOBAL"></a>
+	<h3>PARSER_EVENT_DEFINE_GLOBAL <span class="smalllinenumber">[line 222]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_DEFINE_GLOBAL = 128</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when parsing a global variable declaration<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_DEFINE_PARAMS"></a>
+	<h3>PARSER_EVENT_DEFINE_PARAMS <span class="smalllinenumber">[line 123]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_DEFINE_PARAMS = 108</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when a define statement opening parenthesis is encountered in parsing<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_DEFINE_PARAMS_PARENTHESIS"></a>
+	<h3>PARSER_EVENT_DEFINE_PARAMS_PARENTHESIS <span class="smalllinenumber">[line 185]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_DEFINE_PARAMS_PARENTHESIS = 120</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when a define statement's opening parenthesis is encountered in parsing<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_DESC"></a>
+	<h3>PARSER_EVENT_DESC <span class="smalllinenumber">[line 212]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_DESC = 126</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when parsing the desc part of a docblock<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_DOCBLOCK"></a>
+	<h3>PARSER_EVENT_DOCBLOCK <span class="smalllinenumber">[line 145]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_DOCBLOCK = 112</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when a DocBlock is encountered in parsing<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_DOCBLOCK_TEMPLATE"></a>
+	<h3>PARSER_EVENT_DOCBLOCK_TEMPLATE <span class="smalllinenumber">[line 247]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_DOCBLOCK_TEMPLATE = 133</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when encountering a /**#@+ comment marking a new docblock template<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_DOCKEYWORD"></a>
+	<h3>PARSER_EVENT_DOCKEYWORD <span class="smalllinenumber">[line 150]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_DOCKEYWORD = 113</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when a @tag is encountered in DocBlock parsing<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_DOCKEYWORD_EMAIL"></a>
+	<h3>PARSER_EVENT_DOCKEYWORD_EMAIL <span class="smalllinenumber">[line 155]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_DOCKEYWORD_EMAIL = 114</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when a &lt;email@address&gt; is encountered in parsing an @author tag<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_END_DOCBLOCK_TEMPLATE"></a>
+	<h3>PARSER_EVENT_END_DOCBLOCK_TEMPLATE <span class="smalllinenumber">[line 252]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_END_DOCBLOCK_TEMPLATE = 134</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when encountering a /**#@-* / comment (no space) marking the end of using a docblock template<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_END_STATEMENT"></a>
+	<h3>PARSER_EVENT_END_STATEMENT <span class="smalllinenumber">[line 189]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_END_STATEMENT = 121</code>
+    </td></tr></table>
+    </td></tr></table>
+
+        <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_EOFQUOTE"></a>
+	<h3>PARSER_EVENT_EOFQUOTE <span class="smalllinenumber">[line 192]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_EOFQUOTE = 122</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when a &lt;&lt;&lt; is encountered in parsing<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_ESCAPE"></a>
+	<h3>PARSER_EVENT_ESCAPE <span class="smalllinenumber">[line 40]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_ESCAPE = 900</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when a backslash is encountered in parsing a string or other escapable entity<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_FUNCTION"></a>
+	<h3>PARSER_EVENT_FUNCTION <span class="smalllinenumber">[line 170]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_FUNCTION = 117</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when a function definition is encountered in parsing<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_FUNCTION_PARAMS"></a>
+	<h3>PARSER_EVENT_FUNCTION_PARAMS <span class="smalllinenumber">[line 128]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_FUNCTION_PARAMS = 109</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when a function statement opening parenthesis is encountered in parsing<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_FUNCTION_PARAM_VAR"></a>
+	<h3>PARSER_EVENT_FUNCTION_PARAM_VAR <span class="smalllinenumber">[line 302]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_FUNCTION_PARAM_VAR = 144</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when a $param is encountered in a function definition<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_FUNC_GLOBAL"></a>
+	<h3>PARSER_EVENT_FUNC_GLOBAL <span class="smalllinenumber">[line 232]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_FUNC_GLOBAL = 130</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when parsing a &quot;global $var1, $var2;&quot; declaration in a function<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_GLOBAL_VALUE"></a>
+	<h3>PARSER_EVENT_GLOBAL_VALUE <span class="smalllinenumber">[line 227]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_GLOBAL_VALUE = 129</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when parsing the default value in a global variable declaration<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_IMPLEMENTS"></a>
+	<h3>PARSER_EVENT_IMPLEMENTS <span class="smalllinenumber">[line 282]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_IMPLEMENTS = 140</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when a class implements interfaces<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_INCLUDE"></a>
+	<h3>PARSER_EVENT_INCLUDE <span class="smalllinenumber">[line 197]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_INCLUDE = 123</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when an include/require/include_once/include_once statement is encountered in parsing<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_INCLUDE_PARAMS"></a>
+	<h3>PARSER_EVENT_INCLUDE_PARAMS <span class="smalllinenumber">[line 202]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_INCLUDE_PARAMS = 124</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when an opening parenthesis of an include/require/include_once/include_once statement is encountered in parsing<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_INCLUDE_PARAMS_PARENTHESIS"></a>
+	<h3>PARSER_EVENT_INCLUDE_PARAMS_PARENTHESIS <span class="smalllinenumber">[line 207]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_INCLUDE_PARAMS_PARENTHESIS = 125</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when an inner ( ) is encountered while parsing an include/require/include_once/include_once statement<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_INLINE_DOCKEYWORD"></a>
+	<h3>PARSER_EVENT_INLINE_DOCKEYWORD <span class="smalllinenumber">[line 180]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_INLINE_DOCKEYWORD = 119</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when an inline {@tag} is encountered in parsing a DocBlock<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_LOGICBLOCK"></a>
+	<h3>PARSER_EVENT_LOGICBLOCK <span class="smalllinenumber">[line 93]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_LOGICBLOCK = 102</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    { encountered in parsing a function or php code<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_METHOD"></a>
+	<h3>PARSER_EVENT_METHOD <span class="smalllinenumber">[line 257]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_METHOD = 135</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used by the HighlightParser only, when a method starts<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_METHOD_LOGICBLOCK"></a>
+	<h3>PARSER_EVENT_METHOD_LOGICBLOCK <span class="smalllinenumber">[line 262]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_METHOD_LOGICBLOCK = 136</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used by the HighlightParser only, when a method body is parsed<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_NOEVENTS"></a>
+	<h3>PARSER_EVENT_NOEVENTS <span class="smalllinenumber">[line 98]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_NOEVENTS = 103</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used for the beginning of parsing, before first &lt; ? php encountered<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_OUTPHP"></a>
+	<h3>PARSER_EVENT_OUTPHP <span class="smalllinenumber">[line 175]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_OUTPHP = 118</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when a ? &gt; (with no space) is encountered in parsing<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_PHPCODE"></a>
+	<h3>PARSER_EVENT_PHPCODE <span class="smalllinenumber">[line 113]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_PHPCODE = 106</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when php code processor instruction (&lt; ? php) is encountered in parsing<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_QUOTE"></a>
+	<h3>PARSER_EVENT_QUOTE <span class="smalllinenumber">[line 88]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_QUOTE = 101</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when double quotation mark (&quot;) encountered in parsing<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_QUOTE_VAR"></a>
+	<h3>PARSER_EVENT_QUOTE_VAR <span class="smalllinenumber">[line 272]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_QUOTE_VAR = 138</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used by the HighlightParser only, when {$var} is encountered in a string<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_SINGLEQUOTE"></a>
+	<h3>PARSER_EVENT_SINGLEQUOTE <span class="smalllinenumber">[line 133]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_SINGLEQUOTE = 110</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when a single quote (') is encountered in parsing<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_STATIC_VAR"></a>
+	<h3>PARSER_EVENT_STATIC_VAR <span class="smalllinenumber">[line 237]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_STATIC_VAR = 131</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when parsing a &quot;static $var1, $var2;&quot; declaration in a function<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_STATIC_VAR_VALUE"></a>
+	<h3>PARSER_EVENT_STATIC_VAR_VALUE <span class="smalllinenumber">[line 242]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_STATIC_VAR_VALUE = 132</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when parsing the value in a &quot;static $var1 = x&quot; declaration in a function<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_TAGS"></a>
+	<h3>PARSER_EVENT_TAGS <span class="smalllinenumber">[line 217]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_TAGS = 127</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when parsing the @tag block of a docblock<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_VAR"></a>
+	<h3>PARSER_EVENT_VAR <span class="smalllinenumber">[line 165]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_VAR = 116</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when a var statement is encountered in parsing a class definition<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_VAR_ARRAY"></a>
+	<h3>PARSER_EVENT_VAR_ARRAY <span class="smalllinenumber">[line 292]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_VAR_ARRAY = 142</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when a variable value is an array<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePARSER_EVENT_VAR_ARRAY_COMMENT"></a>
+	<h3>PARSER_EVENT_VAR_ARRAY_COMMENT <span class="smalllinenumber">[line 297]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PARSER_EVENT_VAR_ARRAY_COMMENT = 143</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when a comment is found in a variable array value<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePHPDOCUMENTOR_EVENT_CLASS"></a>
+	<h3>PHPDOCUMENTOR_EVENT_CLASS <span class="smalllinenumber">[line 45]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PHPDOCUMENTOR_EVENT_CLASS = 800</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    Class published to IntermediateParser with this event<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePHPDOCUMENTOR_EVENT_CONST"></a>
+	<h3>PHPDOCUMENTOR_EVENT_CONST <span class="smalllinenumber">[line 57]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PHPDOCUMENTOR_EVENT_CONST = 806</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    Class Constant published to IntermediateParser with this event<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePHPDOCUMENTOR_EVENT_DEFINE"></a>
+	<h3>PHPDOCUMENTOR_EVENT_DEFINE <span class="smalllinenumber">[line 55]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PHPDOCUMENTOR_EVENT_DEFINE = 805</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    Constant (define) published to IntermediateParser with this event<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePHPDOCUMENTOR_EVENT_DOCBLOCK"></a>
+	<h3>PHPDOCUMENTOR_EVENT_DOCBLOCK <span class="smalllinenumber">[line 47]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PHPDOCUMENTOR_EVENT_DOCBLOCK = 801</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    DocBlock published to IntermediateParser with this event<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePHPDOCUMENTOR_EVENT_DOCBLOCK_TEMPLATE"></a>
+	<h3>PHPDOCUMENTOR_EVENT_DOCBLOCK_TEMPLATE <span class="smalllinenumber">[line 84]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PHPDOCUMENTOR_EVENT_DOCBLOCK_TEMPLATE = 814</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when a docblock template is encountered in the source<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePHPDOCUMENTOR_EVENT_END_DOCBLOCK_TEMPLATE"></a>
+	<h3>PHPDOCUMENTOR_EVENT_END_DOCBLOCK_TEMPLATE <span class="smalllinenumber">[line 86]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PHPDOCUMENTOR_EVENT_END_DOCBLOCK_TEMPLATE = 815</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when a docblock template is encountered in the source<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePHPDOCUMENTOR_EVENT_END_PAGE"></a>
+	<h3>PHPDOCUMENTOR_EVENT_END_PAGE <span class="smalllinenumber">[line 67]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PHPDOCUMENTOR_EVENT_END_PAGE = 808</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used to inform phpDocumentor_IntermediateParser that the current file has been completely parsed.<br /><br /><p>Render then flushes all buffers for functions/classes/defines/includes on the current page</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>see:</b>&nbsp;&nbsp;</td><td><a href="../../phpDocumentor/phpDocumentor_IntermediateParser.html#methodHandleEvent">phpDocumentor_IntermediateParser::HandleEvent()</a></td>
+  </tr>
+</table>
+</div>
+    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePHPDOCUMENTOR_EVENT_FUNCTION"></a>
+	<h3>PHPDOCUMENTOR_EVENT_FUNCTION <span class="smalllinenumber">[line 49]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PHPDOCUMENTOR_EVENT_FUNCTION = 802</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    Function published to IntermediateParser with this event<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePHPDOCUMENTOR_EVENT_GLOBAL"></a>
+	<h3>PHPDOCUMENTOR_EVENT_GLOBAL <span class="smalllinenumber">[line 82]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PHPDOCUMENTOR_EVENT_GLOBAL = 813</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when a global variable definition is encountered in the source<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePHPDOCUMENTOR_EVENT_INCLUDE"></a>
+	<h3>PHPDOCUMENTOR_EVENT_INCLUDE <span class="smalllinenumber">[line 71]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PHPDOCUMENTOR_EVENT_INCLUDE = 810</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    Include (include/require/include_once/include_once) published to IntermediateParser with this event<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePHPDOCUMENTOR_EVENT_MESSAGE"></a>
+	<h3>PHPDOCUMENTOR_EVENT_MESSAGE <span class="smalllinenumber">[line 59]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PHPDOCUMENTOR_EVENT_MESSAGE = 807</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>deprecated:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+</table>
+</div>
+    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePHPDOCUMENTOR_EVENT_NEWFILE"></a>
+	<h3>PHPDOCUMENTOR_EVENT_NEWFILE <span class="smalllinenumber">[line 78]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PHPDOCUMENTOR_EVENT_NEWFILE = 811</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    use to inform ErrorTracker of a new file being parsed<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePHPDOCUMENTOR_EVENT_NEWLINENUM"></a>
+	<h3>PHPDOCUMENTOR_EVENT_NEWLINENUM <span class="smalllinenumber">[line 80]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PHPDOCUMENTOR_EVENT_NEWLINENUM = 812</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    use to inform ErrorTracker of the next line number being parsed<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePHPDOCUMENTOR_EVENT_NEWSTATE"></a>
+	<h3>PHPDOCUMENTOR_EVENT_NEWSTATE <span class="smalllinenumber">[line 61]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PHPDOCUMENTOR_EVENT_NEWSTATE = 808</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    use to inform IntermediateParser of a new element being parsed<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePHPDOCUMENTOR_EVENT_PACKAGEPAGE"></a>
+	<h3>PHPDOCUMENTOR_EVENT_PACKAGEPAGE <span class="smalllinenumber">[line 69]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PHPDOCUMENTOR_EVENT_PACKAGEPAGE = 809</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    Package-level page published to IntermediateParser with this event<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePHPDOCUMENTOR_EVENT_PAGE"></a>
+	<h3>PHPDOCUMENTOR_EVENT_PAGE <span class="smalllinenumber">[line 53]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PHPDOCUMENTOR_EVENT_PAGE = 804</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    New File (page) published to IntermediateParser with this event<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePHPDOCUMENTOR_EVENT_README_INSTALL_CHANGELOG"></a>
+	<h3>PHPDOCUMENTOR_EVENT_README_INSTALL_CHANGELOG <span class="smalllinenumber">[line 75]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PHPDOCUMENTOR_EVENT_README_INSTALL_CHANGELOG = 812</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    Contents of README/INSTALL/CHANGELOG files published to IntermediateParser with this event<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePHPDOCUMENTOR_EVENT_TUTORIAL"></a>
+	<h3>PHPDOCUMENTOR_EVENT_TUTORIAL <span class="smalllinenumber">[line 73]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PHPDOCUMENTOR_EVENT_TUTORIAL = 811</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    Tutorial published to IntermediateParser with this event<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="definePHPDOCUMENTOR_EVENT_VAR"></a>
+	<h3>PHPDOCUMENTOR_EVENT_VAR <span class="smalllinenumber">[line 51]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>PHPDOCUMENTOR_EVENT_VAR = 803</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    Class Variable published to IntermediateParser with this event<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_ACCESS_MODIFIER"></a>
+	<h3>STATE_ACCESS_MODIFIER <span class="smalllinenumber">[line 279]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_ACCESS_MODIFIER = 239</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing an access modifier<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_ARRAY"></a>
+	<h3>STATE_ARRAY <span class="smalllinenumber">[line 162]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_ARRAY = 215</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing an array<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_CLASS"></a>
+	<h3>STATE_CLASS <span class="smalllinenumber">[line 140]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_CLASS = 211</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing a class definition<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_CLASS_CONSTANT"></a>
+	<h3>STATE_CLASS_CONSTANT <span class="smalllinenumber">[line 289]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_CLASS_CONSTANT = 241</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing a class constant<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_CLASS_MEMBER"></a>
+	<h3>STATE_CLASS_MEMBER <span class="smalllinenumber">[line 269]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_CLASS_MEMBER = 237</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing a class member using the HighlightParser<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_COMMENT"></a>
+	<h3>STATE_COMMENT <span class="smalllinenumber">[line 110]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_COMMENT = 205</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing a short comment //<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_COMMENTBLOCK"></a>
+	<h3>STATE_COMMENTBLOCK <span class="smalllinenumber">[line 105]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_COMMENTBLOCK = 204</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing a long comment /x x/ where x is an asterisk<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_DEFINE"></a>
+	<h3>STATE_DEFINE <span class="smalllinenumber">[line 120]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_DEFINE = 207</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing a define statement<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_DEFINE_PARAMS"></a>
+	<h3>STATE_DEFINE_PARAMS <span class="smalllinenumber">[line 125]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_DEFINE_PARAMS = 208</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing the stuff in ( ) of a define statement<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_DEFINE_PARAMS_PARENTHESIS"></a>
+	<h3>STATE_DEFINE_PARAMS_PARENTHESIS <span class="smalllinenumber">[line 187]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_DEFINE_PARAMS_PARENTHESIS = 220</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing an inner parenthetical statement of a define( )<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_DESC"></a>
+	<h3>STATE_DESC <span class="smalllinenumber">[line 214]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_DESC = 226</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing the desc part of a docblock<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_DOCBLOCK"></a>
+	<h3>STATE_DOCBLOCK <span class="smalllinenumber">[line 147]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_DOCBLOCK = 212</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing a DocBlock<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_DOCBLOCK_TEMPLATE"></a>
+	<h3>STATE_DOCBLOCK_TEMPLATE <span class="smalllinenumber">[line 249]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_DOCBLOCK_TEMPLATE = 233</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing the value in a &quot;static $var1 = x&quot; declaration in a function<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_DOCKEYWORD"></a>
+	<h3>STATE_DOCKEYWORD <span class="smalllinenumber">[line 152]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_DOCKEYWORD = 213</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing a @tag in a DocBlock<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_DOCKEYWORD_EMAIL"></a>
+	<h3>STATE_DOCKEYWORD_EMAIL <span class="smalllinenumber">[line 157]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_DOCKEYWORD_EMAIL = 214</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing an email in brackets in an @author tag of a DocBlock<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_END_CLASS"></a>
+	<h3>STATE_END_CLASS <span class="smalllinenumber">[line 142]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_END_CLASS = 311</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used to tell Render that a class has been completely parsed, and to flush buffers<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_END_DOCBLOCK_TEMPLATE"></a>
+	<h3>STATE_END_DOCBLOCK_TEMPLATE <span class="smalllinenumber">[line 254]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_END_DOCBLOCK_TEMPLATE = 234</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing the value in a &quot;static $var1 = x&quot; declaration in a function<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_EOFQUOTE"></a>
+	<h3>STATE_EOFQUOTE <span class="smalllinenumber">[line 194]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_EOFQUOTE = 222</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing a string defined using Perl &lt;&lt;&lt;<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_ESCAPE"></a>
+	<h3>STATE_ESCAPE <span class="smalllinenumber">[line 42]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_ESCAPE = 1000</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    used when a backslash is encountered in parsing a string or other escapable entity<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_FUNCTION"></a>
+	<h3>STATE_FUNCTION <span class="smalllinenumber">[line 172]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_FUNCTION = 217</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing a Function or Method<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_FUNCTION_PARAMS"></a>
+	<h3>STATE_FUNCTION_PARAMS <span class="smalllinenumber">[line 130]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_FUNCTION_PARAMS = 209</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing the stuff in ( ) of a function definition<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_FUNCTION_PARAM_VAR"></a>
+	<h3>STATE_FUNCTION_PARAM_VAR <span class="smalllinenumber">[line 304]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_FUNCTION_PARAM_VAR = 244</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing a $param in a function definition<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_FUNC_GLOBAL"></a>
+	<h3>STATE_FUNC_GLOBAL <span class="smalllinenumber">[line 234]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_FUNC_GLOBAL = 230</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing a &quot;global $var1, $var2;&quot; declaration in a function<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_GLOBAL"></a>
+	<h3>STATE_GLOBAL <span class="smalllinenumber">[line 224]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_GLOBAL = 228</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing a global variable declaration<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_GLOBAL_VALUE"></a>
+	<h3>STATE_GLOBAL_VALUE <span class="smalllinenumber">[line 229]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_GLOBAL_VALUE = 229</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing the default value in a global variable declaration<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_IMPLEMENTS"></a>
+	<h3>STATE_IMPLEMENTS <span class="smalllinenumber">[line 284]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_IMPLEMENTS = 240</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing an implements clause<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_INCLUDE"></a>
+	<h3>STATE_INCLUDE <span class="smalllinenumber">[line 199]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_INCLUDE = 223</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing an include/require/include_once/include_once<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_INCLUDE_PARAMS"></a>
+	<h3>STATE_INCLUDE_PARAMS <span class="smalllinenumber">[line 204]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_INCLUDE_PARAMS = 224</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing the stuff in ( ) of a define statement<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_INCLUDE_PARAMS_PARENTHESIS"></a>
+	<h3>STATE_INCLUDE_PARAMS_PARENTHESIS <span class="smalllinenumber">[line 209]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_INCLUDE_PARAMS_PARENTHESIS = 225</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing an inner parenthetical statement of an include/includeonce/require/requireonce( )<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_INLINE_DOCKEYWORD"></a>
+	<h3>STATE_INLINE_DOCKEYWORD <span class="smalllinenumber">[line 182]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_INLINE_DOCKEYWORD = 219</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing an inline tag like { @link} in a DocBlock<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_LOGICBLOCK"></a>
+	<h3>STATE_LOGICBLOCK <span class="smalllinenumber">[line 95]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_LOGICBLOCK = 202</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing a { } block<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_METHOD"></a>
+	<h3>STATE_METHOD <span class="smalllinenumber">[line 259]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_METHOD = 235</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing a method using the HighlightParser<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_METHOD_LOGICBLOCK"></a>
+	<h3>STATE_METHOD_LOGICBLOCK <span class="smalllinenumber">[line 264]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_METHOD_LOGICBLOCK = 236</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing the method body using the HighlightParser<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_NOEVENTS"></a>
+	<h3>STATE_NOEVENTS <span class="smalllinenumber">[line 100]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_NOEVENTS = 203</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    out of &lt; ? php tag<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_OUTPHP"></a>
+	<h3>STATE_OUTPHP <span class="smalllinenumber">[line 177]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_OUTPHP = 218</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently out of php code<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_PHPCODE"></a>
+	<h3>STATE_PHPCODE <span class="smalllinenumber">[line 115]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_PHPCODE = 206</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing php code<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_QUOTE"></a>
+	<h3>STATE_QUOTE <span class="smalllinenumber">[line 90]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_QUOTE = 201</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing a quote<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_QUOTE_VAR"></a>
+	<h3>STATE_QUOTE_VAR <span class="smalllinenumber">[line 274]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_QUOTE_VAR = 238</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing a {$encapsed_var} using the HighlightParser<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_SINGLEQUOTE"></a>
+	<h3>STATE_SINGLEQUOTE <span class="smalllinenumber">[line 135]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_SINGLEQUOTE = 210</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing a string enclosed in single quotes (')<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_STATIC_VAR"></a>
+	<h3>STATE_STATIC_VAR <span class="smalllinenumber">[line 239]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_STATIC_VAR = 231</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing a &quot;static $var1, $var2;&quot; declaration in a function<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_STATIC_VAR_VALUE"></a>
+	<h3>STATE_STATIC_VAR_VALUE <span class="smalllinenumber">[line 244]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_STATIC_VAR_VALUE = 232</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing the value in a &quot;static $var1 = x&quot; declaration in a function<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_TAGS"></a>
+	<h3>STATE_TAGS <span class="smalllinenumber">[line 219]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_TAGS = 227</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing the @tag block of a docblock<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_VAR"></a>
+	<h3>STATE_VAR <span class="smalllinenumber">[line 167]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_VAR = 216</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing a Class variable<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_VAR_ARRAY"></a>
+	<h3>STATE_VAR_ARRAY <span class="smalllinenumber">[line 294]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_VAR_ARRAY = 242</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing a variable value is an array<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineSTATE_VAR_ARRAY_COMMENT"></a>
+	<h3>STATE_VAR_ARRAY_COMMENT <span class="smalllinenumber">[line 299]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>STATE_VAR_ARRAY_COMMENT = 243</code>
+    </td></tr></table>
+    </td></tr></table>
+
+    currently parsing a comment in a variable array value<br /><br />    <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineT_ABSTRACT"></a>
+	<h3>T_ABSTRACT <span class="smalllinenumber">[line 312]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>T_ABSTRACT = 'foo'</code>
+    </td></tr></table>
+    </td></tr></table>
+
+        <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineT_CONST"></a>
+	<h3>T_CONST <span class="smalllinenumber">[line 310]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>T_CONST = 'foo'</code>
+    </td></tr></table>
+    </td></tr></table>
+
+        <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineT_DOC_COMMENT"></a>
+	<h3>T_DOC_COMMENT <span class="smalllinenumber">[line 325]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>T_DOC_COMMENT = T_ML_COMMENT</code>
+    </td></tr></table>
+    </td></tr></table>
+
+        <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineT_FINAL"></a>
+	<h3>T_FINAL <span class="smalllinenumber">[line 316]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>T_FINAL = 'foo'</code>
+    </td></tr></table>
+    </td></tr></table>
+
+        <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineT_IMPLEMENTS"></a>
+	<h3>T_IMPLEMENTS <span class="smalllinenumber">[line 317]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>T_IMPLEMENTS = 'foo'</code>
+    </td></tr></table>
+    </td></tr></table>
+
+        <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineT_INTERFACE"></a>
+	<h3>T_INTERFACE <span class="smalllinenumber">[line 308]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>T_INTERFACE = 'foo'</code>
+    </td></tr></table>
+    </td></tr></table>
+
+        <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineT_ML_COMMENT"></a>
+	<h3>T_ML_COMMENT <span class="smalllinenumber">[line 321]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>T_ML_COMMENT = T_COMMENT</code>
+    </td></tr></table>
+    </td></tr></table>
+
+        <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineT_PRIVATE"></a>
+	<h3>T_PRIVATE <span class="smalllinenumber">[line 313]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>T_PRIVATE = 'foo'</code>
+    </td></tr></table>
+    </td></tr></table>
+
+        <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineT_PROTECTED"></a>
+	<h3>T_PROTECTED <span class="smalllinenumber">[line 315]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>T_PROTECTED = 'foo'</code>
+    </td></tr></table>
+    </td></tr></table>
+
+        <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+  <hr />
+	<a name="defineT_PUBLIC"></a>
+	<h3>T_PUBLIC <span class="smalllinenumber">[line 314]</span></h3>
+	<div class="tags">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>T_PUBLIC = 'foo'</code>
+    </td></tr></table>
+    </td></tr></table>
+
+        <br />
+		</div>
+	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+<br />
+
+        <div class="credit">
+		    <hr />
+		    Documentation generated on Tue, 06 Dec 2011 07:14:24 -0600 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.4</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

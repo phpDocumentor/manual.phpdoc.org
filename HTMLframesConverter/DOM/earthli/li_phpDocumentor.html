@@ -1,0 +1,1261 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos  -->
+			<title></title>
+			<link rel="stylesheet" href="media/stylesheet.css" />
+						<script src="media/lib/classTree.js"></script>
+									<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+									<script language="javascript" type="text/javascript">
+				var imgPlus = new Image();
+				var imgMinus = new Image();
+				imgPlus.src = "media/images/plus.png";
+				imgMinus.src = "media/images/minus.png";
+				
+				function showNode(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+							var oImg = document.layers["img" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+							var oImg = document.all["img" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+							var oImg = document.getElementById("img" + Node);
+									break;
+							}
+					oImg.src = imgMinus.src;
+					oTable.style.display = "block";
+				}
+				
+				function hideNode(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+							var oImg = document.layers["img" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+							var oImg = document.all["img" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+							var oImg = document.getElementById("img" + Node);
+									break;
+							}
+					oImg.src = imgPlus.src;
+					oTable.style.display = "none";
+				}
+				
+				function nodeIsVisible(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+									break;
+							}
+					return (oTable && oTable.style.display == "block");
+				}
+				
+				function toggleNodeVisibility(Node){
+					if (nodeIsVisible(Node)){
+						hideNode(Node);
+					}else{
+						showNode(Node);
+					}
+				}
+			</script>
+					</head>
+		<body>
+						<h3 class="package-title">phpDocumentor</h3>
+<div class="tree">
+<script language="Javascript">
+if (document.getElementById) {
+			var tree = new WebFXTree('<span class="package">phpDocumentor</span>');
+		tree.setBehavior('classic');
+		tree.openIcon = 'media/images/package.png';
+		tree.icon = 'media/images/package.png';
+	
+					var todos = new WebFXTreeItem('To-do List', 'todolist.html');
+			todos.openIcon = 'media/images/Index.png';
+			todos.icon = 'media/images/Index.png';
+			tree.add(todos);
+		
+		var class_trees = new WebFXTreeItem('Class trees', 'classtrees_phpDocumentor.html');
+		class_trees.openIcon = 'media/images/Index.png';
+		class_trees.icon = 'media/images/Index.png';
+		tree.add(class_trees);
+
+		var elements = new WebFXTreeItem('Index of elements', 'elementindex_phpDocumentor.html');
+		elements.openIcon = 'media/images/Index.png';
+		elements.icon = 'media/images/Index.png';
+		tree.add(elements);
+
+		var parent_node;
+
+					var tree_tutorial = new WebFXTreeItem('Tutorial(s)/Manual(s)', '');
+			tree_tutorial.openIcon = 'media/images/tutorial_folder.png';
+			tree_tutorial.icon = 'media/images/tutorial_folder.png';
+			tree.add(tree_tutorial);
+			
+							var tree_inner_tutorial = new WebFXTreeItem('Package-level', '');
+				tree_inner_tutorial.openIcon = 'media/images/package_folder.png';
+				tree_inner_tutorial.icon = 'media/images/package_folder.png';
+				tree_tutorial.add(tree_inner_tutorial);
+				
+				parent_node = tree_inner_tutorial;
+										var aphpDocumentorpkgnode = new WebFXTreeItem('phpDocumentor Guide to Creating Fantastic Documentation','phpDocumentor/tutorial_phpDocumentor.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+  var aphpDocumentorpkg_old_parent_node = parent_node;
+	parent_node = aphpDocumentorpkgnode;
+		var aphpDocumentorquickstartpkgnode = new WebFXTreeItem('phpDocumentor Quickstart','phpDocumentor/tutorial_phpDocumentor.quickstart.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+  var aphpDocumentorquickstartpkg_old_parent_node = parent_node;
+	parent_node = aphpDocumentorquickstartpkgnode;
+		var asample1pkgnode = new WebFXTreeItem('Source code for sample1.php','phpDocumentor/tutorial_sample1.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var asample2pkgnode = new WebFXTreeItem('Source code for sample2.php','phpDocumentor/tutorial_sample2.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var asample3pkgnode = new WebFXTreeItem('Source code for sample3.php','phpDocumentor/tutorial_sample3.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+
+	parent_node = aphpDocumentorquickstartpkg_old_parent_node;
+	var aphpDocumentorhowtopkgnode = new WebFXTreeItem(' phpDocumentor  Tutorial','phpDocumentor/tutorial_phpDocumentor.howto.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+  var aphpDocumentorhowtopkg_old_parent_node = parent_node;
+	parent_node = aphpDocumentorhowtopkgnode;
+		var aelementspkgnode = new WebFXTreeItem('Documentable PHP Elements','phpDocumentor/tutorial_elements.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atutorialspkgnode = new WebFXTreeItem('phpDocumentor Tutorials','phpDocumentor/tutorial_tutorials.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+
+	parent_node = aphpDocumentorhowtopkg_old_parent_node;
+	var amanualpkgnode = new WebFXTreeItem(' phpDocumentor  Manual','phpDocumentor/tutorial_manual.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+  var amanualpkg_old_parent_node = parent_node;
+	parent_node = amanualpkgnode;
+		var atagspkgnode = new WebFXTreeItem('phpDocumentor tags','phpDocumentor/tutorial_tags.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+  var atagspkg_old_parent_node = parent_node;
+	parent_node = atagspkgnode;
+		var atagsabstractpkgnode = new WebFXTreeItem('@abstract','phpDocumentor/tutorial_tags.abstract.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsaccesspkgnode = new WebFXTreeItem('@access','phpDocumentor/tutorial_tags.access.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsauthorpkgnode = new WebFXTreeItem('@author','phpDocumentor/tutorial_tags.author.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagscategorypkgnode = new WebFXTreeItem('@category','phpDocumentor/tutorial_tags.category.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagscopyrightpkgnode = new WebFXTreeItem('@copyright','phpDocumentor/tutorial_tags.copyright.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsdeprecatedpkgnode = new WebFXTreeItem('@deprecated','phpDocumentor/tutorial_tags.deprecated.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsexamplepkgnode = new WebFXTreeItem('@example','phpDocumentor/tutorial_tags.example.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsfinalpkgnode = new WebFXTreeItem('@final','phpDocumentor/tutorial_tags.final.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsfilesourcepkgnode = new WebFXTreeItem('@filesource','phpDocumentor/tutorial_tags.filesource.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsglobalpkgnode = new WebFXTreeItem('@global','phpDocumentor/tutorial_tags.global.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsignorepkgnode = new WebFXTreeItem('@ignore','phpDocumentor/tutorial_tags.ignore.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsinternalpkgnode = new WebFXTreeItem('@internal','phpDocumentor/tutorial_tags.internal.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagslicensepkgnode = new WebFXTreeItem('@license','phpDocumentor/tutorial_tags.license.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagslinkpkgnode = new WebFXTreeItem('@link','phpDocumentor/tutorial_tags.link.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsmethodpkgnode = new WebFXTreeItem('@method','phpDocumentor/tutorial_tags.method.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsnamepkgnode = new WebFXTreeItem('@name','phpDocumentor/tutorial_tags.name.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagspackagepkgnode = new WebFXTreeItem('@package','phpDocumentor/tutorial_tags.package.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsparampkgnode = new WebFXTreeItem('@param','phpDocumentor/tutorial_tags.param.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagspropertypkgnode = new WebFXTreeItem('@property','phpDocumentor/tutorial_tags.property.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsreturnpkgnode = new WebFXTreeItem('@return','phpDocumentor/tutorial_tags.return.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsseepkgnode = new WebFXTreeItem('@see','phpDocumentor/tutorial_tags.see.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagssincepkgnode = new WebFXTreeItem('@since','phpDocumentor/tutorial_tags.since.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsstaticpkgnode = new WebFXTreeItem('@static','phpDocumentor/tutorial_tags.static.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsstaticvarpkgnode = new WebFXTreeItem('@staticvar','phpDocumentor/tutorial_tags.staticvar.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagssubpackagepkgnode = new WebFXTreeItem('@subpackage','phpDocumentor/tutorial_tags.subpackage.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagstodopkgnode = new WebFXTreeItem('@todo','phpDocumentor/tutorial_tags.todo.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagstutorialpkgnode = new WebFXTreeItem('@tutorial','phpDocumentor/tutorial_tags.tutorial.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsusespkgnode = new WebFXTreeItem('@uses','phpDocumentor/tutorial_tags.uses.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsvarpkgnode = new WebFXTreeItem('@var','phpDocumentor/tutorial_tags.var.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsversionpkgnode = new WebFXTreeItem('@version','phpDocumentor/tutorial_tags.version.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+
+	parent_node = atagspkg_old_parent_node;
+	var ainlinetagspkgnode = new WebFXTreeItem('phpDocumentor Inline tags','phpDocumentor/tutorial_inlinetags.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+  var ainlinetagspkg_old_parent_node = parent_node;
+	parent_node = ainlinetagspkgnode;
+		var atagsinlineexamplepkgnode = new WebFXTreeItem('inline {@example}','phpDocumentor/tutorial_tags.inlineexample.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsinlineidpkgnode = new WebFXTreeItem('inline {@id}','phpDocumentor/tutorial_tags.inlineid.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsinlineinternalpkgnode = new WebFXTreeItem('inline {@internal}}','phpDocumentor/tutorial_tags.inlineinternal.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsinlineinheritdocpkgnode = new WebFXTreeItem('inline {@inheritdoc}','phpDocumentor/tutorial_tags.inlineinheritdoc.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsinlinelinkpkgnode = new WebFXTreeItem('inline {@link}','phpDocumentor/tutorial_tags.inlinelink.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsinlinesourcepkgnode = new WebFXTreeItem('inline {@source}','phpDocumentor/tutorial_tags.inlinesource.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsinlinetocpkgnode = new WebFXTreeItem('inline {@toc}','phpDocumentor/tutorial_tags.inlinetoc.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+	var atagsinlinetutorialpkgnode = new WebFXTreeItem('inline {@tutorial}','phpDocumentor/tutorial_tags.inlinetutorial.pkg.html', parent_node, 
+																			'media/images/tutorial.png', 'media/images/tutorial.png');
+
+
+	parent_node = ainlinetagspkg_old_parent_node;
+
+	parent_node = amanualpkg_old_parent_node;
+
+	parent_node = aphpDocumentorpkg_old_parent_node;
+
+										
+						
+					
+		
+		
+					var tree_classe = new WebFXTreeItem('Class(es)', '');
+			tree_classe.openIcon = 'media/images/class_folder.png';
+			tree_classe.icon = 'media/images/class_folder.png';
+			
+						    				var classe = new WebFXTreeItem('bug_772441', 'phpDocumentor/bug_772441.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				tree_classe.add(classe);
+										    				var classe = new WebFXTreeItem('Classes', 'phpDocumentor/Classes.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				tree_classe.add(classe);
+										    				var classe = new WebFXTreeItem('EventStack', 'phpDocumentor/EventStack.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				tree_classe.add(classe);
+										    				var classe = new WebFXTreeItem('Io', 'phpDocumentor/Io.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				tree_classe.add(classe);
+										    				var classe = new WebFXTreeItem('phpDocumentor_IntermediateParser', 'phpDocumentor/phpDocumentor_IntermediateParser.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				tree_classe.add(classe);
+										    				var classe = new WebFXTreeItem('phpDocumentor_setup', 'phpDocumentor/phpDocumentor_setup.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				tree_classe.add(classe);
+										    				var classe = new WebFXTreeItem('ProceduralPages', 'phpDocumentor/ProceduralPages.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				tree_classe.add(classe);
+										    				var classe = new WebFXTreeItem('Publisher', 'phpDocumentor/Publisher.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				tree_classe.add(classe);
+										    				var classe = new WebFXTreeItem('tests_HighlightParserTests', 'phpDocumentor/tests_HighlightParserTests.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				tree_classe.add(classe);
+										    				var classe = new WebFXTreeItem('tests_IntermediateParserTests', 'phpDocumentor/tests_IntermediateParserTests.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				tree_classe.add(classe);
+										    				var classe = new WebFXTreeItem('tests_ParserClassTests', 'phpDocumentor/tests_ParserClassTests.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				tree_classe.add(classe);
+										    				var classe = new WebFXTreeItem('tests_ParserPageTests', 'phpDocumentor/tests_ParserPageTests.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				tree_classe.add(classe);
+										    				var classe = new WebFXTreeItem('tests_phpDocumentorSetupTests', 'phpDocumentor/tests_phpDocumentorSetupTests.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				tree_classe.add(classe);
+										    				var classe = new WebFXTreeItem('tests_phpDocumentorTParserTests', 'phpDocumentor/tests_phpDocumentorTParserTests.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				tree_classe.add(classe);
+								
+			tree.add(tree_classe);
+		
+					var tree_function = new WebFXTreeItem('Function(s)', '');
+			tree_function.openIcon = 'media/images/function_folder.png';
+			tree_function.icon = 'media/images/function_folder.png';
+			
+							var fic = new WebFXTreeItem('checkForBugCondition', 'phpDocumentor/_phpDocumentor---Setup.inc.php.html#functioncheckForBugCondition');
+				fic.openIcon = 'media/images/Function.png';
+				fic.icon = 'media/images/Function.png';
+				tree_function.add(fic);
+							var fic = new WebFXTreeItem('debug', 'phpDocumentor/_phpDocumentor---common.inc.php.html#functiondebug');
+				fic.openIcon = 'media/images/Function.png';
+				fic.icon = 'media/images/Function.png';
+				tree_function.add(fic);
+							var fic = new WebFXTreeItem('decideOnOrOff', 'phpDocumentor/_phpDocumentor---Setup.inc.php.html#functiondecideOnOrOff');
+				fic.openIcon = 'media/images/Function.png';
+				fic.icon = 'media/images/Function.png';
+				tree_function.add(fic);
+							var fic = new WebFXTreeItem('fancy_debug', 'phpDocumentor/_phpDocumentor---common.inc.php.html#functionfancy_debug');
+				fic.openIcon = 'media/images/Function.png';
+				fic.icon = 'media/images/Function.png';
+				tree_function.add(fic);
+							var fic = new WebFXTreeItem('getDir', 'phpDocumentor/_docbuilder---includes---utilities.php.html#functiongetDir');
+				fic.openIcon = 'media/images/Function.png';
+				fic.icon = 'media/images/Function.png';
+				tree_function.add(fic);
+							var fic = new WebFXTreeItem('get_include_path', 'phpDocumentor/_phpDocumentor---Io.inc.html#functionget_include_path');
+				fic.openIcon = 'media/images/Function.png';
+				fic.icon = 'media/images/Function.png';
+				tree_function.add(fic);
+							var fic = new WebFXTreeItem('htmlArraySelect', 'phpDocumentor/_docbuilder---includes---utilities.php.html#functionhtmlArraySelect');
+				fic.openIcon = 'media/images/Function.png';
+				fic.icon = 'media/images/Function.png';
+				tree_function.add(fic);
+							var fic = new WebFXTreeItem('Ioinc_mystrucsort', 'phpDocumentor/_phpDocumentor---Io.inc.html#functionIoinc_mystrucsort');
+				fic.openIcon = 'media/images/Function.png';
+				fic.icon = 'media/images/Function.png';
+				tree_function.add(fic);
+							var fic = new WebFXTreeItem('Ioinc_sortfiles', 'phpDocumentor/_phpDocumentor---Io.inc.html#functionIoinc_sortfiles');
+				fic.openIcon = 'media/images/Function.png';
+				fic.icon = 'media/images/Function.png';
+				tree_function.add(fic);
+							var fic = new WebFXTreeItem('phpDocumentor_clone', 'phpDocumentor/_phpDocumentor---clone.inc.php.html#functionphpDocumentor_clone');
+				fic.openIcon = 'media/images/Function.png';
+				fic.icon = 'media/images/Function.png';
+				tree_function.add(fic);
+							var fic = new WebFXTreeItem('phpDocumentor_ConfigFileList', 'phpDocumentor/_phpDocumentor---common.inc.php.html#functionphpDocumentor_ConfigFileList');
+				fic.openIcon = 'media/images/Function.png';
+				fic.icon = 'media/images/Function.png';
+				tree_function.add(fic);
+							var fic = new WebFXTreeItem('phpDocumentor_get_class', 'phpDocumentor/_phpDocumentor---common.inc.php.html#functionphpDocumentor_get_class');
+				fic.openIcon = 'media/images/Function.png';
+				fic.icon = 'media/images/Function.png';
+				tree_function.add(fic);
+							var fic = new WebFXTreeItem('phpDocumentor_out', 'phpDocumentor/_phpDocumentor---Setup.inc.php.html#functionphpDocumentor_out');
+				fic.openIcon = 'media/images/Function.png';
+				fic.icon = 'media/images/Function.png';
+				tree_function.add(fic);
+							var fic = new WebFXTreeItem('phpDocumentor_parse_ini_file', 'phpDocumentor/_phpDocumentor---common.inc.php.html#functionphpDocumentor_parse_ini_file');
+				fic.openIcon = 'media/images/Function.png';
+				fic.icon = 'media/images/Function.png';
+				tree_function.add(fic);
+							var fic = new WebFXTreeItem('recurseDir', 'phpDocumentor/_docbuilder---includes---utilities.php.html#functionrecurseDir');
+				fic.openIcon = 'media/images/Function.png';
+				fic.icon = 'media/images/Function.png';
+				tree_function.add(fic);
+							var fic = new WebFXTreeItem('setup_dirs', 'phpDocumentor/_phpDocumentor---Io.inc.html#functionsetup_dirs');
+				fic.openIcon = 'media/images/Function.png';
+				fic.icon = 'media/images/Function.png';
+				tree_function.add(fic);
+							var fic = new WebFXTreeItem('set_dir', 'phpDocumentor/_phpDocumentor---Io.inc.html#functionset_dir');
+				fic.openIcon = 'media/images/Function.png';
+				fic.icon = 'media/images/Function.png';
+				tree_function.add(fic);
+							var fic = new WebFXTreeItem('showImage', 'phpDocumentor/_docbuilder---includes---utilities.php.html#functionshowImage');
+				fic.openIcon = 'media/images/Function.png';
+				fic.icon = 'media/images/Function.png';
+				tree_function.add(fic);
+							var fic = new WebFXTreeItem('switchDirTree', 'phpDocumentor/_docbuilder---includes---utilities.php.html#functionswitchDirTree');
+				fic.openIcon = 'media/images/Function.png';
+				fic.icon = 'media/images/Function.png';
+				tree_function.add(fic);
+							var fic = new WebFXTreeItem('vdump_par', 'phpDocumentor/_docbuilder---includes---utilities.php.html#functionvdump_par');
+				fic.openIcon = 'media/images/Function.png';
+				fic.icon = 'media/images/Function.png';
+				tree_function.add(fic);
+					
+			tree.add(tree_function);
+			
+					var tree_file = new WebFXTreeItem('File(s)', '');
+			tree_file.openIcon = 'media/images/folder.png';
+			tree_file.icon = 'media/images/folder.png';
+	
+							var file = new WebFXTreeItem('actions.php', 'phpDocumentor/_docbuilder---actions.php.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('bug-560532.php', 'phpDocumentor/_Documentation---tests---bug-560532.php.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('bug-772441.php', 'phpDocumentor/_Documentation---tests---bug-772441.php.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('builder.php', 'phpDocumentor/_docbuilder---builder.php.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('Classes.inc', 'phpDocumentor/_phpDocumentor---Classes.inc.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('clone.inc.php', 'phpDocumentor/_phpDocumentor---clone.inc.php.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('clone5.inc.php', 'phpDocumentor/_phpDocumentor---clone5.inc.php.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('common.inc.php', 'phpDocumentor/_phpDocumentor---common.inc.php.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('config.php', 'phpDocumentor/_docbuilder---config.php.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('EventStack.inc', 'phpDocumentor/_phpDocumentor---EventStack.inc.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('file_dialog.php', 'phpDocumentor/_docbuilder---file_dialog.php.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('HighlightParserTests.php', 'phpDocumentor/_tests---HighlightParserTests.php.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('IntermediateParser.inc', 'phpDocumentor/_phpDocumentor---IntermediateParser.inc.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('IntermediateParserTests.php', 'phpDocumentor/_tests---IntermediateParserTests.php.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('Io.inc', 'phpDocumentor/_phpDocumentor---Io.inc.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('new_phpdoc.php', 'phpDocumentor/_new_phpdoc.php.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('ParserClassTests.php', 'phpDocumentor/_tests---ParserClassTests.php.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('ParserDescCleanup.inc', 'phpDocumentor/_phpDocumentor---ParserDescCleanup.inc.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('ParserPageTests.php', 'phpDocumentor/_tests---ParserPageTests.php.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('phpdoc.inc', 'phpDocumentor/_phpDocumentor---phpdoc.inc.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('phpdoc.php', 'phpDocumentor/_phpdoc.php.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('phpDocumentorSetupTests.php', 'phpDocumentor/_tests---phpDocumentorSetupTests.php.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('phpDocumentorTParserTests.php', 'phpDocumentor/_tests---phpDocumentorTParserTests.php.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('ProceduralPages.inc', 'phpDocumentor/_phpDocumentor---ProceduralPages.inc.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('Publisher.inc', 'phpDocumentor/_phpDocumentor---Publisher.inc.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('Setup.inc.php', 'phpDocumentor/_phpDocumentor---Setup.inc.php.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('top.php', 'phpDocumentor/_docbuilder---top.php.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+							var file = new WebFXTreeItem('utilities.php', 'phpDocumentor/_docbuilder---includes---utilities.php.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				tree_file.add(file);
+				
+			tree.add(tree_file);
+		
+							var subpackagetree = new WebFXTreeItem('<span class="sub-package">DescHTML</span>', '');
+		
+		subpackagetree.openIcon = 'media/images/package.png';
+		subpackagetree.icon = 'media/images/package.png';
+
+			
+					var subpackagetree_classe = new WebFXTreeItem('Class(es)', '');
+			subpackagetree_classe.openIcon = 'media/images/class_folder.png';
+			subpackagetree_classe.icon = 'media/images/class_folder.png';
+			
+							var classe = new WebFXTreeItem('parserB', 'phpDocumentor/DescHTML/parserB.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserBr', 'phpDocumentor/DescHTML/parserBr.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserCode', 'phpDocumentor/DescHTML/parserCode.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserDescVar', 'phpDocumentor/DescHTML/parserDescVar.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserI', 'phpDocumentor/DescHTML/parserI.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserKbd', 'phpDocumentor/DescHTML/parserKbd.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserList', 'phpDocumentor/DescHTML/parserList.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserPre', 'phpDocumentor/DescHTML/parserPre.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserSamp', 'phpDocumentor/DescHTML/parserSamp.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+						
+			subpackagetree.add(subpackagetree_classe);
+		
+				
+					var subpackagetree_file = new WebFXTreeItem('File(s)', '');
+			subpackagetree_file.openIcon = 'media/images/folder.png';
+			subpackagetree_file.icon = 'media/images/folder.png';
+			
+							var file = new WebFXTreeItem('DescHTML.inc', 'phpDocumentor/DescHTML/_phpDocumentor---DescHTML.inc.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				subpackagetree_file.add(file);
+					
+			subpackagetree.add(subpackagetree_file);
+			
+	  tree.add(subpackagetree);
+							var subpackagetree = new WebFXTreeItem('<span class="sub-package">DocBlockTags</span>', '');
+		
+		subpackagetree.openIcon = 'media/images/package.png';
+		subpackagetree.icon = 'media/images/package.png';
+
+			
+					var subpackagetree_classe = new WebFXTreeItem('Class(es)', '');
+			subpackagetree_classe.openIcon = 'media/images/class_folder.png';
+			subpackagetree_classe.icon = 'media/images/class_folder.png';
+			
+							var classe = new WebFXTreeItem('parserAccessTag', 'phpDocumentor/DocBlockTags/parserAccessTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserExampleTag', 'phpDocumentor/DocBlockTags/parserExampleTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserFileSourceTag', 'phpDocumentor/DocBlockTags/parserFileSourceTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserLicenseTag', 'phpDocumentor/DocBlockTags/parserLicenseTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserLinkTag', 'phpDocumentor/DocBlockTags/parserLinkTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserMethodTag', 'phpDocumentor/DocBlockTags/parserMethodTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserNameTag', 'phpDocumentor/DocBlockTags/parserNameTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserParamTag', 'phpDocumentor/DocBlockTags/parserParamTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserPropertyReadTag', 'phpDocumentor/DocBlockTags/parserPropertyReadTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserPropertyTag', 'phpDocumentor/DocBlockTags/parserPropertyTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserPropertyWriteTag', 'phpDocumentor/DocBlockTags/parserPropertyWriteTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserReturnTag', 'phpDocumentor/DocBlockTags/parserReturnTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserSeeTag', 'phpDocumentor/DocBlockTags/parserSeeTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserStaticvarTag', 'phpDocumentor/DocBlockTags/parserStaticvarTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserTag', 'phpDocumentor/DocBlockTags/parserTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserTutorialTag', 'phpDocumentor/DocBlockTags/parserTutorialTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserUsedByTag', 'phpDocumentor/DocBlockTags/parserUsedByTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserUsesTag', 'phpDocumentor/DocBlockTags/parserUsesTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserVarTag', 'phpDocumentor/DocBlockTags/parserVarTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+						
+			subpackagetree.add(subpackagetree_classe);
+		
+				
+					var subpackagetree_file = new WebFXTreeItem('File(s)', '');
+			subpackagetree_file.openIcon = 'media/images/folder.png';
+			subpackagetree_file.icon = 'media/images/folder.png';
+			
+							var file = new WebFXTreeItem('DocBlockTags.inc', 'phpDocumentor/DocBlockTags/_phpDocumentor---DocBlockTags.inc.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				subpackagetree_file.add(file);
+					
+			subpackagetree.add(subpackagetree_file);
+			
+	  tree.add(subpackagetree);
+							var subpackagetree = new WebFXTreeItem('<span class="sub-package">Errors</span>', '');
+		
+		subpackagetree.openIcon = 'media/images/package.png';
+		subpackagetree.icon = 'media/images/package.png';
+
+			
+					var subpackagetree_classe = new WebFXTreeItem('Class(es)', '');
+			subpackagetree_classe.openIcon = 'media/images/class_folder.png';
+			subpackagetree_classe.icon = 'media/images/class_folder.png';
+			
+							var classe = new WebFXTreeItem('ErrorTracker', 'phpDocumentor/Errors/ErrorTracker.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('RecordError', 'phpDocumentor/Errors/RecordError.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('RecordWarning', 'phpDocumentor/Errors/RecordWarning.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+						
+			subpackagetree.add(subpackagetree_classe);
+		
+					var subpackagetree_function = new WebFXTreeItem('Function(s)', '');
+			subpackagetree_function.openIcon = 'media/images/function_folder.png';
+			subpackagetree_function.icon = 'media/images/function_folder.png';
+			
+							var fic = new WebFXTreeItem('addError', 'phpDocumentor/Errors/_phpDocumentor---Errors.inc.html#functionaddError');
+				fic.openIcon = 'media/images/Function.png';
+				fic.icon = 'media/images/Function.png';
+				subpackagetree_function.add(fic);
+							var fic = new WebFXTreeItem('addErrorDie', 'phpDocumentor/Errors/_phpDocumentor---Errors.inc.html#functionaddErrorDie');
+				fic.openIcon = 'media/images/Function.png';
+				fic.icon = 'media/images/Function.png';
+				subpackagetree_function.add(fic);
+							var fic = new WebFXTreeItem('addWarning', 'phpDocumentor/Errors/_phpDocumentor---Errors.inc.html#functionaddWarning');
+				fic.openIcon = 'media/images/Function.png';
+				fic.icon = 'media/images/Function.png';
+				subpackagetree_function.add(fic);
+						
+			subpackagetree.add(subpackagetree_function);
+				
+					var subpackagetree_file = new WebFXTreeItem('File(s)', '');
+			subpackagetree_file.openIcon = 'media/images/folder.png';
+			subpackagetree_file.icon = 'media/images/folder.png';
+			
+							var file = new WebFXTreeItem('Errors.inc', 'phpDocumentor/Errors/_phpDocumentor---Errors.inc.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				subpackagetree_file.add(file);
+					
+			subpackagetree.add(subpackagetree_file);
+			
+	  tree.add(subpackagetree);
+							var subpackagetree = new WebFXTreeItem('<span class="sub-package">InlineTags</span>', '');
+		
+		subpackagetree.openIcon = 'media/images/package.png';
+		subpackagetree.icon = 'media/images/package.png';
+
+			
+					var subpackagetree_classe = new WebFXTreeItem('Class(es)', '');
+			subpackagetree_classe.openIcon = 'media/images/class_folder.png';
+			subpackagetree_classe.icon = 'media/images/class_folder.png';
+			
+							var classe = new WebFXTreeItem('parserExampleInlineTag', 'phpDocumentor/InlineTags/parserExampleInlineTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserIdInlineTag', 'phpDocumentor/InlineTags/parserIdInlineTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserInheritdocInlineTag', 'phpDocumentor/InlineTags/parserInheritdocInlineTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserInlineTag', 'phpDocumentor/InlineTags/parserInlineTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserLinkInlineTag', 'phpDocumentor/InlineTags/parserLinkInlineTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserSourceInlineTag', 'phpDocumentor/InlineTags/parserSourceInlineTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserTocInlineTag', 'phpDocumentor/InlineTags/parserTocInlineTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserTutorialInlineTag', 'phpDocumentor/InlineTags/parserTutorialInlineTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+						
+			subpackagetree.add(subpackagetree_classe);
+		
+				
+					var subpackagetree_file = new WebFXTreeItem('File(s)', '');
+			subpackagetree_file.openIcon = 'media/images/folder.png';
+			subpackagetree_file.icon = 'media/images/folder.png';
+			
+							var file = new WebFXTreeItem('InlineTags.inc', 'phpDocumentor/InlineTags/_phpDocumentor---InlineTags.inc.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				subpackagetree_file.add(file);
+					
+			subpackagetree.add(subpackagetree_file);
+			
+	  tree.add(subpackagetree);
+							var subpackagetree = new WebFXTreeItem('<span class="sub-package">Links</span>', '');
+		
+		subpackagetree.openIcon = 'media/images/package.png';
+		subpackagetree.icon = 'media/images/package.png';
+
+			
+					var subpackagetree_classe = new WebFXTreeItem('Class(es)', '');
+			subpackagetree_classe.openIcon = 'media/images/class_folder.png';
+			subpackagetree_classe.icon = 'media/images/class_folder.png';
+			
+							var classe = new WebFXTreeItem('abstractLink', 'phpDocumentor/Links/abstractLink.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('classLink', 'phpDocumentor/Links/classLink.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('constLink', 'phpDocumentor/Links/constLink.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('defineLink', 'phpDocumentor/Links/defineLink.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('functionLink', 'phpDocumentor/Links/functionLink.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('globalLink', 'phpDocumentor/Links/globalLink.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('methodLink', 'phpDocumentor/Links/methodLink.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('pageLink', 'phpDocumentor/Links/pageLink.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('tutorialLink', 'phpDocumentor/Links/tutorialLink.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('varLink', 'phpDocumentor/Links/varLink.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+						
+			subpackagetree.add(subpackagetree_classe);
+		
+				
+					var subpackagetree_file = new WebFXTreeItem('File(s)', '');
+			subpackagetree_file.openIcon = 'media/images/folder.png';
+			subpackagetree_file.icon = 'media/images/folder.png';
+			
+							var file = new WebFXTreeItem('LinkClasses.inc', 'phpDocumentor/Links/_phpDocumentor---LinkClasses.inc.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				subpackagetree_file.add(file);
+					
+			subpackagetree.add(subpackagetree_file);
+			
+	  tree.add(subpackagetree);
+							var subpackagetree = new WebFXTreeItem('<span class="sub-package">ParserData</span>', '');
+		
+		subpackagetree.openIcon = 'media/images/package.png';
+		subpackagetree.icon = 'media/images/package.png';
+
+			
+					var subpackagetree_classe = new WebFXTreeItem('Class(es)', '');
+			subpackagetree_classe.openIcon = 'media/images/class_folder.png';
+			subpackagetree_classe.icon = 'media/images/class_folder.png';
+			
+							var classe = new WebFXTreeItem('parserBase', 'phpDocumentor/ParserData/parserBase.html');
+				classe.openIcon = 'media/images/AbstractClass.png';
+				classe.icon = 'media/images/AbstractClass.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserData', 'phpDocumentor/ParserData/parserData.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserPage', 'phpDocumentor/ParserData/parserPage.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserStringWithInlineTags', 'phpDocumentor/ParserData/parserStringWithInlineTags.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+						
+			subpackagetree.add(subpackagetree_classe);
+		
+				
+					var subpackagetree_file = new WebFXTreeItem('File(s)', '');
+			subpackagetree_file.openIcon = 'media/images/folder.png';
+			subpackagetree_file.icon = 'media/images/folder.png';
+			
+							var file = new WebFXTreeItem('ParserData.inc', 'phpDocumentor/ParserData/_phpDocumentor---ParserData.inc.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				subpackagetree_file.add(file);
+					
+			subpackagetree.add(subpackagetree_file);
+			
+	  tree.add(subpackagetree);
+							var subpackagetree = new WebFXTreeItem('<span class="sub-package">ParserDocBlock</span>', '');
+		
+		subpackagetree.openIcon = 'media/images/package.png';
+		subpackagetree.icon = 'media/images/package.png';
+
+			
+					var subpackagetree_classe = new WebFXTreeItem('Class(es)', '');
+			subpackagetree_classe.openIcon = 'media/images/class_folder.png';
+			subpackagetree_classe.icon = 'media/images/class_folder.png';
+			
+							var classe = new WebFXTreeItem('parserDesc', 'phpDocumentor/ParserDocBlock/parserDesc.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserDocBlock', 'phpDocumentor/ParserDocBlock/parserDocBlock.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+						
+			subpackagetree.add(subpackagetree_classe);
+		
+				
+					var subpackagetree_file = new WebFXTreeItem('File(s)', '');
+			subpackagetree_file.openIcon = 'media/images/folder.png';
+			subpackagetree_file.icon = 'media/images/folder.png';
+			
+							var file = new WebFXTreeItem('ParserDocBlock.inc', 'phpDocumentor/ParserDocBlock/_phpDocumentor---ParserDocBlock.inc.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				subpackagetree_file.add(file);
+					
+			subpackagetree.add(subpackagetree_file);
+			
+	  tree.add(subpackagetree);
+							var subpackagetree = new WebFXTreeItem('<span class="sub-package">ParserElements</span>', '');
+		
+		subpackagetree.openIcon = 'media/images/package.png';
+		subpackagetree.icon = 'media/images/package.png';
+
+			
+					var subpackagetree_classe = new WebFXTreeItem('Class(es)', '');
+			subpackagetree_classe.openIcon = 'media/images/class_folder.png';
+			subpackagetree_classe.icon = 'media/images/class_folder.png';
+			
+							var classe = new WebFXTreeItem('parserClass', 'phpDocumentor/ParserElements/parserClass.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserConst', 'phpDocumentor/ParserElements/parserConst.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserDefine', 'phpDocumentor/ParserElements/parserDefine.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserElement', 'phpDocumentor/ParserElements/parserElement.html');
+				classe.openIcon = 'media/images/AbstractClass.png';
+				classe.icon = 'media/images/AbstractClass.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserFunction', 'phpDocumentor/ParserElements/parserFunction.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserGlobal', 'phpDocumentor/ParserElements/parserGlobal.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserInclude', 'phpDocumentor/ParserElements/parserInclude.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserMethod', 'phpDocumentor/ParserElements/parserMethod.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserPackagePage', 'phpDocumentor/ParserElements/parserPackagePage.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserTutorial', 'phpDocumentor/ParserElements/parserTutorial.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserVar', 'phpDocumentor/ParserElements/parserVar.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+						
+			subpackagetree.add(subpackagetree_classe);
+		
+				
+					var subpackagetree_file = new WebFXTreeItem('File(s)', '');
+			subpackagetree_file.openIcon = 'media/images/folder.png';
+			subpackagetree_file.icon = 'media/images/folder.png';
+			
+							var file = new WebFXTreeItem('ParserElements.inc', 'phpDocumentor/ParserElements/_phpDocumentor---ParserElements.inc.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				subpackagetree_file.add(file);
+					
+			subpackagetree.add(subpackagetree_file);
+			
+	  tree.add(subpackagetree);
+							var subpackagetree = new WebFXTreeItem('<span class="sub-package">Parsers</span>', '');
+		
+		subpackagetree.openIcon = 'media/images/package.png';
+		subpackagetree.icon = 'media/images/package.png';
+
+			
+					var subpackagetree_classe = new WebFXTreeItem('Class(es)', '');
+			subpackagetree_classe.openIcon = 'media/images/class_folder.png';
+			subpackagetree_classe.icon = 'media/images/class_folder.png';
+			
+							var classe = new WebFXTreeItem('Parser', 'phpDocumentor/Parsers/Parser.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserDescParser', 'phpDocumentor/Parsers/parserDescParser.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('phpDocumentorTParser', 'phpDocumentor/Parsers/phpDocumentorTParser.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('phpDocumentor_HighlightParser', 'phpDocumentor/Parsers/phpDocumentor_HighlightParser.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('phpDocumentor_HighlightWordParser', 'phpDocumentor/Parsers/phpDocumentor_HighlightWordParser.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('phpDocumentor_peardoc2_XML_Beautifier', 'phpDocumentor/Parsers/phpDocumentor_peardoc2_XML_Beautifier.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('phpDocumentor_TutorialHighlightParser', 'phpDocumentor/Parsers/phpDocumentor_TutorialHighlightParser.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('phpDocumentor_XML_Beautifier_Tokenizer', 'phpDocumentor/Parsers/phpDocumentor_XML_Beautifier_Tokenizer.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('ppageParser', 'phpDocumentor/Parsers/ppageParser.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('XMLPackagePageParser', 'phpDocumentor/Parsers/XMLPackagePageParser.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+						
+			subpackagetree.add(subpackagetree_classe);
+		
+				
+					var subpackagetree_file = new WebFXTreeItem('File(s)', '');
+			subpackagetree_file.openIcon = 'media/images/folder.png';
+			subpackagetree_file.icon = 'media/images/folder.png';
+			
+							var file = new WebFXTreeItem('Beautifier.php', 'phpDocumentor/Parsers/_phpDocumentor---Converters---XML---DocBook---peardoc2---Beautifier.php.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				subpackagetree_file.add(file);
+							var file = new WebFXTreeItem('HighlightParser.inc', 'phpDocumentor/Parsers/_phpDocumentor---HighlightParser.inc.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				subpackagetree_file.add(file);
+							var file = new WebFXTreeItem('Parser.inc', 'phpDocumentor/Parsers/_phpDocumentor---Parser.inc.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				subpackagetree_file.add(file);
+							var file = new WebFXTreeItem('phpDocumentorTParser.inc', 'phpDocumentor/Parsers/_phpDocumentor---phpDocumentorTParser.inc.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				subpackagetree_file.add(file);
+							var file = new WebFXTreeItem('Tokenizer.php', 'phpDocumentor/Parsers/_phpDocumentor---Converters---XML---DocBook---peardoc2---Tokenizer.php.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				subpackagetree_file.add(file);
+							var file = new WebFXTreeItem('TutorialHighlightParser.inc', 'phpDocumentor/Parsers/_phpDocumentor---TutorialHighlightParser.inc.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				subpackagetree_file.add(file);
+							var file = new WebFXTreeItem('XMLpackagePageParser.inc', 'phpDocumentor/Parsers/_phpDocumentor---XMLpackagePageParser.inc.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				subpackagetree_file.add(file);
+					
+			subpackagetree.add(subpackagetree_file);
+			
+	  tree.add(subpackagetree);
+							var subpackagetree = new WebFXTreeItem('<span class="sub-package">setup</span>', '');
+		
+		subpackagetree.openIcon = 'media/images/package.png';
+		subpackagetree.icon = 'media/images/package.png';
+
+			
+		
+				
+					var subpackagetree_file = new WebFXTreeItem('File(s)', '');
+			subpackagetree_file.openIcon = 'media/images/folder.png';
+			subpackagetree_file.icon = 'media/images/folder.png';
+			
+							var file = new WebFXTreeItem('find_phpdoc.php', 'phpDocumentor/setup/_phpDocumentor---find_phpdoc.php.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				subpackagetree_file.add(file);
+					
+			subpackagetree.add(subpackagetree_file);
+			
+	  tree.add(subpackagetree);
+							var subpackagetree = new WebFXTreeItem('<span class="sub-package">Tutorial</span>', '');
+		
+		subpackagetree.openIcon = 'media/images/package.png';
+		subpackagetree.icon = 'media/images/package.png';
+
+			
+					var subpackagetree_classe = new WebFXTreeItem('Class(es)', '');
+			subpackagetree_classe.openIcon = 'media/images/class_folder.png';
+			subpackagetree_classe.icon = 'media/images/class_folder.png';
+			
+							var classe = new WebFXTreeItem('parserCData', 'phpDocumentor/Tutorial/parserCData.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserEntity', 'phpDocumentor/Tutorial/parserEntity.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('parserXMLDocBookTag', 'phpDocumentor/Tutorial/parserXMLDocBookTag.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+						
+			subpackagetree.add(subpackagetree_classe);
+		
+				
+					var subpackagetree_file = new WebFXTreeItem('File(s)', '');
+			subpackagetree_file.openIcon = 'media/images/folder.png';
+			subpackagetree_file.icon = 'media/images/folder.png';
+			
+							var file = new WebFXTreeItem('PackagePageElements.inc', 'phpDocumentor/Tutorial/_phpDocumentor---PackagePageElements.inc.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				subpackagetree_file.add(file);
+					
+			subpackagetree.add(subpackagetree_file);
+			
+	  tree.add(subpackagetree);
+							var subpackagetree = new WebFXTreeItem('<span class="sub-package">WordParsers</span>', '');
+		
+		subpackagetree.openIcon = 'media/images/package.png';
+		subpackagetree.icon = 'media/images/package.png';
+
+			
+					var subpackagetree_classe = new WebFXTreeItem('Class(es)', '');
+			subpackagetree_classe.openIcon = 'media/images/class_folder.png';
+			subpackagetree_classe.icon = 'media/images/class_folder.png';
+			
+							var classe = new WebFXTreeItem('ObjectWordParser', 'phpDocumentor/WordParsers/ObjectWordParser.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('phpDocumentorTWordParser', 'phpDocumentor/WordParsers/phpDocumentorTWordParser.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+							var classe = new WebFXTreeItem('WordParser', 'phpDocumentor/WordParsers/WordParser.html');
+				classe.openIcon = 'media/images/Class.png';
+				classe.icon = 'media/images/Class.png';
+				subpackagetree_classe.add(classe);
+						
+			subpackagetree.add(subpackagetree_classe);
+		
+				
+					var subpackagetree_file = new WebFXTreeItem('File(s)', '');
+			subpackagetree_file.openIcon = 'media/images/folder.png';
+			subpackagetree_file.icon = 'media/images/folder.png';
+			
+							var file = new WebFXTreeItem('phpDocumentorTWordParser.inc', 'phpDocumentor/WordParsers/_phpDocumentor---phpDocumentorTWordParser.inc.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				subpackagetree_file.add(file);
+							var file = new WebFXTreeItem('WordParser.inc', 'phpDocumentor/WordParsers/_phpDocumentor---WordParser.inc.html');
+				file.openIcon = 'media/images/Page.png';
+				file.icon = 'media/images/Page.png';
+				subpackagetree_file.add(file);
+					
+			subpackagetree.add(subpackagetree_file);
+			
+	  tree.add(subpackagetree);
+	
+document.write(tree);
+}
+</script>
+</div>
+<p class="notes">
+	Generated by 
+	<a href="http://www.phpdoc.org" target="_blank">phpDocumentor <span class="field">1.4.4</span></a>
+</p>
+</body>
+</html>

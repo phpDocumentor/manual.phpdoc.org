@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+   <html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Docs For Class Classes</title>
+  <link rel="stylesheet" href="../media/stylesheet.css" />
+  <script src="../media/lib/classTree.js"></script>
+<link id="webfx-tab-style-sheet" type="text/css" rel="stylesheet" href="../media/lib/tab.webfx.css" />
+<script type="text/javascript" src="../media/lib/tabpane.js"></script>
+  <script language="javascript" type="text/javascript" src="../media/lib/ua.js"></script>
+<script language="javascript" type="text/javascript">
+	var imgPlus = new Image();
+	var imgMinus = new Image();
+	imgPlus.src = "../media/images/plus.gif";
+	imgMinus.src = "../media/images/minus.gif";
+	
+	function showNode(Node){
+        switch(navigator.family){
+        	case 'nn4':
+        		// Nav 4.x code fork...
+				var oTable = document.layers["span" + Node];
+				var oImg = document.layers["img" + Node];
+        		break;
+        	case 'ie4':
+        		// IE 4/5 code fork...
+				var oTable = document.all["span" + Node];
+				var oImg = document.all["img" + Node];
+        		break;
+        	case 'gecko':
+        		// Standards Compliant code fork...
+				var oTable = document.getElementById("span" + Node);
+				var oImg = document.getElementById("img" + Node);
+        		break;
+        }
+		oImg.src = imgMinus.src;
+		oTable.style.display = "block";
+	}
+	
+	function hideNode(Node){
+        switch(navigator.family){
+        	case 'nn4':
+        		// Nav 4.x code fork...
+				var oTable = document.layers["span" + Node];
+				var oImg = document.layers["img" + Node];
+        		break;
+        	case 'ie4':
+        		// IE 4/5 code fork...
+				var oTable = document.all["span" + Node];
+				var oImg = document.all["img" + Node];
+        		break;
+        	case 'gecko':
+        		// Standards Compliant code fork...
+				var oTable = document.getElementById("span" + Node);
+				var oImg = document.getElementById("img" + Node);
+        		break;
+        }
+		oImg.src = imgPlus.src;
+		oTable.style.display = "none";
+	}
+	
+	function nodeIsVisible(Node){
+        switch(navigator.family){
+        	case 'nn4':
+        		// Nav 4.x code fork...
+				var oTable = document.layers["span" + Node];
+        		break;
+        	case 'ie4':
+        		// IE 4/5 code fork...
+				var oTable = document.all["span" + Node];
+        		break;
+        	case 'gecko':
+        		// Standards Compliant code fork...
+				var oTable = document.getElementById("span" + Node);
+        		break;
+        }
+		return (oTable && oTable.style.display == "block");
+	}
+	
+	function toggleNodeVisibility(Node){
+		if (nodeIsVisible(Node)){
+			hideNode(Node);
+		}else{
+			showNode(Node);
+		}
+	}
+</script>
+<!-- template designed by Julien Damon based on PHPEdit's generated templates, and tweaked by Greg Beaver -->
+<body bgcolor="#ffffff" ><!-- Start of Class Data -->
+<h2>
+	Class Classes
+</h2> (line <span class="linenumber"><a href="../__filesource/fsource_phpDocumentor__phpDocumentorClasses.inc.html#a70">70</a></span>)
+<div class="tab-pane" id="tabPane1">
+<script type="text/javascript">
+tp1 = new WebFXTabPane( document.getElementById( "tabPane1" ));
+</script>
+
+<div class="tab-page" id="Description">
+<h2 class="tab">Description</h2>
+<pre>
+</pre>
+<p>
+	<b><i>Located in File: <a href="_phpDocumentor---Classes.inc.html">/phpDocumentor/Classes.inc</a></i></b><br>
+</p>
+<!-- ========== Info from phpDoc block ========= -->
+<h5>Intermediate class parsing structure.</h5>
+<div class="desc"><p>The <a href="../phpDocumentor/phpDocumentor_IntermediateParser.html">phpDocumentor_IntermediateParser</a> class uses this class and its  cousin, <a href="../phpDocumentor/ProceduralPages.html">ProceduralPages</a> to organize all parsed source code elements.  Data is fed to each immediately after it is parsed, and at conversion time,  everything is organized.</p><p>The Classes class is responsible for all inheritance, including resolving  name conflicts between classes, determining which classes extend other  classes, and is responsible for all inheritance of documentation.</p></div>
+<ul>
+		<li><strong>author:</strong> - Greg Beaver &lt;<a href="mailto:cellog@php.net">cellog@php.net</a>&gt;</li>
+		<li><strong>version:</strong> - Release: @VER@</li>
+		<li><strong>copyright:</strong> - 2001-2007 Gregory Beaver</li>
+		<li><strong>link:</strong> - <a href="http://pear.php.net/PhpDocumentor">http://pear.php.net/PhpDocumentor</a></li>
+		<li><strong>link:</strong> - <a href="http://www.phpdoc.org">http://www.phpdoc.org</a></li>
+		<li><strong>todo:</strong> - CS cleanup - change package to PhpDocumentor</li>
+		<li><strong>since:</strong> - 1.0rc1</li>
+		<li><strong>license:</strong> - <a href="http://www.opensource.org/licenses/lgpl-license.php">LGPL</a></li>
+	</ul>
+<br /><hr />
+</div>
+<script type="text/javascript">tp1.addTabPage( document.getElementById( "Description" ) );</script>
+<div class="tab-page" id="tabPage1">
+
+<h2 class="tab">Class Variables</h2>
+<!-- ============ VARIABLE DETAIL =========== -->
+<strong>Summary:</strong><br />
+<hr />
+<script type="text/javascript">tp1.addTabPage( document.getElementById( "tabPage1" ) );</script>
+</div>
+<div class="tab-page" id="constantsTabpage">
+
+<h2 class="tab">Class Constants</h2>
+<!-- ============ VARIABLE DETAIL =========== -->
+<strong>Summary:</strong><br />
+<hr />
+<script type="text/javascript">tp1.addTabPage( document.getElementById( "constantsTabpage" ) );</script>
+</div>
+<div class="tab-page" id="tabPage2">
+<h2 class="tab">Method Detail</h2>
+<!-- ============ METHOD DETAIL =========== -->
+<strong>Summary:</strong><br />
+<div class="method-summary">
+    <div class="method-definition">
+            <span class="method-result">void</span>
+        <a href="#methodaddClass" title="details" class="method-name">addClass</a>
+        (<span class="var-type"><a href="../phpDocumentor/ParserElements/parserClass.html">parserClass</a></span>&nbsp;<span class="var-name">&$element</span>)
+        </div>
+    <div class="method-definition">
+            <span class="method-result">void</span>
+        <a href="#methodaddConst" title="details" class="method-name">addConst</a>
+        (<span class="var-type"><a href="../phpDocumentor/ParserElements/parserConst.html">parserConst</a></span>&nbsp;<span class="var-name">&$element</span>)
+        </div>
+    <div class="method-definition">
+            <span class="method-result">void</span>
+        <a href="#methodaddMethod" title="details" class="method-name">addMethod</a>
+        (<span class="var-type"><a href="../phpDocumentor/ParserElements/parserMethod.html">parserMethod</a></span>&nbsp;<span class="var-name">&$element</span>)
+        </div>
+    <div class="method-definition">
+            <span class="method-result">void</span>
+        <a href="#methodaddPackageToFile" title="details" class="method-name">addPackageToFile</a>
+        (<span class="var-type">string</span>&nbsp;<span class="var-name">$package</span>)
+        </div>
+    <div class="method-definition">
+            <span class="method-result">void</span>
+        <a href="#methodaddVar" title="details" class="method-name">addVar</a>
+        (<span class="var-type"><a href="../phpDocumentor/ParserElements/parserVar.html">parserVar</a></span>&nbsp;<span class="var-name">&$element</span>)
+        </div>
+    <div class="method-definition">
+            <span class="method-result"><a href="../phpDocumentor/ParserElements/parserClass.html">parserClass</a></span>
+        <a href="#methodgetClass" title="details" class="method-name">&amp;getClass</a>
+        (<span class="var-type">string</span>&nbsp;<span class="var-name">$class</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$file</span>)
+        </div>
+    <div class="method-definition">
+            <span class="method-result">mixed</span>
+        <a href="#methodgetClassByPackage" title="details" class="method-name">&amp;getClassByPackage</a>
+        (<span class="var-type">string</span>&nbsp;<span class="var-name">$class</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$package</span>)
+        </div>
+    <div class="method-definition">
+            <span class="method-result">mixed</span>
+        <a href="#methodgetClassesInPath" title="details" class="method-name">getClassesInPath</a>
+        (<span class="var-type">string</span>&nbsp;<span class="var-name">$path</span>)
+        </div>
+    <div class="method-definition">
+            <span class="method-result">mixed</span>
+        <a href="#methodgetConflicts" title="details" class="method-name">getConflicts</a>
+        (<span class="var-type">mixed</span>&nbsp;<span class="var-name">$class</span>)
+        </div>
+    <div class="method-definition">
+            <span class="method-result">mixed</span>
+        <a href="#methodgetDefiniteChildren" title="details" class="method-name">getDefiniteChildren</a>
+        (<span class="var-type">string</span>&nbsp;<span class="var-name">$parclass</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$file</span>)
+        </div>
+    <div class="method-definition">
+            <span class="method-result">mixed</span>
+        <a href="#methodgetParentClass" title="details" class="method-name">getParentClass</a>
+        (<span class="var-type">string</span>&nbsp;<span class="var-name">$class</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$file</span>)
+        </div>
+    <div class="method-definition">
+            <span class="method-result">array</span>
+        <a href="#methodgetRoots" title="details" class="method-name">getRoots</a>
+        ([<span class="var-type">boolean</span>&nbsp;<span class="var-name">$all</span> = <span class="var-default">false</span>])
+        </div>
+    <div class="method-definition">
+            <span class="method-result">void</span>
+        <a href="#methodInherit" title="details" class="method-name">Inherit</a>
+        (<span class="var-type"><a href="../phpDocumentor/phpDocumentor_IntermediateParser.html">phpDocumentor_IntermediateParser</a></span>&nbsp;<span class="var-name">&$render</span>)
+        </div>
+    <div class="method-definition">
+            <span class="method-result">void</span>
+        <a href="#methodnextFile" title="details" class="method-name">nextFile</a>
+        (<span class="var-type">string</span>&nbsp;<span class="var-name">$file</span>)
+        </div>
+    <div class="method-definition">
+            <span class="method-result">void</span>
+        <a href="#methodprocessChild" title="details" class="method-name">processChild</a>
+        (<span class="var-type"><a href="../phpDocumentor/phpDocumentor_IntermediateParser.html">phpDocumentor_IntermediateParser</a></span>&nbsp;<span class="var-name">&$render</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$class</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$file</span>, [<span class="var-type">boolean</span>&nbsp;<span class="var-name">$furb</span> = <span class="var-default">false</span>])
+        </div>
+    <div class="method-definition">
+            <span class="method-result">void</span>
+        <a href="#methodsetClassParent" title="details" class="method-name">setClassParent</a>
+        (<span class="var-type">string</span>&nbsp;<span class="var-name">$class</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$file</span>)
+        </div>
+</div>
+<hr />
+<A NAME='method_detail'></A>
+
+
+<a name="methodaddClass" id="methodaddClass"><!-- --></a>
+<div style="background='#ffffff'"><h4>
+<img src="../media/images/PublicMethod.gif" border="0" /> <strong class="method">Method addClass</strong> (line <span class="linenumber"><a href="../__filesource/fsource_phpDocumentor__phpDocumentorClasses.inc.html#a393">393</a></span>)
+ </h4> 
+<h4><i>void</i> <strong>addClass(
+<a href="../phpDocumentor/ParserElements/parserClass.html">parserClass</a>
+&$element)</strong></h4>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<h5>While parsing, add a class to the list of parsed classes</h5>
+<div class="desc"><p>sets up the $classesbyfile, $classesbynamefile, $extendsbyfile,  $classchildrenbyfile, $roots arrays, and sets $curclass</p></div>
+		<h4>Parameters</h4>
+	<ul>
+			<li><strong><a href="../phpDocumentor/ParserElements/parserClass.html">parserClass</a> &$element</strong>: element is a <a href="../phpDocumentor/ParserElements/parserClass.html">parserClass</a></li>
+		</ul>
+		
+	<h4>Info</h4>
+	<ul>
+			<li><strong>uses</strong> - <a href="../phpDocumentor/Classes.html#methodaddPackageToFile">Classes::addPackageToFile()</a> - marks the current class's package as being
+                          present in a file</li>
+		</ul>
+</div>
+<a name="methodaddConst" id="methodaddConst"><!-- --></a>
+<div style="background='#eeeeee'"><h4>
+<img src="../media/images/PublicMethod.gif" border="0" /> <strong class="method">Method addConst</strong> (line <span class="linenumber"><a href="../__filesource/fsource_phpDocumentor__phpDocumentorClasses.inc.html#a466">466</a></span>)
+ </h4> 
+<h4><i>void</i> <strong>addConst(
+<a href="../phpDocumentor/ParserElements/parserConst.html">parserConst</a>
+&$element)</strong></h4>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<h5>While parsing, add a variable to the list of parsed variables</h5>
+<div class="desc"><p>sets up the $constsbyfile array using $curfile  and $curclass</p></div>
+		<h4>Parameters</h4>
+	<ul>
+			<li><strong><a href="../phpDocumentor/ParserElements/parserConst.html">parserConst</a> &$element</strong>: element is a <a href="../phpDocumentor/ParserElements/parserConst.html">parserConst</a></li>
+		</ul>
+		
+	<h4>Info</h4>
+	<ul>
+		</ul>
+</div>
+<a name="methodaddMethod" id="methodaddMethod"><!-- --></a>
+<div style="background='#ffffff'"><h4>
+<img src="../media/images/PublicMethod.gif" border="0" /> <strong class="method">Method addMethod</strong> (line <span class="linenumber"><a href="../__filesource/fsource_phpDocumentor__phpDocumentorClasses.inc.html#a434">434</a></span>)
+ </h4> 
+<h4><i>void</i> <strong>addMethod(
+<a href="../phpDocumentor/ParserElements/parserMethod.html">parserMethod</a>
+&$element)</strong></h4>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<h5>While parsing, add a method to the list of parsed methods</h5>
+<div class="desc"><p>sets up the $methodsbyfile array using $curfile and  $curclass</p></div>
+		<h4>Parameters</h4>
+	<ul>
+			<li><strong><a href="../phpDocumentor/ParserElements/parserMethod.html">parserMethod</a> &$element</strong>: element is a <a href="../phpDocumentor/ParserElements/parserMethod.html">parserMethod</a></li>
+		</ul>
+		
+	<h4>Info</h4>
+	<ul>
+		</ul>
+</div>
+<a name="methodaddPackageToFile" id="methodaddPackageToFile"><!-- --></a>
+<div style="background='#eeeeee'"><h4>
+<img src="../media/images/PublicMethod.gif" border="0" /> <strong class="method">Method addPackageToFile</strong> (line <span class="linenumber"><a href="../__filesource/fsource_phpDocumentor__phpDocumentorClasses.inc.html#a497">497</a></span>)
+ </h4> 
+<h4><i>void</i> <strong>addPackageToFile(
+string
+$package)</strong></h4>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<h5>Mark a package as being used in a class</h5>
+<div class="desc"><p><div class="src-code"><ol><li><div class="src-line"><span class="src-key">function&nbsp;</span><a href="../phpDocumentor/Classes.html#methodaddPackageToFile">addPackageToFile</a><span class="src-sym">(</span><span class="src-var">$package</span><span class="src-sym">)</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">{</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">if&nbsp;</span><span class="src-sym">(</span><span class="src-sym">!</span>isset<span class="src-sym">(</span><span class="src-var">$this</span><span class="src-sym">-&gt;</span><span class="src-id">revcpbf</span><span class="src-sym">[</span><span class="src-var">$this</span><span class="src-sym">-&gt;</span><span class="src-id">curfile</span><span class="src-sym">]</span><span class="src-sym">[</span><span class="src-var">$package</span><span class="src-sym">]</span><span class="src-sym">))</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-var">$this</span><span class="src-sym">-&gt;</span><span class="src-id">classpackagebyfile</span><span class="src-sym">[</span><span class="src-var">$this</span><span class="src-sym">-&gt;</span><span class="src-id">curfile</span><span class="src-sym">]</span><span class="src-sym">[</span><span class="src-sym">]&nbsp;</span>=&nbsp;<span class="src-var">$package</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-var">$this</span><span class="src-sym">-&gt;</span><span class="src-id">revcpbf</span><span class="src-sym">[</span><span class="src-var">$this</span><span class="src-sym">-&gt;</span><span class="src-id">curfile</span><span class="src-sym">]</span><span class="src-sym">[</span><span class="src-var">$package</span><span class="src-sym">]&nbsp;&nbsp;&nbsp;&nbsp;</span>=&nbsp;<span class="src-num">1</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">}</span></div></li>
+</ol></div></p></div>
+		<h4>Parameters</h4>
+	<ul>
+			<li><strong>string $package</strong>: package name</li>
+		</ul>
+		
+	<h4>Info</h4>
+	<ul>
+			<li><strong>usedby</strong> - <a href="../phpDocumentor/Classes.html#methodaddClass">Classes::addClass()</a> - marks the current class's package as being
+                          present in a file</li>
+		</ul>
+</div>
+<a name="methodaddVar" id="methodaddVar"><!-- --></a>
+<div style="background='#ffffff'"><h4>
+<img src="../media/images/PublicMethod.gif" border="0" /> <strong class="method">Method addVar</strong> (line <span class="linenumber"><a href="../__filesource/fsource_phpDocumentor__phpDocumentorClasses.inc.html#a450">450</a></span>)
+ </h4> 
+<h4><i>void</i> <strong>addVar(
+<a href="../phpDocumentor/ParserElements/parserVar.html">parserVar</a>
+&$element)</strong></h4>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<h5>While parsing, add a variable to the list of parsed variables</h5>
+<div class="desc"><p>sets up the $varsbyfile array using $curfile  and $curclass</p></div>
+		<h4>Parameters</h4>
+	<ul>
+			<li><strong><a href="../phpDocumentor/ParserElements/parserVar.html">parserVar</a> &$element</strong>: element is a <a href="../phpDocumentor/ParserElements/parserVar.html">parserVar</a></li>
+		</ul>
+		
+	<h4>Info</h4>
+	<ul>
+		</ul>
+</div>
+<a name="methodgetClass" id="methodgetClass"><!-- --></a>
+<div style="background='#eeeeee'"><h4>
+<img src="../media/images/PublicMethod.gif" border="0" /> <strong class="method">Method getClass</strong> (line <span class="linenumber"><a href="../__filesource/fsource_phpDocumentor__phpDocumentorClasses.inc.html#a943">943</a></span>)
+ </h4> 
+<h4><i><a href="../phpDocumentor/ParserElements/parserClass.html">parserClass</a></i> <strong>&amp;getClass(
+string
+$class, string
+$file)</strong></h4>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<h5>Get the parserClass representation of a class from its name and file</h5>
+		<h4>Parameters</h4>
+	<ul>
+			<li><strong>string $class</strong>: classname</li>
+			<li><strong>string $file</strong>: file classname is located in</li>
+		</ul>
+		
+	<h4>Info</h4>
+	<ul>
+		</ul>
+</div>
+<a name="methodgetClassByPackage" id="methodgetClassByPackage"><!-- --></a>
+<div style="background='#ffffff'"><h4>
+<img src="../media/images/PublicMethod.gif" border="0" /> <strong class="method">Method getClassByPackage</strong> (line <span class="linenumber"><a href="../__filesource/fsource_phpDocumentor__phpDocumentorClasses.inc.html#a1189">1189</a></span>)
+ </h4> 
+<h4><i>mixed</i> <strong>&amp;getClassByPackage(
+string
+$class, string
+$package)</strong></h4>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<h5>Search for a class in a package</h5>
+		<h4>Parameters</h4>
+	<ul>
+			<li><strong>string $class</strong>: classname</li>
+			<li><strong>string $package</strong>: package classname is in</li>
+		</ul>
+		
+	<h4>Info</h4>
+	<ul>
+			<li><strong>return</strong> - returns false if no class in $package,                otherwise returns a <a href="../phpDocumentor/ParserElements/parserClass.html">parserClass</a></li>
+		</ul>
+</div>
+<a name="methodgetClassesInPath" id="methodgetClassesInPath"><!-- --></a>
+<div style="background='#eeeeee'"><h4>
+<img src="../media/images/PublicMethod.gif" border="0" /> <strong class="method">Method getClassesInPath</strong> (line <span class="linenumber"><a href="../__filesource/fsource_phpDocumentor__phpDocumentorClasses.inc.html#a960">960</a></span>)
+ </h4> 
+<h4><i>mixed</i> <strong>getClassesInPath(
+string
+$path)</strong></h4>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<h5>Used by <a href="../phpDocumentor/ParserData/parserData.html#methodgetClasses">parserData::getClasses()</a>  to retrieve classes defined in file $path</h5>
+<div class="desc"><p>retrieves the array entry from $classesbyfile for $path</p></div>
+		<h4>Parameters</h4>
+	<ul>
+			<li><strong>string $path</strong>: full path to filename</li>
+		</ul>
+		
+	<h4>Info</h4>
+	<ul>
+			<li><strong>return</strong> - returns false if no classes defined in the file,                otherwise returns an array of <a href="../phpDocumentor/ParserElements/parserClass.html">parserClass</a>es</li>
+		</ul>
+</div>
+<a name="methodgetConflicts" id="methodgetConflicts"><!-- --></a>
+<div style="background='#ffffff'"><h4>
+<img src="../media/images/PublicMethod.gif" border="0" /> <strong class="method">Method getConflicts</strong> (line <span class="linenumber"><a href="../__filesource/fsource_phpDocumentor__phpDocumentorClasses.inc.html#a630">630</a></span>)
+ </h4> 
+<h4><i>mixed</i> <strong>getConflicts(
+mixed
+$class)</strong></h4>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<h5>If a package contains two classes with the same name, this function finds  that conflict</h5>
+<div class="desc"><p>Returns the $classconflicts entry for class $class, minus its own path</p></div>
+		<h4>Parameters</h4>
+	<ul>
+			<li><strong>mixed $class</strong>: the class name to search for</li>
+		</ul>
+		
+	<h4>Info</h4>
+	<ul>
+			<li><strong>return</strong> - returns false if no conflicts,                or an array of paths containing conflicts</li>
+		</ul>
+</div>
+<a name="methodgetDefiniteChildren" id="methodgetDefiniteChildren"><!-- --></a>
+<div style="background='#eeeeee'"><h4>
+<img src="../media/images/PublicMethod.gif" border="0" /> <strong class="method">Method getDefiniteChildren</strong> (line <span class="linenumber"><a href="../__filesource/fsource_phpDocumentor__phpDocumentorClasses.inc.html#a1349">1349</a></span>)
+ </h4> 
+<h4><i>mixed</i> <strong>getDefiniteChildren(
+string
+$parclass, string
+$file)</strong></h4>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<h5>Get all classes confirmed in parsing  to be descended class $parclass in file $file</h5>
+		<h4>Parameters</h4>
+	<ul>
+			<li><strong>string $parclass</strong>: name of parent class</li>
+			<li><strong>string $file</strong>: file parent class is found in</li>
+		</ul>
+		
+	<h4>Info</h4>
+	<ul>
+			<li><strong>return</strong> - either false if no children, or array of format          array(childname =&gt; childfile,childname2 =&gt; childfile2,...)</li>
+			<li><strong>see</strong> - <a href="../phpDocumentor/ParserElements/parserClass.html#methodgetChildClassList">parserClass::getChildClassList()</a></li>
+			<li><strong>uses</strong> - $definitechild</li>
+		</ul>
+</div>
+<a name="methodgetParentClass" id="methodgetParentClass"><!-- --></a>
+<div style="background='#ffffff'"><h4>
+<img src="../media/images/PublicMethod.gif" border="0" /> <strong class="method">Method getParentClass</strong> (line <span class="linenumber"><a href="../__filesource/fsource_phpDocumentor__phpDocumentorClasses.inc.html#a1227">1227</a></span>)
+ </h4> 
+<h4><i>mixed</i> <strong>getParentClass(
+string
+$class, string
+$file)</strong></h4>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<h5>Find the parent class of a class in file $file</h5>
+<div class="desc"><p>uses 3 tests to find the parent classname:  <ol><li>only one class with the parent classname</li><li>more than one class, but only one in the same file as the child</li><li>only one parent class in the same package as the child</li></ol></p></div>
+		<h4>Parameters</h4>
+	<ul>
+			<li><strong>string $class</strong>: classname</li>
+			<li><strong>string $file</strong>: file classname is located in</li>
+		</ul>
+		
+	<h4>Info</h4>
+	<ul>
+			<li><strong>return</strong> - false if no parent class,                a string if no parent class found by that name,                and an array(file parentclass is in, parentclassname)</li>
+			<li><strong>usedby</strong> - <a href="../phpDocumentor/Classes.html#methodsetClassParent">Classes::setClassParent()</a> - to find the parent class</li>
+		</ul>
+</div>
+<a name="methodgetRoots" id="methodgetRoots"><!-- --></a>
+<div style="background='#eeeeee'"><h4>
+<img src="../media/images/PublicMethod.gif" border="0" /> <strong class="method">Method getRoots</strong> (line <span class="linenumber"><a href="../__filesource/fsource_phpDocumentor__phpDocumentorClasses.inc.html#a1292">1292</a></span>)
+ </h4> 
+<h4><i>array</i> <strong>getRoots(
+[boolean
+$all = false])</strong></h4>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<h5>Get a list of all root classes indexed by package.  Used to generate  class trees by <a href="../Converters/Converter.html">Converter</a></h5>
+		<h4>Parameters</h4>
+	<ul>
+			<li><strong>boolean $all</strong>: [since phpDocumentor 1.3.0RC6] determines whether to                      return class trees that extend non-parsed classes</li>
+		</ul>
+		
+	<h4>Info</h4>
+	<ul>
+			<li><strong>return</strong> - array(package =&gt; array(rootclassname, rootclassname,...),...)</li>
+		</ul>
+</div>
+<a name="methodInherit" id="methodInherit"><!-- --></a>
+<div style="background='#ffffff'"><h4>
+<img src="../media/images/PublicMethod.gif" border="0" /> <strong class="method">Method Inherit</strong> (line <span class="linenumber"><a href="../__filesource/fsource_phpDocumentor__phpDocumentorClasses.inc.html#a546">546</a></span>)
+ </h4> 
+<h4><i>void</i> <strong>Inherit(
+<a href="../phpDocumentor/phpDocumentor_IntermediateParser.html">phpDocumentor_IntermediateParser</a>
+&$render)</strong></h4>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<h5>Main processing engine for setting up class inheritance.</h5>
+<div class="desc"><p>This function uses $roots to traverse the inheritance tree via  <a href="../phpDocumentor/Classes.html#methodprocessChild">processChild()</a> and returns the data structures  phpDocumentor_IntermediateParser needs to convert parsed data  to output using <a href="../phpDocumentor/phpDocumentor_IntermediateParser.html#methodConvert">phpDocumentor_IntermediateParser::Convert()</a></p></div>
+		<h4>Parameters</h4>
+	<ul>
+			<li><strong><a href="../phpDocumentor/phpDocumentor_IntermediateParser.html">phpDocumentor_IntermediateParser</a> &$render</strong>: the renderer object</li>
+		</ul>
+		
+	<h4>Info</h4>
+	<ul>
+			<li><strong>todo</strong> - CS Cleanup - rename to &quot;inherit&quot; for CamelCaps naming standard</li>
+			<li><strong>uses</strong> - <a href="../phpDocumentor/Classes.html#methodprocessChild">Classes::processChild()</a> - set up inheritance</li>
+		</ul>
+</div>
+<a name="methodnextFile" id="methodnextFile"><!-- --></a>
+<div style="background='#eeeeee'"><h4>
+<img src="../media/images/PublicMethod.gif" border="0" /> <strong class="method">Method nextFile</strong> (line <span class="linenumber"><a href="../__filesource/fsource_phpDocumentor__phpDocumentorClasses.inc.html#a482">482</a></span>)
+ </h4> 
+<h4><i>void</i> <strong>nextFile(
+string
+$file)</strong></h4>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<h5>Prepare to parse a new file</h5>
+<div class="desc"><p>sets $curfile to $file and $curclass  to false (no class being parsed)</p></div>
+		<h4>Parameters</h4>
+	<ul>
+			<li><strong>string $file</strong>: file currently being parsed</li>
+		</ul>
+		
+	<h4>Info</h4>
+	<ul>
+		</ul>
+</div>
+<a name="methodprocessChild" id="methodprocessChild"><!-- --></a>
+<div style="background='#ffffff'"><h4>
+<img src="../media/images/PublicMethod.gif" border="0" /> <strong class="method">Method processChild</strong> (line <span class="linenumber"><a href="../__filesource/fsource_phpDocumentor__phpDocumentorClasses.inc.html#a690">690</a></span>)
+ </h4> 
+<h4><i>void</i> <strong>processChild(
+<a href="../phpDocumentor/phpDocumentor_IntermediateParser.html">phpDocumentor_IntermediateParser</a>
+&$render, string
+$class, string
+$file, [boolean
+$furb = false])</strong></h4>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<h5>This function recursively climbs up the class tree, setting inherited  information like package and adds the elements to  <a href="../phpDocumentor/phpDocumentor_IntermediateParser.html">phpDocumentor_IntermediateParser</a>.</h5>
+<div class="desc"><p>Using structures defined in <a href="../phpDocumentor/Classes.html">Classes</a>,  the function first sets package information,  and then seeks out child classes.  It uses 3 tests to determine whether a class is a child class.  <ol><li>child class is in the same file as the parent class
+        and extends parent class</li><li>child class is in a different file and specifies
+        the parent's @package in its docblock</li><li>child class is in a different file and is in a
+        different @package, with one possible parent class</li></ol></p></div>
+		<h4>Parameters</h4>
+	<ul>
+			<li><strong><a href="../phpDocumentor/phpDocumentor_IntermediateParser.html">phpDocumentor_IntermediateParser</a> &$render</strong>: the renderer object</li>
+			<li><strong>string $class</strong>: class to process</li>
+			<li><strong>string $file</strong>: name of file $class                                                   is located in</li>
+			<li><strong>boolean $furb</strong>: flag used privately                                                   to control informational                                                   output while parsing                                                   (used when processing                                                   leftover classes in                                                   <a href="../phpDocumentor/Classes.html#methodInherit">Inherit()</a></li>
+		</ul>
+		
+	<h4>Info</h4>
+	<ul>
+			<li><strong>global</strong> - string <a href="../phpDocumentor/_phpDocumentor---Setup.inc.php.html#global$phpDocumentor_DefaultPackageName">$phpDocumentor_DefaultPackageName</a>: default package, usually &quot;default&quot;</li>
+			<li><strong>usedby</strong> - <a href="../phpDocumentor/Classes.html#methodInherit">Classes::Inherit()</a> - set up inheritance</li>
+		</ul>
+</div>
+<a name="methodsetClassParent" id="methodsetClassParent"><!-- --></a>
+<div style="background='#eeeeee'"><h4>
+<img src="../media/images/PublicMethod.gif" border="0" /> <strong class="method">Method setClassParent</strong> (line <span class="linenumber"><a href="../__filesource/fsource_phpDocumentor__phpDocumentorClasses.inc.html#a518">518</a></span>)
+ </h4> 
+<h4><i>void</i> <strong>setClassParent(
+string
+$class, string
+$file)</strong></h4>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<h5>Find the parent class of $class, and set up structures to note this fact</h5>
+<div class="desc"><p>Modifies the <a href="../phpDocumentor/ParserElements/parserClass.html">parserClass</a> element in $classesbyfile to use  the parent's package, and inherit methods/vars</p></div>
+		<h4>Parameters</h4>
+	<ul>
+			<li><strong>string $class</strong>: child class to find parent class</li>
+			<li><strong>string $file</strong>: file child class is located in</li>
+		</ul>
+		
+	<h4>Info</h4>
+	<ul>
+			<li><strong>uses</strong> - <a href="../phpDocumentor/Classes.html#methodgetParentClass">Classes::getParentClass()</a> - to find the parent class</li>
+			<li><strong>uses</strong> - $definitechild - if a match is made between a parent class and parameter
+                      $class in file $file, then definitechild is set here</li>
+		</ul>
+</div>
+<script type="text/javascript">tp1.addTabPage( document.getElementById( "tabPage2" ) );</script></div>
+<div class="tab-page" id="iVars">
+<h2 class="tab">Inherited Variables</h2>
+<script type="text/javascript">tp1.addTabPage( document.getElementById( "iVars" ) );</script>
+<!-- =========== VAR INHERITED SUMMARY =========== -->
+<A NAME='var_inherited_summary'><!-- --></A>
+<h3>Inherited Class Variable Summary</h3>
+
+	</div>
+<div class="tab-page" id="iMethods">
+<h2 class="tab">Inherited Methods</h2>
+<script type="text/javascript">tp1.addTabPage( document.getElementById( "iMethods" ) );</script>
+<!-- =========== INHERITED METHOD SUMMARY =========== -->
+<A NAME='functions_inherited'><!-- --></A>
+<h3>Inherited Method Summary</h3>
+
+	</div>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+
+setupAllTabs();
+
+//]]>
+</script>
+	<div id="credit">
+		<hr />
+		Documentation generated on Mon, 05 Dec 2011 21:25:03 -0600 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.4</a>
+	</div>
+</body>
+</html>

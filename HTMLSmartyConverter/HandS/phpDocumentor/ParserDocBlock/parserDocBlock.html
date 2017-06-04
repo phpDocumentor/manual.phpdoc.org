@@ -1,0 +1,3373 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Docs For Class parserDocBlock</title>
+	<link rel="stylesheet" type="text/css" href="../../media/style.css">
+	<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+	<td class="header-top-left"><img src="../../media/logo.png" border="0" alt="phpDocumentor " /></td>
+    <td class="header-top-right">phpDocumentor<br /><div class="header-top-right-subpackage">ParserDocBlock</div></td>
+  </tr>
+  <tr><td colspan="2" class="header-line"><img src="../../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td colspan="2" class="header-menu">
+      
+                        
+                                    		[ <a href="../../classtrees_phpDocumentor.html" class="menu">class tree: phpDocumentor</a> ]
+		[ <a href="../../elementindex_phpDocumentor.html" class="menu">index: phpDocumentor</a> ]
+            [ <a href="../../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td colspan="2" class="header-line"><img src="../../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="195" class="menu">
+		<div class="package-title">phpDocumentor</div>
+  <div class="package">
+	<div id="ric">
+					<p><a href="../../ric_FAQ.html">FAQ</a></p>
+					<p><a href="../../ric_ChangeLog.html">ChangeLog</a></p>
+					<p><a href="../../ric_INSTALL.html">INSTALL</a></p>
+					<p><a href="../../ric_README.html">README</a></p>
+			</div>
+	</div>
+  <div class="package">
+	<div id="todolist">
+			<p><a href="../../todolist.html">Todo List</a></p>
+	</div>
+	</div>
+      <b>Packages:</b><br />
+  <div class="package">
+              <a href="../../li_phpDocumentor.html">phpDocumentor</a><br />
+              <a href="../../li_Converters.html">Converters</a><br />
+      	</div>
+      <br />
+		<b>Tutorials/Manuals:</b><br />
+  <div class="package">
+					<strong>Package-level:</strong>
+							<ul>
+	<li><a href="../../phpDocumentor/tutorial_phpDocumentor.pkg.html">phpDocumentor Guide to Creating Fantastic Documentation</a>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_phpDocumentor.quickstart.pkg.html">phpDocumentor Quickstart</a>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_sample1.pkg.html">Source code for sample1.php</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_sample2.pkg.html">Source code for sample2.php</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_sample3.pkg.html">Source code for sample3.php</a>
+</ul>
+</li></ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_phpDocumentor.howto.pkg.html"> phpDocumentor  Tutorial</a>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_elements.pkg.html">Documentable PHP Elements</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tutorials.pkg.html">phpDocumentor Tutorials</a>
+</ul>
+</li></ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_manual.pkg.html"> phpDocumentor  Manual</a>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.pkg.html">phpDocumentor tags</a>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.abstract.pkg.html">@abstract</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.access.pkg.html">@access</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.author.pkg.html">@author</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.category.pkg.html">@category</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.copyright.pkg.html">@copyright</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.deprecated.pkg.html">@deprecated</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.example.pkg.html">@example</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.final.pkg.html">@final</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.filesource.pkg.html">@filesource</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.global.pkg.html">@global</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.ignore.pkg.html">@ignore</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.internal.pkg.html">@internal</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.license.pkg.html">@license</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.link.pkg.html">@link</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.method.pkg.html">@method</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.name.pkg.html">@name</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.package.pkg.html">@package</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.param.pkg.html">@param</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.property.pkg.html">@property</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.return.pkg.html">@return</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.see.pkg.html">@see</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.since.pkg.html">@since</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.static.pkg.html">@static</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.staticvar.pkg.html">@staticvar</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.subpackage.pkg.html">@subpackage</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.todo.pkg.html">@todo</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.tutorial.pkg.html">@tutorial</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.uses.pkg.html">@uses</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.var.pkg.html">@var</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.version.pkg.html">@version</a>
+</ul>
+</li></ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_inlinetags.pkg.html">phpDocumentor Inline tags</a>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlineexample.pkg.html">inline {@example}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlineid.pkg.html">inline {@id}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlineinternal.pkg.html">inline {@internal}}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlineinheritdoc.pkg.html">inline {@inheritdoc}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlinelink.pkg.html">inline {@link}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlinesource.pkg.html">inline {@source}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlinetoc.pkg.html">inline {@toc}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlinetutorial.pkg.html">inline {@tutorial}</a>
+</ul>
+</li></ul>
+</li></ul>
+</li></ul>
+
+									                        <b>Files:</b><br />
+        <div class="package">
+				<span style="padding-left: 1em;"><a href="../../phpDocumentor/_docbuilder---actions.php.html">actions.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_Documentation---tests---bug-560532.php.html">bug-560532.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_Documentation---tests---bug-772441.php.html">bug-772441.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_docbuilder---builder.php.html">builder.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpDocumentor---Classes.inc.html">Classes.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpDocumentor---clone.inc.php.html">clone.inc.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpDocumentor---clone5.inc.php.html">clone5.inc.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpDocumentor---common.inc.php.html">common.inc.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_docbuilder---config.php.html">config.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpDocumentor---EventStack.inc.html">EventStack.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_docbuilder---file_dialog.php.html">file_dialog.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_tests---HighlightParserTests.php.html">HighlightParserTests.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpDocumentor---IntermediateParser.inc.html">IntermediateParser.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_tests---IntermediateParserTests.php.html">IntermediateParserTests.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpDocumentor---Io.inc.html">Io.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_new_phpdoc.php.html">new_phpdoc.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_tests---ParserClassTests.php.html">ParserClassTests.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpDocumentor---ParserDescCleanup.inc.html">ParserDescCleanup.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_tests---ParserPageTests.php.html">ParserPageTests.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpDocumentor---phpdoc.inc.html">phpdoc.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpdoc.php.html">phpdoc.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_tests---phpDocumentorSetupTests.php.html">phpDocumentorSetupTests.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_tests---phpDocumentorTParserTests.php.html">phpDocumentorTParserTests.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpDocumentor---ProceduralPages.inc.html">ProceduralPages.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpDocumentor---Publisher.inc.html">Publisher.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_phpDocumentor---Setup.inc.php.html">Setup.inc.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_docbuilder---top.php.html">top.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/_docbuilder---includes---utilities.php.html">utilities.php</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>DescHTML</strong><br />			<span style="padding-left: 1em;"><a href="../../phpDocumentor/DescHTML/_phpDocumentor---DescHTML.inc.html">DescHTML.inc</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>DocBlockTags</strong><br />			<span style="padding-left: 1em;"><a href="../../phpDocumentor/DocBlockTags/_phpDocumentor---DocBlockTags.inc.html">DocBlockTags.inc</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>Errors</strong><br />			<span style="padding-left: 1em;"><a href="../../phpDocumentor/Errors/_phpDocumentor---Errors.inc.html">Errors.inc</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>InlineTags</strong><br />			<span style="padding-left: 1em;"><a href="../../phpDocumentor/InlineTags/_phpDocumentor---InlineTags.inc.html">InlineTags.inc</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>Links</strong><br />			<span style="padding-left: 1em;"><a href="../../phpDocumentor/Links/_phpDocumentor---LinkClasses.inc.html">LinkClasses.inc</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>ParserData</strong><br />			<span style="padding-left: 1em;"><a href="../../phpDocumentor/ParserData/_phpDocumentor---ParserData.inc.html">ParserData.inc</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>ParserDocBlock</strong><br />			<span style="padding-left: 1em;"><a href="../../phpDocumentor/ParserDocBlock/_phpDocumentor---ParserDocBlock.inc.html">ParserDocBlock.inc</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>ParserElements</strong><br />			<span style="padding-left: 1em;"><a href="../../phpDocumentor/ParserElements/_phpDocumentor---ParserElements.inc.html">ParserElements.inc</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>Parsers</strong><br />			<span style="padding-left: 1em;"><a href="../../phpDocumentor/Parsers/_phpDocumentor---Converters---XML---DocBook---peardoc2---Beautifier.php.html">Beautifier.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/Parsers/_phpDocumentor---HighlightParser.inc.html">HighlightParser.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/Parsers/_phpDocumentor---Parser.inc.html">Parser.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/Parsers/_phpDocumentor---phpDocumentorTParser.inc.html">phpDocumentorTParser.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/Parsers/_phpDocumentor---Converters---XML---DocBook---peardoc2---Tokenizer.php.html">Tokenizer.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/Parsers/_phpDocumentor---TutorialHighlightParser.inc.html">TutorialHighlightParser.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/Parsers/_phpDocumentor---XMLpackagePageParser.inc.html">XMLpackagePageParser.inc</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>setup</strong><br />			<span style="padding-left: 1em;"><a href="../../phpDocumentor/setup/_phpDocumentor---find_phpdoc.php.html">find_phpdoc.php</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>Tutorial</strong><br />			<span style="padding-left: 1em;"><a href="../../phpDocumentor/Tutorial/_phpDocumentor---PackagePageElements.inc.html">PackagePageElements.inc</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>WordParsers</strong><br />			<span style="padding-left: 1em;"><a href="../../phpDocumentor/WordParsers/_phpDocumentor---phpDocumentorTWordParser.inc.html">phpDocumentorTWordParser.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../phpDocumentor/WordParsers/_phpDocumentor---WordParser.inc.html">WordParser.inc</a></span><br />
+	  </div>
+            <br />
+                  <b>Classes:</b><br />
+        <div class="package">
+	Parsers<br />	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Parsers/Parser.html">Parser</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Parsers/parserDescParser.html">parserDescParser</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Parsers/phpDocumentorTParser.html">phpDocumentorTParser</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Parsers/phpDocumentor_HighlightParser.html">phpDocumentor_HighlightParser</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Parsers/phpDocumentor_HighlightWordParser.html">phpDocumentor_HighlightWordParser</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Parsers/phpDocumentor_peardoc2_XML_Beautifier.html">phpDocumentor_peardoc2_XML_Beautifier</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Parsers/phpDocumentor_TutorialHighlightParser.html">phpDocumentor_TutorialHighlightParser</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Parsers/phpDocumentor_XML_Beautifier_Tokenizer.html">phpDocumentor_XML_Beautifier_Tokenizer</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Parsers/ppageParser.html">ppageParser</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Parsers/XMLPackagePageParser.html">XMLPackagePageParser</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+		    		<a href="../../phpDocumentor/bug_772441.html">bug_772441</a>    	 <br />
+	    		<a href="../../phpDocumentor/Classes.html">Classes</a>    	 <br />
+	    		<a href="../../phpDocumentor/EventStack.html">EventStack</a>    	 <br />
+	    		<a href="../../phpDocumentor/Io.html">Io</a>    	 <br />
+	    		<a href="../../phpDocumentor/phpDocumentor_IntermediateParser.html">phpDocumentor_IntermediateParser</a>    	 <br />
+	    		<a href="../../phpDocumentor/phpDocumentor_setup.html">phpDocumentor_setup</a>    	 <br />
+	    		<a href="../../phpDocumentor/ProceduralPages.html">ProceduralPages</a>    	 <br />
+	    		<a href="../../phpDocumentor/Publisher.html">Publisher</a>    	 <br />
+	    		<a href="../../phpDocumentor/tests_HighlightParserTests.html">tests_HighlightParserTests</a>    	 <br />
+	    		<a href="../../phpDocumentor/tests_IntermediateParserTests.html">tests_IntermediateParserTests</a>    	 <br />
+	    		<a href="../../phpDocumentor/tests_ParserClassTests.html">tests_ParserClassTests</a>    	 <br />
+	    		<a href="../../phpDocumentor/tests_ParserPageTests.html">tests_ParserPageTests</a>    	 <br />
+	    		<a href="../../phpDocumentor/tests_phpDocumentorSetupTests.html">tests_phpDocumentorSetupTests</a>    	 <br />
+	    		<a href="../../phpDocumentor/tests_phpDocumentorTParserTests.html">tests_phpDocumentorTParserTests</a>    	 <br />
+	  </div>
+  <div class="package">
+	DescHTML<br />	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DescHTML/parserB.html">parserB</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DescHTML/parserBr.html">parserBr</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DescHTML/parserCode.html">parserCode</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DescHTML/parserDescVar.html">parserDescVar</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DescHTML/parserI.html">parserI</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DescHTML/parserKbd.html">parserKbd</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DescHTML/parserList.html">parserList</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DescHTML/parserPre.html">parserPre</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DescHTML/parserSamp.html">parserSamp</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+	DocBlockTags<br />	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserAccessTag.html">parserAccessTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserExampleTag.html">parserExampleTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserFileSourceTag.html">parserFileSourceTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserLicenseTag.html">parserLicenseTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserLinkTag.html">parserLinkTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserMethodTag.html">parserMethodTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserNameTag.html">parserNameTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserParamTag.html">parserParamTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserPropertyReadTag.html">parserPropertyReadTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserPropertyTag.html">parserPropertyTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserPropertyWriteTag.html">parserPropertyWriteTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserReturnTag.html">parserReturnTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserSeeTag.html">parserSeeTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserStaticvarTag.html">parserStaticvarTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserTag.html">parserTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserTutorialTag.html">parserTutorialTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserUsedByTag.html">parserUsedByTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserUsesTag.html">parserUsesTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/DocBlockTags/parserVarTag.html">parserVarTag</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+	Errors<br />	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Errors/ErrorTracker.html">ErrorTracker</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Errors/RecordError.html">RecordError</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Errors/RecordWarning.html">RecordWarning</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+	InlineTags<br />	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/InlineTags/parserExampleInlineTag.html">parserExampleInlineTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/InlineTags/parserIdInlineTag.html">parserIdInlineTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/InlineTags/parserInheritdocInlineTag.html">parserInheritdocInlineTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/InlineTags/parserInlineTag.html">parserInlineTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/InlineTags/parserLinkInlineTag.html">parserLinkInlineTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/InlineTags/parserSourceInlineTag.html">parserSourceInlineTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/InlineTags/parserTocInlineTag.html">parserTocInlineTag</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/InlineTags/parserTutorialInlineTag.html">parserTutorialInlineTag</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+	Links<br />	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Links/abstractLink.html">abstractLink</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Links/classLink.html">classLink</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Links/constLink.html">constLink</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Links/defineLink.html">defineLink</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Links/functionLink.html">functionLink</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Links/globalLink.html">globalLink</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Links/methodLink.html">methodLink</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Links/pageLink.html">pageLink</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Links/tutorialLink.html">tutorialLink</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Links/varLink.html">varLink</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+	Tutorial<br />	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Tutorial/parserCData.html">parserCData</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Tutorial/parserEntity.html">parserEntity</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/Tutorial/parserXMLDocBookTag.html">parserXMLDocBookTag</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+	ParserData<br />	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserData/parserBase.html">parserBase</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserData/parserData.html">parserData</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserData/parserPage.html">parserPage</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserData/parserStringWithInlineTags.html">parserStringWithInlineTags</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+	WordParsers<br />	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/WordParsers/ObjectWordParser.html">ObjectWordParser</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/WordParsers/phpDocumentorTWordParser.html">phpDocumentorTWordParser</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/WordParsers/WordParser.html">WordParser</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+	ParserDocBlock<br />	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserDocBlock/parserDesc.html">parserDesc</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html">parserDocBlock</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+	ParserElements<br />	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserElements/parserClass.html">parserClass</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserElements/parserConst.html">parserConst</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserElements/parserDefine.html">parserDefine</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserElements/parserElement.html">parserElement</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserElements/parserFunction.html">parserFunction</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserElements/parserGlobal.html">parserGlobal</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserElements/parserInclude.html">parserInclude</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserElements/parserMethod.html">parserMethod</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserElements/parserPackagePage.html">parserPackagePage</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserElements/parserTutorial.html">parserTutorial</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../phpDocumentor/ParserElements/parserVar.html">parserVar</a>    </span>	 <br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Class: parserDocBlock</h1>
+Source Location: /phpDocumentor/ParserDocBlock.inc<br /><br />
+
+<h2 class="class-name">Class parserDocBlock</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Class Overview</div>
+	<div class="nav-bar">
+					<span class="disabled">Class Overview</span>
+						
+											| <a href="#sec-var-summary">Property Summary</a> | <a href="#sec-vars">Properties Detail</a>
+														| <a href="#sec-method-summary">Method Summary</a> | <a href="#sec-methods">Methods Detail</a>
+								</div>
+	<div class="info-box-body">
+		<table width="100%" border="0">
+		<tr><td valign="top" width="60%" class="class-overview">
+
+        		<p align="center" class="short-description"><strong>Represents a docblock and its components, $desc, $sdesc, $tags, and also $params for functions
+</strong></p>
+
+		<p class="notes">
+			Located in <a class="field" href="_phpDocumentor---ParserDocBlock.inc.html">/phpDocumentor/ParserDocBlock.inc</a> [<span class="field">line 129</span>]
+		</p>
+
+		
+		<pre></pre>
+
+		
+				<strong>Author(s):</strong>
+		<ul>
+		  			 			 <li>Greg Beaver &lt;<a href="mailto:cellog@php.net">cellog@php.net</a>&gt;</li>
+			 		  			 		  			 		  		</ul>
+		
+		
+<strong>Information Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+				<tr><td><strong>Version:</strong>&nbsp;&nbsp;</td><td>$Id: ParserDocBlock.inc 287886 2009-08-30 05:31:05Z ashnazg $</td></tr>
+				<tr><td><strong>Since:</strong>&nbsp;&nbsp;</td><td>1.0rc1</td></tr>
+	</table>
+		</td>
+
+				<td valign="top" width="20%" class="class-overview">
+		<p align="center" class="short-description"><strong><a href="#sec_vars">Properties</a></strong></p>
+		<ul>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$category">$category</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$desc">$desc</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$endlinenumber">$endlinenumber</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$explicitcategory">$explicitcategory</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$explicitpackage">$explicitpackage</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$funcglobals">$funcglobals</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$hasaccess">$hasaccess</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$hasname">$hasname</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$linenumber">$linenumber</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$package">$package</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$packagedescrip">$packagedescrip</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$params">$params</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$processed_desc">$processed_desc</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$processed_sdesc">$processed_sdesc</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$properties">$properties</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$return">$return</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$sdesc">$sdesc</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$statics">$statics</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$subpackage">$subpackage</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$subpackagedescrip">$subpackagedescrip</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$tags">$tags</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$unknown_tags">$unknown_tags</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$var">$var</a></li>
+		  		</ul>
+		</td>
+		
+				<td valign="top" width="20%" class="class-overview">
+		<p align="center" class="short-description"><strong><a href="#sec_methods">Methods</a></strong></p>
+		<ul>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodparserDocBlock">parserDocBlock</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodaddAccess">addAccess</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodaddExample">addExample</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodaddFileSource">addFileSource</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodaddFuncGlobal">addFuncGlobal</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodaddKeyword">addKeyword</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodaddLink">addLink</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodaddName">addName</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodaddPackage">addPackage</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodaddParam">addParam</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodaddProperty">addProperty</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodaddReturn">addReturn</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodaddSee">addSee</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodaddStaticVar">addStaticVar</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodaddTag">addTag</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodaddUnknownTag">addUnknownTag</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodaddUses">addUses</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodaddVar">addVar</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodcanSource">canSource</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodcantSource">cantSource</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodchangeGlobal">changeGlobal</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodchangeParam">changeParam</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodchangeStatic">changeStatic</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodgetDesc">getDesc</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodgetEndLineNumber">getEndLineNumber</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodgetExplicitCategory">getExplicitCategory</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodgetExplicitPackage">getExplicitPackage</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodgetKeyword">getKeyword</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodgetLineNumber">getLineNumber</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodgetSDesc">getSDesc</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodgetType">getType</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodhasInheritDoc">hasInheritDoc</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodlistParams">listParams</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodlistProperties">listProperties</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodlistTags">listTags</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodoverridePackage">overridePackage</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodpostProcess">postProcess</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodreplaceInheritDoc">replaceInheritDoc</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodresetParams">resetParams</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodsetDesc">setDesc</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodsetEndLineNumber">setEndLineNumber</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodsetExplicitCategory">setExplicitCategory</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodsetExplicitPackage">setExplicitPackage</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodsetLineNumber">setLineNumber</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodsetShortDesc">setShortDesc</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodsetSource">setSource</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodupdateGlobals">updateGlobals</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodupdateModifiers">updateModifiers</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodupdateParams">updateParams</a></li>
+		  		  <li><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodupdateStatics">updateStatics</a></li>
+		  		</ul>
+		</td>
+		
+		</tr></table>
+		<div class="top">[ <a href="#top">Top</a> ]</div>
+	</div>
+</div>
+
+
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Property Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a>
+									| <span class="disabled">Property Summary</span> | <a href="#sec-vars">Properties Detail</a>
+												| <a href="#sec-method-summary">Method Summary</a> | <a href="#sec-methods">Methods Detail</a>
+							    				</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+			<table border="0" cellspacing="0" cellpadding="0" class="var-summary">
+																																																																																																																																																							<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">string</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$category" title="details" class="var-name-summary">$category</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary"><a href="../../phpDocumentor/ParserDocBlock/parserDesc.html">parserDesc</a></span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$desc" title="details" class="var-name-summary">$desc</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">false|integer</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$endlinenumber" title="details" class="var-name-summary">$endlinenumber</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">Line number in the source on which this docblock ends</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">boolean</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$explicitcategory" title="details" class="var-name-summary">$explicitcategory</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">fix for bug 708559</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">boolean</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$explicitpackage" title="details" class="var-name-summary">$explicitpackage</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">fix for bug 591396</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">array</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$funcglobals" title="details" class="var-name-summary">$funcglobals</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">array of global variable data.</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">boolean</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$hasaccess" title="details" class="var-name-summary">$hasaccess</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">whether this DocBlock has an @access tag</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">boolean</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$hasname" title="details" class="var-name-summary">$hasname</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">whether this DocBlock has a @name tag</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">false|integer</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$linenumber" title="details" class="var-name-summary">$linenumber</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">Line number in the source on which this docblock begins</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">string</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$package" title="details" class="var-name-summary">$package</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">string</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$packagedescrip" title="details" class="var-name-summary">$packagedescrip</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">description of package parsed from @package tag</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">array</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$params" title="details" class="var-name-summary">$params</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">array of param data.</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">array</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$processed_desc" title="details" class="var-name-summary">$processed_desc</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">array</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$processed_sdesc" title="details" class="var-name-summary">$processed_sdesc</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">mixed</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$properties" title="details" class="var-name-summary">$properties</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">array of <a href="../../phpDocumentor/DocBlockTags/parserPropertyTag.html">parserPropertyTag</a>, <a href="../../phpDocumentor/DocBlockTags/parserPropertyReadTag.html">parserPropertyReadTag</a>, <a href="../../phpDocumentor/DocBlockTags/parserPropertyWriteTag.html">parserPropertyWriteTag</a>, <a href="../../phpDocumentor/DocBlockTags/parserMethodTag.html">parserMethodTag</a> magic tags</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">mixed</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$return" title="details" class="var-name-summary">$return</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">This is either a <a href="../../phpDocumentor/DocBlockTags/parserReturnTag.html">parserReturnTag</a> or false if no return tag is present</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary"><a href="../../phpDocumentor/ParserDocBlock/parserDesc.html">parserDesc</a></span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$sdesc" title="details" class="var-name-summary">$sdesc</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">array</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$statics" title="details" class="var-name-summary">$statics</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">array of static variable data.</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">string</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$subpackage" title="details" class="var-name-summary">$subpackage</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">string</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$subpackagedescrip" title="details" class="var-name-summary">$subpackagedescrip</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">description of subpackage parsed from @package tag</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">array</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$tags" title="details" class="var-name-summary">$tags</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">array of <a href="../../phpDocumentor/DocBlockTags/parserTag.html">parserTag</a>s</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">array</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$unknown_tags" title="details" class="var-name-summary">$unknown_tags</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">array of unrecognized <a href="../../phpDocumentor/DocBlockTags/parserTag.html">parserTag</a>s</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">mixed</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$var" title="details" class="var-name-summary">$var</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">This is either a <a href="../../phpDocumentor/DocBlockTags/parserVarTag.html">parserVarTag</a> or false if no var tag is present</td></tr>
+				</div>
+										</table>
+			</div>
+			<br /><div class="top">[ <a href="#top">Top</a> ]</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a>
+																		| <a href="#sec-var-summary">Property Summary</a> | <a href="#sec-vars">Properties Detail</a>
+							    					| <span class="disabled">Method Summary</span> | <a href="#sec-methods">Methods Detail</a>
+		</div>
+		<div class="info-box-body">
+			<div class="method-summary">
+				<table border="0" cellspacing="0" cellpadding="0" class="method-summary">
+																																																																																																																																																																																																																																																																																																																																																																																																																																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">parserDocBlock</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#parserDocBlock" title="details" class="method-name">parserDocBlock</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">sets package to default</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#addAccess" title="details" class="method-name">addAccess</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">add an @access tag to the tags array</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#addExample" title="details" class="method-name">addExample</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">adds an @example tag</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#addFileSource" title="details" class="method-name">addFileSource</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Adds a new @filesource tag to the DocBlock</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#addFuncGlobal" title="details" class="method-name">addFuncGlobal</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">adds a function declaration of @global to the $funcglobals array</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#addKeyword" title="details" class="method-name">addKeyword</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#addLink" title="details" class="method-name">addLink</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">creates a <a href="../../phpDocumentor/DocBlockTags/parserLinkTag.html">parserLinkTag</a> and adds it to the $tags array</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#addName" title="details" class="method-name">addName</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Adds a @name tag to the tag list</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#addPackage" title="details" class="method-name">addPackage</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#addParam" title="details" class="method-name">addParam</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#addProperty" title="details" class="method-name">addProperty</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Adds a @property(-read or -write) or @method magic tag to the DocBlock</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#addReturn" title="details" class="method-name">addReturn</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">creates a <a href="../../phpDocumentor/DocBlockTags/parserReturnTag.html">parserReturnTag</a> and adds it to the $tags array</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#addSee" title="details" class="method-name">addSee</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">creates a <a href="../../phpDocumentor/DocBlockTags/parserLinkTag.html">parserLinkTag</a> and adds it to the $tags array</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#addStaticVar" title="details" class="method-name">addStaticVar</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#addTag" title="details" class="method-name">addTag</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Used to insert DocBlock Template tags into a docblock</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#addUnknownTag" title="details" class="method-name">addUnknownTag</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">adds an unknown tag to the $unknown_tags array for use by custom converters</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#addUses" title="details" class="method-name">addUses</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Add a @uses tag to the DocBlock</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#addVar" title="details" class="method-name">addVar</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">creates a <a href="../../phpDocumentor/DocBlockTags/parserVarTag.html">parserVarTag</a> and adds it to the $tags array</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#canSource" title="details" class="method-name">canSource</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Tells the DocBlock it can have a @filesource tag</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#cantSource" title="details" class="method-name">cantSource</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Tells the DocBlock it can't have a @filesource tag</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#changeGlobal" title="details" class="method-name">changeGlobal</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#changeParam" title="details" class="method-name">changeParam</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#changeStatic" title="details" class="method-name">changeStatic</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#getDesc" title="details" class="method-name">getDesc</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">integer</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#getEndLineNumber" title="details" class="method-name">getEndLineNumber</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Retrieve ending line number</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">boolean</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#getExplicitCategory" title="details" class="method-name">getExplicitCategory</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">If the DocBlock has a @category tag, then this returns true</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">boolean</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#getExplicitPackage" title="details" class="method-name">getExplicitPackage</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">If the DocBlock has a @package tag, then this returns true</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">mixed</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#getKeyword" title="details" class="method-name">getKeyword</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">integer</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#getLineNumber" title="details" class="method-name">getLineNumber</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Retrieve starting line number</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#getSDesc" title="details" class="method-name">getSDesc</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#getType" title="details" class="method-name">getType</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">boolean</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#hasInheritDoc" title="details" class="method-name">hasInheritDoc</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Wrapper for <a href="../../phpDocumentor/ParserDocBlock/parserDesc.html#methodhasInheritDoc">parserDesc::hasInheritDoc()</a></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">array</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#listParams" title="details" class="method-name">listParams</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">array</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#listProperties" title="details" class="method-name">listProperties</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#listTags" title="details" class="method-name">listTags</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#overridePackage" title="details" class="method-name">overridePackage</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">set the element's package to the passed values.  Used in <a href="../../phpDocumentor/phpDocumentor_IntermediateParser.html">phpDocumentor_IntermediateParser</a> to align package of</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#postProcess" title="details" class="method-name">postProcess</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Parse out any html tags from doc comments, and make them into</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#replaceInheritDoc" title="details" class="method-name">replaceInheritDoc</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Wrapper for <a href="../../phpDocumentor/ParserDocBlock/parserDesc.html#methodreplaceInheritDoc">parserDesc::replaceInheritDoc()</a></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#resetParams" title="details" class="method-name">resetParams</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#setDesc" title="details" class="method-name">setDesc</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#setEndLineNumber" title="details" class="method-name">setEndLineNumber</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Sets the ending line number for the DocBlock</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#setExplicitCategory" title="details" class="method-name">setExplicitCategory</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Used if this docblock has a @category tag.</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#setExplicitPackage" title="details" class="method-name">setExplicitPackage</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Used if this docblock has a @package tag.</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#setLineNumber" title="details" class="method-name">setLineNumber</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Sets the starting line number for the DocBlock</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#setShortDesc" title="details" class="method-name">setShortDesc</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Set the short description of the DocBlock</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#setSource" title="details" class="method-name">setSource</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Passes to <a href="../../phpDocumentor/ParserData/parserStringWithInlineTags.html#methodsetSource">parserStringWithInlineTags::setSource()</a></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#updateGlobals" title="details" class="method-name">updateGlobals</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">replaces nameless global variables in the $funcglobals array with their names</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#updateModifiers" title="details" class="method-name">updateModifiers</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#updateParams" title="details" class="method-name">updateParams</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">replaces nameless parameters in the $params array with their names</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#updateStatics" title="details" class="method-name">updateStatics</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">replaces nameless static variables in the $statics array with their names</td></tr>
+				</div>
+												</table>
+			</div>
+			<br /><div class="top">[ <a href="#top">Top</a> ]</div>
+		</div>
+	</div>
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Properties</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a>
+													| <a href="#sec-var-summary">Property Summary</a> | <span class="disabled">Properties Detail</span>
+															| <a href="#sec-method-summary">Method Summary</a> | <a href="#sec-methods">Methods Detail</a>
+												</div>
+		<div class="info-box-body">
+			<a name="var$category" id="$category"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>&nbsp;&nbsp;
+			<span class="var-name">$category</span>
+						<span class="smalllinenumber">[line 219]</span>
+		</span>
+	</div>
+
+		
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$desc" id="$desc"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type"><a href="../../phpDocumentor/ParserDocBlock/parserDesc.html">parserDesc</a></span>&nbsp;&nbsp;
+			<span class="var-name">$desc</span>
+			 = <span class="var-default"> false</span>			<span class="smalllinenumber">[line 134]</span>
+		</span>
+	</div>
+
+		
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$endlinenumber" id="$endlinenumber"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">false|integer</span>&nbsp;&nbsp;
+			<span class="var-name">$endlinenumber</span>
+			 = <span class="var-default"> false</span>			<span class="smalllinenumber">[line 158]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>Line number in the source on which this docblock ends
+</strong></p>
+	
+<strong>Information Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Since:</strong>&nbsp;&nbsp;</td><td>1.2</td>
+  </tr>
+</table>
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$explicitcategory" id="$explicitcategory"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">boolean</span>&nbsp;&nbsp;
+			<span class="var-name">$explicitcategory</span>
+			 = <span class="var-default"> false</span>			<span class="smalllinenumber">[line 217]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>fix for bug 708559
+</strong></p>
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Usedby:</strong>&nbsp;&nbsp;</td><td><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodsetExplicitCategory">parserDocBlock::setExplicitCategory()</a></td>
+  </tr>
+</table>
+<br />
+
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$explicitpackage" id="$explicitpackage"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">boolean</span>&nbsp;&nbsp;
+			<span class="var-name">$explicitpackage</span>
+			 = <span class="var-default"> false</span>			<span class="smalllinenumber">[line 212]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>fix for bug 591396
+</strong></p>
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Usedby:</strong>&nbsp;&nbsp;</td><td><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodsetExplicitPackage">parserDocBlock::setExplicitPackage()</a></td>
+  </tr>
+</table>
+<br />
+
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$funcglobals" id="$funcglobals"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>&nbsp;&nbsp;
+			<span class="var-name">$funcglobals</span>
+			 = <span class="var-default">array()</span>			<span class="smalllinenumber">[line 184]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>array of global variable data.
+</strong></p>
+<span class="description"><p>Format:  array(index of global variable in @global tag list -OR- global variable name =&gt;          array(datatype,parserStringWithInlineTags),...)</p></span>	
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$hasaccess" id="$hasaccess"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">boolean</span>&nbsp;&nbsp;
+			<span class="var-name">$hasaccess</span>
+			 = <span class="var-default"> false</span>			<span class="smalllinenumber">[line 227]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>whether this DocBlock has an @access tag
+</strong></p>
+	
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$hasname" id="$hasname"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">boolean</span>&nbsp;&nbsp;
+			<span class="var-name">$hasname</span>
+			 = <span class="var-default"> false</span>			<span class="smalllinenumber">[line 231]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>whether this DocBlock has a @name tag
+</strong></p>
+	
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$linenumber" id="$linenumber"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">false|integer</span>&nbsp;&nbsp;
+			<span class="var-name">$linenumber</span>
+			 = <span class="var-default"> false</span>			<span class="smalllinenumber">[line 152]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>Line number in the source on which this docblock begins
+</strong></p>
+	
+<strong>Information Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Since:</strong>&nbsp;&nbsp;</td><td>1.2</td>
+  </tr>
+</table>
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$package" id="$package"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>&nbsp;&nbsp;
+			<span class="var-name">$package</span>
+			 = <span class="var-default"> 'default'</span>			<span class="smalllinenumber">[line 221]</span>
+		</span>
+	</div>
+
+		
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$packagedescrip" id="$packagedescrip"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>&nbsp;&nbsp;
+			<span class="var-name">$packagedescrip</span>
+			 = <span class="var-default"> ''</span>			<span class="smalllinenumber">[line 237]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>description of package parsed from @package tag
+</strong></p>
+<span class="description"><p>Unused in this version</p></span>	
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$params" id="$params"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>&nbsp;&nbsp;
+			<span class="var-name">$params</span>
+			 = <span class="var-default">array()</span>			<span class="smalllinenumber">[line 176]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>array of param data.
+</strong></p>
+<span class="description"><p>Format:  array(index of param in function parameter list -OR- parameter name =&gt;          parserStringWithInlineTags,...)</p></span>	
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$processed_desc" id="$processed_desc"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>&nbsp;&nbsp;
+			<span class="var-name">$processed_desc</span>
+			 = <span class="var-default"> false</span>			<span class="smalllinenumber">[line 138]</span>
+		</span>
+	</div>
+
+		
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$processed_sdesc" id="$processed_sdesc"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>&nbsp;&nbsp;
+			<span class="var-name">$processed_sdesc</span>
+			 = <span class="var-default"> false</span>			<span class="smalllinenumber">[line 142]</span>
+		</span>
+	</div>
+
+		
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$properties" id="$properties"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>&nbsp;&nbsp;
+			<span class="var-name">$properties</span>
+			 = <span class="var-default">array()</span>			<span class="smalllinenumber">[line 197]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>array of <a href="../../phpDocumentor/DocBlockTags/parserPropertyTag.html">parserPropertyTag</a>, <a href="../../phpDocumentor/DocBlockTags/parserPropertyReadTag.html">parserPropertyReadTag</a>, <a href="../../phpDocumentor/DocBlockTags/parserPropertyWriteTag.html">parserPropertyWriteTag</a>, <a href="../../phpDocumentor/DocBlockTags/parserMethodTag.html">parserMethodTag</a> magic tags
+</strong></p>
+	
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$return" id="$return"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>&nbsp;&nbsp;
+			<span class="var-name">$return</span>
+			 = <span class="var-default"> false</span>			<span class="smalllinenumber">[line 202]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>This is either a <a href="../../phpDocumentor/DocBlockTags/parserReturnTag.html">parserReturnTag</a> or false if no return tag is present
+</strong></p>
+	
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$sdesc" id="$sdesc"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type"><a href="../../phpDocumentor/ParserDocBlock/parserDesc.html">parserDesc</a></span>&nbsp;&nbsp;
+			<span class="var-name">$sdesc</span>
+			 = <span class="var-default"> false</span>			<span class="smalllinenumber">[line 146]</span>
+		</span>
+	</div>
+
+		
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$statics" id="$statics"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>&nbsp;&nbsp;
+			<span class="var-name">$statics</span>
+			 = <span class="var-default">array()</span>			<span class="smalllinenumber">[line 193]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>array of static variable data.
+</strong></p>
+<span class="description"><p>Format:  array(index of static variable in @global tag list -OR- static variable name =&gt;          <a href="../../phpDocumentor/DocBlockTags/parserStaticvarTag.html">parserStaticvarTag</a>,...)</p></span>	
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$subpackage" id="$subpackage"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>&nbsp;&nbsp;
+			<span class="var-name">$subpackage</span>
+			 = <span class="var-default"> ''</span>			<span class="smalllinenumber">[line 223]</span>
+		</span>
+	</div>
+
+		
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$subpackagedescrip" id="$subpackagedescrip"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>&nbsp;&nbsp;
+			<span class="var-name">$subpackagedescrip</span>
+			 = <span class="var-default"> ''</span>			<span class="smalllinenumber">[line 243]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>description of subpackage parsed from @package tag
+</strong></p>
+<span class="description"><p>Unused in this version</p></span>	
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$tags" id="$tags"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>&nbsp;&nbsp;
+			<span class="var-name">$tags</span>
+			 = <span class="var-default">array()</span>			<span class="smalllinenumber">[line 163]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>array of <a href="../../phpDocumentor/DocBlockTags/parserTag.html">parserTag</a>s
+</strong></p>
+	
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$unknown_tags" id="$unknown_tags"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>&nbsp;&nbsp;
+			<span class="var-name">$unknown_tags</span>
+			 = <span class="var-default">array()</span>			<span class="smalllinenumber">[line 168]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>array of unrecognized <a href="../../phpDocumentor/DocBlockTags/parserTag.html">parserTag</a>s
+</strong></p>
+	
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$var" id="$var"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>&nbsp;&nbsp;
+			<span class="var-name">$var</span>
+			 = <span class="var-default"> false</span>			<span class="smalllinenumber">[line 207]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>This is either a <a href="../../phpDocumentor/DocBlockTags/parserVarTag.html">parserVarTag</a> or false if no var tag is present
+</strong></p>
+	
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+		</div>
+	</div>
+
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a>
+																		| <a href="#sec-var-summary">Property Summary</a> | <a href="#sec-vars">Properties Detail</a>
+																	| <a href="#sec-method-summary">Method Summary</a> | <span class="disabled">Methods Detail</span>
+					</div>
+		<div class="info-box-body">
+			<a name='method_detail'></a>
+
+<a name="methodparserDocBlock" id="parserDocBlock"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">Constructor parserDocBlock</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 256]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>parserDocBlock parserDocBlock(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>sets package to default
+</strong></p>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Global:</strong>&nbsp;&nbsp;</td><td>string <a href="../../phpDocumentor/_phpDocumentor---Setup.inc.php.html#global$phpDocumentor_DefaultPackageName">$phpDocumentor_DefaultPackageName</a>: default package name</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodaddAccess" id="addAccess"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">addAccess</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 916]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void addAccess(
+string
+$value&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>add an @access tag to the tags array
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$value:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> should be either public or private</span>			</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodaddExample" id="addExample"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">addExample</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 641]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void addExample(
+string
+$value, string
+$path&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>adds an @example tag
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$value:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> contents of the tag</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$path:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> path to the file containing this tag</span>			</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodaddFileSource" id="addFileSource"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">addFileSource</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 943]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void addFileSource(
+string
+$path, array
+$source&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Adds a new @filesource tag to the DocBlock
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$path:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> full path to the file</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">array</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$source:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> tokenized source code, ordered by line number</span>			</td></tr>
+				</table>
+
+	<br />
+	
+<strong>Information Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Tutorial:</strong>&nbsp;&nbsp;</td><td><a href="../../phpDocumentor/tutorial_tags.filesource.pkg.html">@filesource</a></td>
+  </tr>
+</table>
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodaddFuncGlobal" id="addFuncGlobal"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">addFuncGlobal</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 857]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void addFuncGlobal(
+string
+$type, string
+$value&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>adds a function declaration of @global to the $funcglobals array
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$type:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> global type</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$value:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> description of how the global is used in the function</span>			</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodaddKeyword" id="addKeyword"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">addKeyword</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 609]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void addKeyword(
+string
+$keyword, <a href="../../phpDocumentor/ParserData/parserStringWithInlineTags.html">parserStringWithInlineTags</a>
+$value&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$keyword:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> tag name</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../phpDocumentor/ParserData/parserStringWithInlineTags.html">parserStringWithInlineTags</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$value:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> the contents of the tag</span>			</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Global:</strong>&nbsp;&nbsp;</td><td>array <a href="../../phpDocumentor/_phpDocumentor---Setup.inc.php.html#global$_phpDocumentor_setting">$_phpDocumentor_setting</a>: used to determine whether to add the @internal tag or not</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodaddLink" id="addLink"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">addLink</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 953]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void addLink(
+string
+$link&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>creates a <a href="../../phpDocumentor/DocBlockTags/parserLinkTag.html">parserLinkTag</a> and adds it to the $tags array
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$link:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodaddName" id="addName"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">addName</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 825]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void addName(
+string
+$value&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Adds a @name tag to the tag list
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$value:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> new name of element</span>			</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodaddPackage" id="addPackage"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">addPackage</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 728]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void addPackage(
+string
+$keyword, mixed
+$value&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$keyword:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> tag name (either package or subpackage)</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">mixed</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$value:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> either a string or a parserStringWithInlineTags.  Strips all inline tags and use the text as the package</span>			</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodaddParam" id="addParam"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">addParam</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 520]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void addParam(
+string
+$paramVar, 
+$paramType, <a href="../../phpDocumentor/ParserData/parserStringWithInlineTags.html">parserStringWithInlineTags</a>
+$value&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$paramVar:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> if empty, param is indexed in the order received and set using <a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodchangeParam">changeParam()</a></span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../phpDocumentor/ParserData/parserStringWithInlineTags.html">parserStringWithInlineTags</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$value:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$paramType:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodaddProperty" id="addProperty"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">addProperty</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1033]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void addProperty(
+
+$tagName, 
+$propertyName, 
+$propertyType, 
+$value&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Adds a @property(-read or -write) or @method magic tag to the DocBlock
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$tagName:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$propertyName:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$propertyType:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$value:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodaddReturn" id="addReturn"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">addReturn</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 976]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void addReturn(
+string
+$returnType, <a href="../../phpDocumentor/ParserData/parserStringWithInlineTags.html">parserStringWithInlineTags</a>
+$value&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>creates a <a href="../../phpDocumentor/DocBlockTags/parserReturnTag.html">parserReturnTag</a> and adds it to the $tags array
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$returnType:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> the one-word name of the return type (mixed should be used if more than one type)</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../phpDocumentor/ParserData/parserStringWithInlineTags.html">parserStringWithInlineTags</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$value:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodaddSee" id="addSee"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">addSee</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 964]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void addSee(
+string
+$keyword, string
+$value&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>creates a <a href="../../phpDocumentor/DocBlockTags/parserLinkTag.html">parserLinkTag</a> and adds it to the $tags array
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$value:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$keyword:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> either see or uses</span>			</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodaddStaticVar" id="addStaticVar"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">addStaticVar</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 844]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void addStaticVar(
+string
+$staticvar, string
+$type, <a href="../../phpDocumentor/ParserData/parserStringWithInlineTags.html">parserStringWithInlineTags</a>
+$descrip&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$staticvar:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> if empty, staticvar is indexed in the order received and set using <a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodchangeStatic">changeStatic()</a></span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$type:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> data type</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../phpDocumentor/ParserData/parserStringWithInlineTags.html">parserStringWithInlineTags</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$descrip:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodaddTag" id="addTag"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">addTag</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 587]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void addTag(
+<a href="../../phpDocumentor/DocBlockTags/parserTag.html">parserTag</a>
+$tag&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Used to insert DocBlock Template tags into a docblock
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../phpDocumentor/DocBlockTags/parserTag.html">parserTag</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$tag:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> tag</span>			</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Global:</strong>&nbsp;&nbsp;</td><td>array <a href="../../phpDocumentor/_phpDocumentor---Setup.inc.php.html#global$_phpDocumentor_setting">$_phpDocumentor_setting</a>: used to determine whether to add ignored tags, or not</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodaddUnknownTag" id="addUnknownTag"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">addUnknownTag</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 651]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void addUnknownTag(
+string
+$keyword, string
+$value&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>adds an unknown tag to the $unknown_tags array for use by custom converters
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$keyword:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> tag name</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$value:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> tag value</span>			</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodaddUses" id="addUses"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">addUses</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1024]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void addUses(
+string
+$seeel, <a href="../../phpDocumentor/ParserData/parserStringWithInlineTags.html">parserStringWithInlineTags</a>
+$description&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Add a @uses tag to the DocBlock
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$seeel:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> @see-style text, used for <a href="../../Converters/Converter.html#methodgetLink">Converter::getLink()</a></span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../phpDocumentor/ParserData/parserStringWithInlineTags.html">parserStringWithInlineTags</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$description:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> description of how the used element is                                    used</span>			</td></tr>
+				</table>
+
+	<br />
+	
+<strong>Information Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Tutorial:</strong>&nbsp;&nbsp;</td><td><a href="../../phpDocumentor/tutorial_tags.uses.pkg.html">@uses</a></td>
+  </tr>
+</table>
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodaddVar" id="addVar"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">addVar</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 993]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void addVar(
+string
+$varType, <a href="../../phpDocumentor/ParserData/parserStringWithInlineTags.html">parserStringWithInlineTags</a>
+$value&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>creates a <a href="../../phpDocumentor/DocBlockTags/parserVarTag.html">parserVarTag</a> and adds it to the $tags array
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$varType:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> the one-word name of the variable type (mixed should be used if more than one type)</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../phpDocumentor/ParserData/parserStringWithInlineTags.html">parserStringWithInlineTags</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$value:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodcanSource" id="canSource"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">canSource</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 320]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void canSource(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Tells the DocBlock it can have a @filesource tag
+</strong></p>
+<span class="description"><p>Only page-level DocBlocks may have a @filesource tag</p></span>
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodcantSource" id="cantSource"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">cantSource</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 330]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void cantSource(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Tells the DocBlock it can't have a @filesource tag
+</strong></p>
+<span class="description"><p>Only page-level DocBlocks may have a @filesource tag</p></span>
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodchangeGlobal" id="changeGlobal"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">changeGlobal</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 866]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void changeGlobal(
+integer
+$index, string
+$name&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">integer</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$index:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> index of parameter in the <a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$funcglobals">$funcglobals</a> array</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$name:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> name of the parameter to set in the $funcglobals array</span>			</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodchangeParam" id="changeParam"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">changeParam</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 537]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void changeParam(
+integer
+$index, string
+$name, string|null
+$type&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">integer</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$index:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> index of parameter in the <a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$params">$params</a> array</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$name:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> name of the parameter to set in the $params array</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string|null</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$type:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> type of the parameter</span>			</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodchangeStatic" id="changeStatic"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">changeStatic</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 876]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void changeStatic(
+integer
+$index, string
+$name&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">integer</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$index:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> index of parameter in the <a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$statics">$statics</a> array</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$name:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> name of the parameter to set in the $statics array</span>			</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgetDesc" id="getDesc"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">getDesc</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 498]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string getDesc(
+<a href="../../Converters/Converter.html">Converter</a>
+&$converter&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../Converters/Converter.html">Converter</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">&$converter:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> takes <a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$desc">$desc</a> and converts it to a string and returns it if present, otherwise returns ''</span>			</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgetEndLineNumber" id="getEndLineNumber"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">getEndLineNumber</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 294]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>integer getEndLineNumber(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Retrieve ending line number
+</strong></p>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgetExplicitCategory" id="getExplicitCategory"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">getExplicitCategory</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 719]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>boolean getExplicitCategory(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>If the DocBlock has a @category tag, then this returns true
+</strong></p>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgetExplicitPackage" id="getExplicitPackage"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">getExplicitPackage</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 698]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>boolean getExplicitPackage(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>If the DocBlock has a @package tag, then this returns true
+</strong></p>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgetKeyword" id="getKeyword"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">getKeyword</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1076]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>mixed getKeyword(
+string
+$keyword&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$keyword:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Return:</strong>&nbsp;&nbsp;</td><td>false if no keyword, unconverted value if one keyword, array of unconverted values if more than one keyword</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgetLineNumber" id="getLineNumber"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">getLineNumber</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 276]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>integer getLineNumber(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Retrieve starting line number
+</strong></p>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgetSDesc" id="getSDesc"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">getSDesc</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 476]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string getSDesc(
+<a href="../../Converters/Converter.html">Converter</a>
+&$converter&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../Converters/Converter.html">Converter</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">&$converter:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> takes <a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$sdesc">$sdesc</a> and converts it to a string and returns it if present, otherwise returns ''</span>			</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgetType" id="getType"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">getType</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1141]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string getType(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Return:</strong>&nbsp;&nbsp;</td><td>always 'docblock'</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodhasInheritDoc" id="hasInheritDoc"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">hasInheritDoc</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 453]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>boolean hasInheritDoc(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Wrapper for <a href="../../phpDocumentor/ParserDocBlock/parserDesc.html#methodhasInheritDoc">parserDesc::hasInheritDoc()</a>
+</strong></p>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodlistParams" id="listParams"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">listParams</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1091]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>array listParams(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Return:</strong>&nbsp;&nbsp;</td><td>Format: array('var' =&gt; tag name, 'data' =&gt; unconverted tag value)</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodlistProperties" id="listProperties"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">listProperties</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1109]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>array listProperties(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Return:</strong>&nbsp;&nbsp;</td><td>Format: array('var' =&gt; tag name, 'data' =&gt; unconverted tag value)</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodlistTags" id="listTags"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">listTags</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1125]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void listTags(
+<a href="../../Converters/Converter.html">Converter</a>
+0&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../Converters/Converter.html">Converter</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">0:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodoverridePackage" id="overridePackage"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">overridePackage</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 666]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void overridePackage(
+string
+$category, string
+$package, string
+$subpackage, string
+$elname, string
+$type&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>set the element's package to the passed values.  Used in <a href="../../phpDocumentor/phpDocumentor_IntermediateParser.html">phpDocumentor_IntermediateParser</a> to align package of
+</strong></p>
+<span class="description"><p>elements inside a class or procedural page to the package of the class/procedural page</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$category:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$package:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$subpackage:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$elname:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> element name</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$type:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> element type (include, define, var, method, global, function, const)</span>			</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodpostProcess" id="postProcess"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">postProcess</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 304]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void postProcess(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Parse out any html tags from doc comments, and make them into
+</strong></p>
+<span class="description"><p>abstract structures</p></span>
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Uses:</strong>&nbsp;&nbsp;</td><td><a href="../../phpDocumentor/Parsers/parserDescParser.html#methodparse">parserDescParser::parse()</a></td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodreplaceInheritDoc" id="replaceInheritDoc"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">replaceInheritDoc</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 465]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void replaceInheritDoc(
+<a href="../../phpDocumentor/ParserDocBlock/parserDesc.html">parserDesc</a>
+$desc&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Wrapper for <a href="../../phpDocumentor/ParserDocBlock/parserDesc.html#methodreplaceInheritDoc">parserDesc::replaceInheritDoc()</a>
+</strong></p>
+<span class="description"><p>Also replaces {@inheritdoc} in the <a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$processed_desc">$processed_desc</a></p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../phpDocumentor/ParserDocBlock/parserDesc.html">parserDesc</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$desc:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodresetParams" id="resetParams"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">resetParams</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 528]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void resetParams(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodsetDesc" id="setDesc"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">setDesc</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 438]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void setDesc(
+<a href="../../phpDocumentor/ParserDocBlock/parserDesc.html">parserDesc</a>|<a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html">parserDocBlock</a>
+$desc&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../phpDocumentor/ParserDocBlock/parserDesc.html">parserDesc</a>|<a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html">parserDocBlock</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$desc:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> sets <a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$desc">$desc</a></span>			</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodsetEndLineNumber" id="setEndLineNumber"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">setEndLineNumber</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 285]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void setEndLineNumber(
+integer
+$number&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Sets the ending line number for the DocBlock
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">integer</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$number:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodsetExplicitCategory" id="setExplicitCategory"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">setExplicitCategory</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 710]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void setExplicitCategory(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Used if this docblock has a @category tag.
+</strong></p>
+<span class="description"><p>phpDocumentor will guess category for DocBlocks that don't have  a @category tag</p></span>
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Uses:</strong>&nbsp;&nbsp;</td><td><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$explicitcategory">parserDocBlock::$explicitcategory</a></td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodsetExplicitPackage" id="setExplicitPackage"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">setExplicitPackage</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 689]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void setExplicitPackage(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Used if this docblock has a @package tag.
+</strong></p>
+<span class="description"><p>phpDocumentor will guess package for DocBlocks that don't have  a @package tag</p></span>
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Uses:</strong>&nbsp;&nbsp;</td><td><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$explicitpackage">parserDocBlock::$explicitpackage</a></td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodsetLineNumber" id="setLineNumber"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">setLineNumber</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 267]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void setLineNumber(
+integer
+$number&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Sets the starting line number for the DocBlock
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">integer</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$number:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodsetShortDesc" id="setShortDesc"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">setShortDesc</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 396]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void setShortDesc(
+<a href="../../phpDocumentor/ParserDocBlock/parserDesc.html">parserDesc</a>|<a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html">parserDocBlock</a>|<a href="../../phpDocumentor/DocBlockTags/parserTag.html">parserTag</a>
+$desc&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Set the short description of the DocBlock
+</strong></p>
+<span class="description"><p>Setting the short description is possible by passing in one of three  possible parameters:  <ul><li>another DocBlock's short description</li><li>another DocBlock, the short description will be extracted</li><li>a Zend Studio-compatible @desc tag</li></ul></p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../phpDocumentor/ParserDocBlock/parserDesc.html">parserDesc</a>|<a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html">parserDocBlock</a>|<a href="../../phpDocumentor/DocBlockTags/parserTag.html">parserTag</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$desc:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> sets <a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#var$sdesc">$sdesc</a></span>			</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodsetSource" id="setSource"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">setSource</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 426]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void setSource(
+string|array
+$source, [false|string
+$class = false]&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Passes to <a href="../../phpDocumentor/ParserData/parserStringWithInlineTags.html#methodsetSource">parserStringWithInlineTags::setSource()</a>
+</strong></p>
+<span class="description"><p>After passing, it calls <a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html#methodpostProcess">postProcess()</a> to set up the new  source</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string|array</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$source:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> tokenized highlight-ready source code</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">false|string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$class:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> name of class if this is a method source</span>			</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodupdateGlobals" id="updateGlobals"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">updateGlobals</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 886]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void updateGlobals(
+array
+$funcs&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>replaces nameless global variables in the $funcglobals array with their names
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">array</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$funcs:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodupdateModifiers" id="updateModifiers"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">updateModifiers</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 355]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void updateModifiers(
+array
+$modifiers&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">array</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$modifiers:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodupdateParams" id="updateParams"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">updateParams</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 552]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void updateParams(
+array
+$params&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>replaces nameless parameters in the $params array with their names
+</strong></p>
+<span class="description"><p>add @param tags for params in the function with no entry</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">array</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$params:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> Format: array(parameter key =&gt;                       array(0 =&gt; parameter name[,1 =&gt; default value][,2 =&gt; type hint]),...)</span>			</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodupdateStatics" id="updateStatics"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">updateStatics</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 901]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void updateStatics(
+array
+$funcs&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>replaces nameless static variables in the $statics array with their names
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">array</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$funcs:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+		</div>
+	</div>
+
+
+        <div class="credit">
+		    <hr class="separator" />
+		    Documentation generated on Tue, 06 Dec 2011 07:20:42 -0600 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.4</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

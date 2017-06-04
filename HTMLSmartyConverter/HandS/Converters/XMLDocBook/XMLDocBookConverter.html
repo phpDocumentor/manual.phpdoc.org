@@ -1,0 +1,4598 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Docs For Class XMLDocBookConverter</title>
+	<link rel="stylesheet" type="text/css" href="../../media/style.css">
+	<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+	<td class="header-top-left"><img src="../../media/logo.png" border="0" alt="phpDocumentor " /></td>
+    <td class="header-top-right">Converters<br /><div class="header-top-right-subpackage">XMLDocBook</div></td>
+  </tr>
+  <tr><td colspan="2" class="header-line"><img src="../../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td colspan="2" class="header-menu">
+      
+                                      
+                      		[ <a href="../../classtrees_Converters.html" class="menu">class tree: Converters</a> ]
+		[ <a href="../../elementindex_Converters.html" class="menu">index: Converters</a> ]
+            [ <a href="../../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td colspan="2" class="header-line"><img src="../../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="195" class="menu">
+		<div class="package-title">Converters</div>
+  <div class="package">
+	<div id="ric">
+					<p><a href="../../ric_FAQ.html">FAQ</a></p>
+					<p><a href="../../ric_ChangeLog.html">ChangeLog</a></p>
+					<p><a href="../../ric_INSTALL.html">INSTALL</a></p>
+					<p><a href="../../ric_README.html">README</a></p>
+			</div>
+	</div>
+  <div class="package">
+	<div id="todolist">
+			<p><a href="../../todolist.html">Todo List</a></p>
+	</div>
+	</div>
+      <b>Packages:</b><br />
+  <div class="package">
+              <a href="../../li_phpDocumentor.html">phpDocumentor</a><br />
+              <a href="../../li_Converters.html">Converters</a><br />
+      	</div>
+      <br />
+		<b>Tutorials/Manuals:</b><br />
+  <div class="package">
+					<strong>Package-level:</strong>
+							<ul>
+	<li><a href="../../Converters/tutorial_Converters.pkg.html">Converter Manual</a>
+</ul>
+
+										<strong>Class-level:</strong>
+							<ul>
+	<li><a href="../../Converters/tutorial_Converter.cls.html">Writing a New Converter</a>
+<ul>
+	<li><a href="../../Converters/tutorial_template.vars.cls.html">Converter Default Template Variables</a>
+</ul>
+<ul>
+	<li><a href="../../Converters/tutorial_Converter.methods.cls.html">Writing a Converter, Methods</a>
+</ul>
+</li></ul>
+
+							<ul>
+	<li><a href="../../Converters/PDFdefault/tutorial_PDFParser.cls.html">Using the PDFParser XML templating language</a>
+</ul>
+
+							<ul>
+	<li><a href="../../Converters/PDFdefault/tutorial_PDFdefaultConverter.cls.html">Writing templates for the PDFdefault Converter</a>
+</ul>
+
+							<ul>
+	<li><a href="../../Converters/CHMdefault/tutorial_CHMdefaultConverter.cls.html">Writing templates for the CHMdefault Converter</a>
+</ul>
+
+							<ul>
+	<li><a href="../../Converters/HTMLframes/tutorial_HTMLframesConverter.cls.html">Writing templates for the HTMLframes Converter</a>
+</ul>
+
+							<ul>
+	<li><a href="../../Converters/XMLDocBook/tutorial_XMLDocBookConverter.cls.html">Writing templates for the XMLDocBook Converter</a>
+</ul>
+
+							<ul>
+	<li><a href="../../Converters/HTMLSmarty/tutorial_HTMLSmartyConverter.cls.html">Writing templates for the HTMLSmarty Converter</a>
+</ul>
+
+							                        <b>Files:</b><br />
+        <div class="package">
+				<span style="padding-left: 1em;"><a href="../../Converters/_phpDocumentor---Converter.inc.html">Converter.inc</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>CHMdefault</strong><br />			<span style="padding-left: 1em;"><a href="../../Converters/CHMdefault/_phpDocumentor---Converters---CHM---default---CHMdefaultConverter.inc.html">CHMdefaultConverter.inc</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>HTMLframes</strong><br />			<span style="padding-left: 1em;"><a href="../../Converters/HTMLframes/_phpDocumentor---Converters---HTML---frames---HTMLframesConverter.inc.html">HTMLframesConverter.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../Converters/HTMLframes/_phpDocumentor---Converters---HTML---Smarty---HTMLSmartyConverter.inc.html">HTMLSmartyConverter.inc</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>PDFdefault</strong><br />			<span style="padding-left: 1em;"><a href="../../Converters/PDFdefault/_phpDocumentor---Converters---PDF---default---class.phpdocpdf.php.html">class.phpdocpdf.php</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../Converters/PDFdefault/_phpDocumentor---Converters---PDF---default---ParserPDF.inc.html">ParserPDF.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../Converters/PDFdefault/_phpDocumentor---Converters---PDF---default---PDFdefaultConverter.inc.html">PDFdefaultConverter.inc</a></span><br />
+	  </div>
+  <div class="package">
+	<strong>XMLDocBook</strong><br />			<span style="padding-left: 1em;"><a href="../../Converters/XMLDocBook/_phpDocumentor---Converters---XML---DocBook---XMLDocBookConverter.inc.html">XMLDocBookConverter.inc</a></span><br />
+			<span style="padding-left: 1em;"><a href="../../Converters/XMLDocBook/_phpDocumentor---Converters---XML---DocBook---peardoc2---XMLDocBookpeardoc2Converter.inc.html">XMLDocBookpeardoc2Converter.inc</a></span><br />
+	  </div>
+            <br />
+                  <b>Classes:</b><br />
+        <div class="package">
+	CHMdefault<br />	    <span style="padding-left: 1em;">		<a href="../../Converters/CHMdefault/CHMdefaultConverter.html">CHMdefaultConverter</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+	PDFdefault<br />	    <span style="padding-left: 1em;">		<a href="../../Converters/PDFdefault/PDFdefaultConverter.html">PDFdefaultConverter</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../Converters/PDFdefault/PDFParser.html">PDFParser</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../Converters/PDFdefault/phpdocpdf.html">phpdocpdf</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+		    		<a href="../../Converters/Converter.html">Converter</a>    	 <br />
+	  </div>
+  <div class="package">
+	HTMLframes<br />	    <span style="padding-left: 1em;">		<a href="../../Converters/HTMLframes/HTMLframesConverter.html">HTMLframesConverter</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+	HTMLSmarty<br />	    <span style="padding-left: 1em;">		<a href="../../Converters/HTMLSmarty/HTMLSmartyConverter.html">HTMLSmartyConverter</a>    </span>	 <br />
+	  </div>
+  <div class="package">
+	XMLDocBook<br />	    <span style="padding-left: 1em;">		<a href="../../Converters/XMLDocBook/XMLDocBookConverter.html">XMLDocBookConverter</a>    </span>	 <br />
+	    <span style="padding-left: 1em;">		<a href="../../Converters/XMLDocBook/XMLDocBookpeardoc2Converter.html">XMLDocBookpeardoc2Converter</a>    </span>	 <br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Class: XMLDocBookConverter</h1>
+Source Location: /phpDocumentor/Converters/XML/DocBook/XMLDocBookConverter.inc<br /><br />
+
+<h2 class="class-name">Class XMLDocBookConverter</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Class Overview</div>
+	<div class="nav-bar">
+					<span class="disabled">Class Overview</span>
+						
+					| <a href="#sec-inherited">Inherited Properties, Constants, and Methods</a>
+											| <a href="#sec-var-summary">Property Summary</a> | <a href="#sec-vars">Properties Detail</a>
+														| <a href="#sec-method-summary">Method Summary</a> | <a href="#sec-methods">Methods Detail</a>
+								</div>
+	<div class="info-box-body">
+		<table width="100%" border="0">
+		<tr><td valign="top" width="60%" class="class-overview">
+
+        		<p align="center" class="short-description"><strong>XML DocBook converter.
+</strong></p>
+<span class="description"><p>This Converter takes output from the <a href="../../phpDocumentor/Parsers/Parser.html">Parser</a> and converts it to DocBook output</p></span>
+		<p class="notes">
+			Located in <a class="field" href="_phpDocumentor---Converters---XML---DocBook---XMLDocBookConverter.inc.html">/phpDocumentor/Converters/XML/DocBook/XMLDocBookConverter.inc</a> [<span class="field">line 43</span>]
+		</p>
+
+		
+		<pre><a href="../../Converters/Converter.html">Converter</a>
+   |
+   --XMLDocBookConverter</pre>
+
+		
+				<strong>Author(s):</strong>
+		<ul>
+		  			 			 <li>Greg Beaver &lt;<a href="mailto:cellog@php.net">cellog@php.net</a>&gt;</li>
+			 		  			 		  			 		  			 		  			 		  			 		  		</ul>
+		
+		<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html">parserDocBlock</a>, <a href="../../phpDocumentor/ParserElements/parserInclude.html">parserInclude</a>, <a href="../../phpDocumentor/ParserData/parserPage.html">parserPage</a>, <a href="../../phpDocumentor/ParserElements/parserClass.html">parserClass</a>, <a href="../../phpDocumentor/ParserElements/parserDefine.html">parserDefine</a>, <a href="../../phpDocumentor/ParserElements/parserFunction.html">parserFunction</a>, <a href="../../phpDocumentor/ParserElements/parserMethod.html">parserMethod</a>, <a href="../../phpDocumentor/ParserElements/parserVar.html">parserVar</a></td>
+  </tr>
+</table>
+<br />
+
+<strong>Information Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+				<tr><td><strong>Version:</strong>&nbsp;&nbsp;</td><td>$Id: XMLDocBookConverter.inc 317233 2011-09-24 04:30:11Z ashnazg $</td></tr>
+				<tr><td><strong>Todo:</strong>&nbsp;&nbsp;</td><td>templates</td></tr>
+				<tr><td><strong>Todo:</strong>&nbsp;&nbsp;</td><td>indexes for other DocBook converters not based on peardoc</td></tr>
+				<tr><td><strong>Since:</strong>&nbsp;&nbsp;</td><td>1.0</td></tr>
+	</table>
+		</td>
+
+				<td valign="top" width="20%" class="class-overview">
+		<p align="center" class="short-description"><strong><a href="#sec_vars">Properties</a></strong></p>
+		<ul>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#var$base_dir">$base_dir</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#var$category">$category</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#var$class">$class</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#var$class_data">$class_data</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#var$class_dir">$class_dir</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#var$current">$current</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#var$currentclass">$currentclass</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#var$function_data">$function_data</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#var$juststarted">$juststarted</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#var$leftindex">$leftindex</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#var$local">$local</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#var$method_data">$method_data</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#var$name">$name</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#var$outputformat">$outputformat</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#var$package_pages">$package_pages</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#var$page">$page</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#var$page_data">$page_data</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#var$page_dir">$page_dir</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#var$path">$path</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#var$sort_page_contents_by_type">$sort_page_contents_by_type</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#var$sourceloc">$sourceloc</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#var$template_options">$template_options</a></li>
+		  		</ul>
+		</td>
+		
+				<td valign="top" width="20%" class="class-overview">
+		<p align="center" class="short-description"><strong><a href="#sec_methods">Methods</a></strong></p>
+		<ul>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodXMLDocBookConverter">XMLDocBookConverter</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodconvertClass">convertClass</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodconvertDefine">convertDefine</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodConvertErrorLog">ConvertErrorLog</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodconvertFunction">convertFunction</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodconvertGlobal">convertGlobal</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodconvertInclude">convertInclude</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodconvertMethod">convertMethod</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodconvertPackagePage">convertPackagePage</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodconvertPage">convertPage</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodconvertTutorial">convertTutorial</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodconvertVar">convertVar</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodendClass">endClass</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodendPage">endPage</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodformatIndex">formatIndex</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodformatLeftIndex">formatLeftIndex</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodformatPkgIndex">formatPkgIndex</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgenerateElementIndex">generateElementIndex</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgenerateFormattedClassTree">generateFormattedClassTree</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgenerateFormattedClassTrees">generateFormattedClassTrees</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgeneratePkgElementIndex">generatePkgElementIndex</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgeneratePkgElementIndexes">generatePkgElementIndexes</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgetCData">getCData</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgetClassLink">getClassLink</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgetDefineLink">getDefineLink</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgetFunctionLink">getFunctionLink</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgetGlobalLink">getGlobalLink</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgetId">getId</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgetLink">getLink</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgetMethodLink">getMethodLink</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgetPageLink">getPageLink</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgetPageName">getPageName</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgetRootTree">getRootTree</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgetTutorialId">getTutorialId</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgetVarLink">getVarLink</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodmakeLeft">makeLeft</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodOutput">Output</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodpostProcess">postProcess</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodprepareDocBlock">prepareDocBlock</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodrcNatCmp">rcNatCmp</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodrcNatCmp1">rcNatCmp1</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodreturnLink">returnLink</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodreturnSee">returnSee</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodsetTargetDir">setTargetDir</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodsetTemplateDir">setTemplateDir</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodSmartyInit">SmartyInit</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodtype_adjust">type_adjust</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodunmangle">unmangle</a></li>
+		  		  <li><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodwriteNewPPage">writeNewPPage</a></li>
+		  		</ul>
+		</td>
+		
+		</tr></table>
+		<div class="top">[ <a href="#top">Top</a> ]</div>
+	</div>
+</div>
+
+
+	<a name="sec-inherited"></a>
+	<div class="info-box">
+		<div class="info-box-title">Inherited Properties, Constants, and Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a>
+						| <span class="disabled">Inherited Properties, Constants, and Methods</span>
+												| <a href="#sec-var-summary">Property Summary</a> | <a href="#sec-vars">Properties Detail</a>
+																			| <a href="#sec-method-summary">Method Summary</a> | <a href="#sec-methods">Methods Detail</a>
+							    				</div>
+		<div class="info-box-body">
+			<table cellpadding="2" cellspacing="0" class="class-table">
+				<tr>
+					<th class="class-table-header" width="30%">Inherited Properties</th>
+					<th class="class-table-header" width="40%">Inherited Methods</th>
+					<th class="class-table-header" width="30%">Inherited Constants</th>
+				</tr>
+				<tr>
+					<td width="30%">
+													<p>Inherited From <span class="classname"><a href="../../Converters/Converter.html">Converter</a></span></p>
+							<blockquote>
+								<dl>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$all_packages">Converter::$all_packages</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$classes">Converter::$classes</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$class_contents">Converter::$class_contents</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$class_elements">Converter::$class_elements</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$curfile">Converter::$curfile</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$curpage">Converter::$curpage</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$define_elements">Converter::$define_elements</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$elements">Converter::$elements</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$function_elements">Converter::$function_elements</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$global_elements">Converter::$global_elements</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$highlightingSource">Converter::$highlightingSource</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$package">Converter::$package</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$packagecategories">Converter::$packagecategories</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$package_elements">Converter::$package_elements</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$package_output">Converter::$package_output</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$package_parents">Converter::$package_parents</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$page_contents">Converter::$page_contents</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$page_elements">Converter::$page_elements</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$parseprivate">Converter::$parseprivate</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$pkg_elements">Converter::$pkg_elements</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$processSpecialRoots">Converter::$processSpecialRoots</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$quietmode">Converter::$quietmode</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$smarty_dir">Converter::$smarty_dir</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$sort_absolutely_everything">Converter::$sort_absolutely_everything</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$sourcePaths">Converter::$sourcePaths</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$subpackage">Converter::$subpackage</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$targetDir">Converter::$targetDir</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$templateDir">Converter::$templateDir</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$templateName">Converter::$templateName</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$title">Converter::$title</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#var$todoList">Converter::$todoList</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																	</dl>
+							</blockquote>
+											</td>
+					<td width="40%">
+													<p>Inherited From <span class="classname"><a href="../../Converters/Converter.html">Converter</a></span></p>
+							<blockquote>
+								<dl>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodConverter">Converter::Converter()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Initialize Converter data structures</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodAttrToString">Converter::AttrToString()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Convert the attribute of a Tutorial docbook tag's attribute list</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodBolden">Converter::Bolden()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Used to convert the contents of &lt;b&gt; in a docblock</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodBr">Converter::Br()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Used to convert &lt;br&gt; in a docblock</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodcheckState">Converter::checkState()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Compare parserStringWithInlineTags::Convert() cache state to $state</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodcleanup">Converter::cleanup()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Finish up parsing/cleanup directories</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodConvert">Converter::Convert()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Convert all elements to output format</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodconvertClass">Converter::convertClass()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Default Class Handler</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodconvertConst">Converter::convertConst()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Converts class constants for template output.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodconvertDefine">Converter::convertDefine()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Converts defines for template output</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodConvertErrorLog">Converter::ConvertErrorLog()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Convert the phpDocumentor parsing/conversion error log</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodconvertFunction">Converter::convertFunction()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Converts function for template output</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodconvertGlobal">Converter::convertGlobal()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Converts global variables for template output</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodconvertInclude">Converter::convertInclude()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Converts includes for template output</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodconvertMethod">Converter::convertMethod()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Converts method for template output</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodconvertPage">Converter::convertPage()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Default Page Handler</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodConvertTitle">Converter::ConvertTitle()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Convert the title of a Tutorial docbook tag section</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodConvertTodoList">Converter::ConvertTodoList()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Convert the list of all @todo tags</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodconvertTutorial">Converter::convertTutorial()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Default Tutorial Handler</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodconvertVar">Converter::convertVar()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Converts class variables for template output.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodConvert_RIC">Converter::Convert_RIC()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Convert README/INSTALL/CHANGELOG file contents to output format</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodcopyFile">Converter::copyFile()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Copies a file from the template directory to the target directory</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodcreateParentDir">Converter::createParentDir()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Recursively creates all subdirectories that don't exist in the $dir path</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodEncloseList">Converter::EncloseList()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Used to convert the contents of &lt;ol&gt; or &lt;ul&gt; in a docblock</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodEncloseParagraph">Converter::EncloseParagraph()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Used to enclose a paragraph in a docblock</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodendClass">Converter::endClass()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Called by walk() while converting, when the last class element  has been parsed.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodendPage">Converter::endPage()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Called by walk() while converting, when the last procedural page  element has been parsed.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodexampleProgramExample">Converter::exampleProgramExample()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Used to convert the {@example} inline tag in a docblock.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodflushHighlightCache">Converter::flushHighlightCache()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Return the close text for the current token</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodformatIndex">Converter::formatIndex()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Called by walk() while converting.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodformatLeftIndex">Converter::formatLeftIndex()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Called by walk() while converting.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodformatPkgIndex">Converter::formatPkgIndex()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Called by walk() while converting.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodformatTutorialTOC">Converter::formatTutorialTOC()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Creates a table of contents for a {@toc} inline tag in a tutorial</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgenerateChildClassList">Converter::generateChildClassList()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">returns a list of child classes</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgenerateFormattedClassTree">Converter::generateFormattedClassTree()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">returns an array containing the class inheritance tree from the root  object to the class.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetClassesOnPage">Converter::getClassesOnPage()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">gets a list of all classes declared on a procedural page represented by</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetClassLink">Converter::getClassLink()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">return false or a <a href="../../phpDocumentor/Links/classLink.html">classLink</a> to $expr</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetConstLink">Converter::getConstLink()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">return false or a <a href="../../phpDocumentor/Links/constLink.html">constLink</a> to $expr in $class</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetConverterDir">Converter::getConverterDir()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Get the absolute path to the converter's base directory</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetCurrentPageLink">Converter::getCurrentPageLink()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetCurrentPageURL">Converter::getCurrentPageURL()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Return the path to the current</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetDefineLink">Converter::getDefineLink()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">return false or a <a href="../../phpDocumentor/Links/defineLink.html">defineLink</a> to $expr</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetFileSourceName">Converter::getFileSourceName()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Translate the path info into a unique file name for the highlighted  source code.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetFileSourcePath">Converter::getFileSourcePath()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Return the fixed path to the source-code file folder.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetFormattedConflicts">Converter::getFormattedConflicts()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetFormattedDescMethods">Converter::getFormattedDescMethods()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Get a list of methods in child classes that override this method</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetFormattedDescVars">Converter::getFormattedDescVars()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Get a list of vars in child classes that override this var</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetFormattedImplements">Converter::getFormattedImplements()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">returns an array containing the class inheritance tree from the root  object to the class.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetFormattedInheritedConsts">Converter::getFormattedInheritedConsts()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Return template-enabled list of inherited class constants</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetFormattedInheritedMethods">Converter::getFormattedInheritedMethods()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Return template-enabled list of inherited methods</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetFormattedInheritedVars">Converter::getFormattedInheritedVars()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Return template-enabled list of inherited variables</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetFormattedMethodImplements">Converter::getFormattedMethodImplements()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Get the method this method(s) implemented from an interface, if any</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetFormattedOverrides">Converter::getFormattedOverrides()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Get the method this method overrides, if any</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetFunctionLink">Converter::getFunctionLink()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">return false or a <a href="../../phpDocumentor/Links/functionLink.html">functionLink</a> to $expr</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetGlobalLink">Converter::getGlobalLink()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">return false or a <a href="../../phpDocumentor/Links/globalLink.html">globalLink</a> to $expr</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetGlobalValue">Converter::getGlobalValue()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Parse a global variable's default value for class initialization.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetHighlightState">Converter::getHighlightState()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetId">Converter::getId()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">take <a href="../../phpDocumentor/Links/abstractLink.html">abstractLink</a> descendant and text $eltext and return a</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetIncludeValue">Converter::getIncludeValue()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Parse an include's file to see if it is a file documented in this project</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetLink">Converter::getLink()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">The meat of the @see tag and inline {@link} tag</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetMethodLink">Converter::getMethodLink()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">return false or a <a href="../../phpDocumentor/Links/methodLink.html">methodLink</a> to $expr in $class</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetPageLink">Converter::getPageLink()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">return false or a <a href="../../phpDocumentor/Links/pageLink.html">pageLink</a> to $expr</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetSortedClassTreeFromClass">Converter::getSortedClassTreeFromClass()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Return a tree of all classes that extend this class</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetSourceLink">Converter::getSourceLink()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetState">Converter::getState()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Return parserStringWithInlineTags::Convert() cache state</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetTutorialId">Converter::getTutorialId()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Return a converter-specific id to distinguish tutorials and their  sections</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetTutorialLink">Converter::getTutorialLink()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">The meat of the @tutorial tag and inline {@tutorial} tag</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetTutorialTree">Converter::getTutorialTree()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Get a tree structure representing the hierarchy of tutorials</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodgetVarLink">Converter::getVarLink()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">return false or a <a href="../../phpDocumentor/Links/varLink.html">varLink</a> to $expr in $class</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodhasSourceCode">Converter::hasSourceCode()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Determine whether an element's file has generated source code, used for  linking to line numbers of source.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodhasTutorial">Converter::hasTutorial()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodhighlightDocBlockSource">Converter::highlightDocBlockSource()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Used to allow converters to format the source code of DocBlocks the way  they'd like.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodhighlightSource">Converter::highlightSource()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Used to allow converters to format the source code the way they'd like.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodhighlightTutorialSource">Converter::highlightTutorialSource()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Used to allow converters to format the source code of Tutorial XML the way  they'd like.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodItalicize">Converter::Italicize()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Used to convert the contents of &lt;i&gt; in a docblock</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodKbdize">Converter::Kbdize()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Used to convert the contents of &lt;kbd&gt; in a docblock</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodListItem">Converter::ListItem()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Used to convert the contents of &lt;li&gt; in a docblock</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodnewSmarty">Converter::newSmarty()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Return a Smarty template object to operate with</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodOutput">Converter::Output()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">do all necessary output</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodpostProcess">Converter::postProcess()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">This version does nothing</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodprepareDocBlock">Converter::prepareDocBlock()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">convert the element's DocBlock for output</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodPreserveWhiteSpace">Converter::PreserveWhiteSpace()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Used to convert the contents of &lt;pre&gt; in a docblock</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodProgramExample">Converter::ProgramExample()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Used to convert the &lt;code&gt; tag in a docblock</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodreturnLink">Converter::returnLink()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">take URL $link and text $text and return a link in the format needed for the Converter</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodreturnSee">Converter::returnSee()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">take <a href="../../phpDocumentor/Links/abstractLink.html">abstractLink</a> descendant and text $eltext and return a link</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodSampize">Converter::Sampize()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Used to convert the contents of &lt;samp&gt; in a docblock</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodsetSourcePaths">Converter::setSourcePaths()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Mark a file as having had source code highlighted</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodsetTargetDir">Converter::setTargetDir()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Sets the output directory for generated documentation</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodsetTemplateBase">Converter::setTemplateBase()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Set the template directory with a different template base directory</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodsetTemplateDir">Converter::setTemplateDir()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">sets the template directory based on the $outputformat and $name</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodsortPageContentsByElementType">Converter::sortPageContentsByElementType()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">sorts $page_contents by element type as well as alphabetically</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodsourceLine">Converter::sourceLine()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Return a line of highlighted source code with formatted line number</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodstartHighlight">Converter::startHighlight()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Initialize highlight caching</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodTranslateEntity">Converter::TranslateEntity()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Used to translate an XML DocBook entity like &amp;rdquo; from a tutorial by  reading the options.ini file for the template.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodTranslateTag">Converter::TranslateTag()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Used to translate an XML DocBook tag from a tutorial by reading the  options.ini file for the template.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodTutorialExample">Converter::TutorialExample()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodtype_adjust">Converter::type_adjust()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Called by <a href="../../phpDocumentor/DocBlockTags/parserReturnTag.html#methodConvert">parserReturnTag::Convert()</a> to allow converters to  change type names to desired formatting</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodunmangle">Converter::unmangle()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Called by <a href="../../phpDocumentor/InlineTags/parserSourceInlineTag.html#methodstringConvert">parserSourceInlineTag::stringConvert()</a> to allow  converters to format the source code the way they'd like.</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodvardump_tree">Converter::vardump_tree()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Debugging function for dumping $tutorial_tree</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodVarize">Converter::Varize()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Used to convert the contents of &lt;var&gt; in a docblock</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodwalk">Converter::walk()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">called by <a href="../../phpDocumentor/phpDocumentor_IntermediateParser.html#methodConvert">phpDocumentor_IntermediateParser::Convert()</a> to traverse  the array of pages and their elements, converting them to the output format</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodwalk_everything">Converter::walk_everything()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">walk over elements by package rather than page</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodwriteExample">Converter::writeExample()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Write out the formatted source code for an example php file</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodwriteFile">Converter::writeFile()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Writes a file to target dir</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#methodwriteSource">Converter::writeSource()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Write out the formatted source code for a php file</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#method_rmdir">Converter::_rmdir()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Completely remove a directory and its contents</span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#method_setHighlightCache">Converter::_setHighlightCache()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition"></span>
+										</dd>
+																			<dt>
+											<span class="method-definition"><a href="../../Converters/Converter.html#method_tutorial_path">Converter::_tutorial_path()</a></span>
+										</dt>
+										<dd>
+											<span class="method-definition">Returns the path to this tutorial as a string</span>
+										</dd>
+																	</dl>
+							</blockquote>
+											</td>
+					<td width="30%">
+											</td>
+				</tr>
+			</table>
+			<br /><div class="top">[ <a href="#top">Top</a> ]</div>
+		</div>
+	</div>
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Property Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a>
+										| <a href="#sec-inherited">Inherited Properties and Methods</a>
+						| <span class="disabled">Property Summary</span> | <a href="#sec-vars">Properties Detail</a>
+												| <a href="#sec-method-summary">Method Summary</a> | <a href="#sec-methods">Methods Detail</a>
+							    				</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+			<table border="0" cellspacing="0" cellpadding="0" class="var-summary">
+																																																																																																																																																	<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">string</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$base_dir" title="details" class="var-name-summary">$base_dir</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">target directory passed on the command-line.</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">string</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$category" title="details" class="var-name-summary">$category</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">peardoc2 Category</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">string</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$class" title="details" class="var-name-summary">$class</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">name of current class being converted</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">Template</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$class_data" title="details" class="var-name-summary">$class_data</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">template for the class currently being processed</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">string</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$class_dir" title="details" class="var-name-summary">$class_dir</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">output directory for the current class being processed</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">array</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$current" title="details" class="var-name-summary">$current</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">contains all of the template procedural page element loop data needed for the current template</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">array</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$currentclass" title="details" class="var-name-summary">$currentclass</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">contains all of the template class element loop data needed for the current template</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">mixed</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$function_data" title="details" class="var-name-summary">$function_data</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">boolean</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$juststarted" title="details" class="var-name-summary">$juststarted</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">controls formatting of parser informative output</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">array</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$leftindex" title="details" class="var-name-summary">$leftindex</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">indexes of elements by package that need to be generated</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">boolean</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$local" title="details" class="var-name-summary">$local</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">whether a @see is going to be in the $base_dir, or in a package/subpackage subdirectory of $base_dir</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">mixed</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$method_data" title="details" class="var-name-summary">$method_data</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">string</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$name" title="details" class="var-name-summary">$name</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">string</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$outputformat" title="details" class="var-name-summary">$outputformat</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">array</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$package_pages" title="details" class="var-name-summary">$package_pages</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">array of converted package page names.</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">string</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$page" title="details" class="var-name-summary">$page</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">name of current page being converted</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">Template</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$page_data" title="details" class="var-name-summary">$page_data</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">template for the procedural page currently being processed</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">string</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$page_dir" title="details" class="var-name-summary">$page_dir</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">output directory for the current procedural page being processed</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">string</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$path" title="details" class="var-name-summary">$path</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">path of current page being converted</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">boolean</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$sort_page_contents_by_type" title="details" class="var-name-summary">$sort_page_contents_by_type</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">XMLDocBookConverter wants elements sorted by type as well as alphabetically</td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">mixed</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$sourceloc" title="details" class="var-name-summary">$sourceloc</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description"></td></tr>
+				</div>
+													<div class="var-title">
+					<tr><td class="var-title"><span class="var-type-summary">array</span>&nbsp;&nbsp;</td>
+					<td class="var-title"><a href="#$template_options" title="details" class="var-name-summary">$template_options</a>&nbsp;&nbsp;</td>
+					<td class="var-summary-description">template options.  Currently only 1 recognized option usepear</td></tr>
+				</div>
+										</table>
+			</div>
+			<br /><div class="top">[ <a href="#top">Top</a> ]</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a>
+										| <a href="#sec-inherited">Inherited Properties and Methods</a>
+															| <a href="#sec-var-summary">Property Summary</a> | <a href="#sec-vars">Properties Detail</a>
+							    					| <span class="disabled">Method Summary</span> | <a href="#sec-methods">Methods Detail</a>
+		</div>
+		<div class="info-box-body">
+			<div class="method-summary">
+				<table border="0" cellspacing="0" cellpadding="0" class="method-summary">
+																																																																																																																																																																																																																																																																																																																																																																																																																								<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">XMLDocBookConverter</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#XMLDocBookConverter" title="details" class="method-name">XMLDocBookConverter</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">sets $base_dir to $targetDir</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#convertClass" title="details" class="method-name">convertClass</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Converts class for template output</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#convertDefine" title="details" class="method-name">convertDefine</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Converts defines for template output</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#ConvertErrorLog" title="details" class="method-name">ConvertErrorLog</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Create errors.html template file output</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#convertFunction" title="details" class="method-name">convertFunction</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Converts function for template output</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#convertGlobal" title="details" class="method-name">convertGlobal</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Converts global variables for template output</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#convertInclude" title="details" class="method-name">convertInclude</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Converts include elements for template output</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#convertMethod" title="details" class="method-name">convertMethod</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Converts method for template output</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#convertPackagePage" title="details" class="method-name">convertPackagePage</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Converts package page and sets its package as used in $package_pages</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#convertPage" title="details" class="method-name">convertPage</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">converts procedural pages for template output</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#convertTutorial" title="details" class="method-name">convertTutorial</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#convertVar" title="details" class="method-name">convertVar</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Converts class variables for template output.</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#endClass" title="details" class="method-name">endClass</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Writes out the template file of $class_data and unsets the template to save memory</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#endPage" title="details" class="method-name">endPage</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Writes out the template file of $page_data and unsets the template to save memory</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#formatIndex" title="details" class="method-name">formatIndex</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">HTMLdefaultConverter uses this function to format template index.html and packages.html</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#formatLeftIndex" title="details" class="method-name">formatLeftIndex</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Generate indexes for li_package.html and classtree output files</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#formatPkgIndex" title="details" class="method-name">formatPkgIndex</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">HTMLdefaultConverter chooses to format both package indexes and the complete index here</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#generateElementIndex" title="details" class="method-name">generateElementIndex</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Generate alphabetical index of all elements</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">array</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#generateFormattedClassTree" title="details" class="method-name">generateFormattedClassTree</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">returns an array containing the class inheritance tree from the root object to the class</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#generateFormattedClassTrees" title="details" class="method-name">generateFormattedClassTrees</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">returns a template-enabled array of class trees</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#generatePkgElementIndex" title="details" class="method-name">generatePkgElementIndex</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Generate alphabetical index of all elements by package and subpackage</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#generatePkgElementIndexes" title="details" class="method-name">generatePkgElementIndexes</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#getCData" title="details" class="method-name">getCData</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">mixed</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#getClassLink" title="details" class="method-name">getClassLink</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">mixed</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#getDefineLink" title="details" class="method-name">getDefineLink</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">mixed</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#getFunctionLink" title="details" class="method-name">getFunctionLink</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">mixed</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#getGlobalLink" title="details" class="method-name">getGlobalLink</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#getId" title="details" class="method-name">getId</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">Get the id value needed to allow linking</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#getLink" title="details" class="method-name">&amp;getLink</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">do that stuff in $template_options</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">mixed</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#getMethodLink" title="details" class="method-name">getMethodLink</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">mixed</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#getPageLink" title="details" class="method-name">getPageLink</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#getPageName" title="details" class="method-name">getPageName</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#getRootTree" title="details" class="method-name">getRootTree</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">return formatted class tree for the Class Trees page</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#getTutorialId" title="details" class="method-name">getTutorialId</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">mixed</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#getVarLink" title="details" class="method-name">getVarLink</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#makeLeft" title="details" class="method-name">makeLeft</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#Output" title="details" class="method-name">Output</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">This function is not used by HTMLdefaultConverter, but is required by Converter</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#postProcess" title="details" class="method-name">postProcess</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#prepareDocBlock" title="details" class="method-name">prepareDocBlock</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">int</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#rcNatCmp" title="details" class="method-name">rcNatCmp</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">does a nat case sort on the specified second level value of the array</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">int</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#rcNatCmp1" title="details" class="method-name">rcNatCmp1</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">does a nat case sort on the specified second level value of the array.</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">string</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#returnLink" title="details" class="method-name">returnLink</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#returnSee" title="details" class="method-name">returnSee</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">This function takes an <a href="../../phpDocumentor/Links/abstractLink.html">abstractLink</a> descendant and returns an html link</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#setTargetDir" title="details" class="method-name">setTargetDir</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition">calls the converter setTargetDir, and then copies any template images and the stylesheet if they haven't been copied</td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#setTemplateDir" title="details" class="method-name">setTemplateDir</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#SmartyInit" title="details" class="method-name">&amp;SmartyInit</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#type_adjust" title="details" class="method-name">type_adjust</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#unmangle" title="details" class="method-name">unmangle</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+																<div class="method-definition">
+											<tr><td class="method-definition"><span class="method-result">void</span>&nbsp;&nbsp;</td>
+										<td class="method-definition"><a href="#writeNewPPage" title="details" class="method-name">writeNewPPage</a>()&nbsp;&nbsp;</td>
+					<td class="method-definition"></td></tr>
+				</div>
+												</table>
+			</div>
+			<br /><div class="top">[ <a href="#top">Top</a> ]</div>
+		</div>
+	</div>
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Properties</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a>
+										| <a href="#sec-inherited">Inherited Properties and Methods</a>
+										| <a href="#sec-var-summary">Property Summary</a> | <span class="disabled">Properties Detail</span>
+															| <a href="#sec-method-summary">Method Summary</a> | <a href="#sec-methods">Methods Detail</a>
+												</div>
+		<div class="info-box-body">
+			<a name="var$base_dir" id="$base_dir"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>&nbsp;&nbsp;
+			<span class="var-name">$base_dir</span>
+						<span class="smalllinenumber">[line 101]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>target directory passed on the command-line.
+</strong></p>
+<span class="description"><p><a href="../../Converters/Converter.html#var$targetDir">$targetDir</a> is malleable, always adding package/ and package/subpackage/ subdirectories onto it.</p></span>	
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$category" id="$category"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>&nbsp;&nbsp;
+			<span class="var-name">$category</span>
+						<span class="smalllinenumber">[line 162]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>peardoc2 Category
+</strong></p>
+	
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$class" id="$class"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>&nbsp;&nbsp;
+			<span class="var-name">$class</span>
+						<span class="smalllinenumber">[line 82]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>name of current class being converted
+</strong></p>
+	
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#var$class">Converter::$class</a></dt>
+						<dd>set to a classname if currently parsing a class, false if not</dd>
+					</dl>
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$class_data" id="$class_data"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">Template</span>&nbsp;&nbsp;
+			<span class="var-name">$class_data</span>
+						<span class="smalllinenumber">[line 113]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>template for the class currently being processed
+</strong></p>
+	
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#var$class_data">Converter::$class_data</a></dt>
+						<dd>template for the class currently being processed</dd>
+					</dl>
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$class_dir" id="$class_dir"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>&nbsp;&nbsp;
+			<span class="var-name">$class_dir</span>
+						<span class="smalllinenumber">[line 107]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>output directory for the current class being processed
+</strong></p>
+	
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$current" id="$current"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>&nbsp;&nbsp;
+			<span class="var-name">$current</span>
+						<span class="smalllinenumber">[line 138]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>contains all of the template procedural page element loop data needed for the current template
+</strong></p>
+	
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$currentclass" id="$currentclass"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>&nbsp;&nbsp;
+			<span class="var-name">$currentclass</span>
+						<span class="smalllinenumber">[line 144]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>contains all of the template class element loop data needed for the current template
+</strong></p>
+	
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$function_data" id="$function_data"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>&nbsp;&nbsp;
+			<span class="var-name">$function_data</span>
+			 = <span class="var-default">array()</span>			<span class="smalllinenumber">[line 155]</span>
+		</span>
+	</div>
+
+		
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$juststarted" id="$juststarted"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">boolean</span>&nbsp;&nbsp;
+			<span class="var-name">$juststarted</span>
+			 = <span class="var-default"> false</span>			<span class="smalllinenumber">[line 132]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>controls formatting of parser informative output
+</strong></p>
+<span class="description"><p>Converter prints:  &quot;Converting /path/to/file.php... Procedural Page Elements... Classes...&quot;  Since HTMLdefaultConverter outputs files while converting, it needs to send a \n to start a new line.  However, if there  is more than one class, output is messy, with multiple \n's just between class file output.  This variable prevents that  and is purely cosmetic</p></span>	
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$leftindex" id="$leftindex"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>&nbsp;&nbsp;
+			<span class="var-name">$leftindex</span>
+			 = <span class="var-default">array('classes' =&gt; true, 'pages' =&gt; true, 'functions' =&gt; false, 'defines' =&gt; false, 'globals' =&gt; false)</span>			<span class="smalllinenumber">[line 59]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>indexes of elements by package that need to be generated
+</strong></p>
+	
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#var$leftindex">Converter::$leftindex</a></dt>
+						<dd>Controls which of the one-element-only indexes are generated.</dd>
+					</dl>
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$local" id="$local"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">boolean</span>&nbsp;&nbsp;
+			<span class="var-name">$local</span>
+			 = <span class="var-default"> true</span>			<span class="smalllinenumber">[line 64]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>whether a @see is going to be in the $base_dir, or in a package/subpackage subdirectory of $base_dir
+</strong></p>
+	
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$method_data" id="$method_data"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>&nbsp;&nbsp;
+			<span class="var-name">$method_data</span>
+			 = <span class="var-default">array()</span>			<span class="smalllinenumber">[line 156]</span>
+		</span>
+	</div>
+
+		
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$name" id="$name"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>&nbsp;&nbsp;
+			<span class="var-name">$name</span>
+			 = <span class="var-default"> 'DocBook'</span>			<span class="smalllinenumber">[line 54]</span>
+		</span>
+	</div>
+
+		
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$outputformat" id="$outputformat"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>&nbsp;&nbsp;
+			<span class="var-name">$outputformat</span>
+			 = <span class="var-default"> 'XML'</span>			<span class="smalllinenumber">[line 52]</span>
+		</span>
+	</div>
+
+		
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#var$outputformat">Converter::$outputformat</a></dt>
+						<dd>output format of this converter</dd>
+					</dl>
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$package_pages" id="$package_pages"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>&nbsp;&nbsp;
+			<span class="var-name">$package_pages</span>
+			 = <span class="var-default">array()</span>			<span class="smalllinenumber">[line 120]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>array of converted package page names.
+</strong></p>
+<span class="description"><p>Used to link to the package page in the left index</p></span>	
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$page" id="$page"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>&nbsp;&nbsp;
+			<span class="var-name">$page</span>
+						<span class="smalllinenumber">[line 70]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>name of current page being converted
+</strong></p>
+	
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#var$page">Converter::$page</a></dt>
+						<dd>name of current page being converted</dd>
+					</dl>
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$page_data" id="$page_data"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">Template</span>&nbsp;&nbsp;
+			<span class="var-name">$page_data</span>
+						<span class="smalllinenumber">[line 88]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>template for the procedural page currently being processed
+</strong></p>
+	
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#var$page_data">Converter::$page_data</a></dt>
+						<dd>template for the procedural page currently being processed</dd>
+					</dl>
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$page_dir" id="$page_dir"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>&nbsp;&nbsp;
+			<span class="var-name">$page_dir</span>
+						<span class="smalllinenumber">[line 94]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>output directory for the current procedural page being processed
+</strong></p>
+	
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$path" id="$path"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">string</span>&nbsp;&nbsp;
+			<span class="var-name">$path</span>
+						<span class="smalllinenumber">[line 76]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>path of current page being converted
+</strong></p>
+	
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#var$path">Converter::$path</a></dt>
+						<dd>path of current page being converted</dd>
+					</dl>
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$sort_page_contents_by_type" id="$sort_page_contents_by_type"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">boolean</span>&nbsp;&nbsp;
+			<span class="var-name">$sort_page_contents_by_type</span>
+			 = <span class="var-default"> true</span>			<span class="smalllinenumber">[line 50]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>XMLDocBookConverter wants elements sorted by type as well as alphabetically
+</strong></p>
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/Converter.html#var$sort_page_contents_by_type">Converter::$sort_page_contents_by_type</a></td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#var$sort_page_contents_by_type">Converter::$sort_page_contents_by_type</a></dt>
+						<dd>This determines whether the $page_contents array should be sorted by element type as well as alphabetically by name</dd>
+					</dl>
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$sourceloc" id="$sourceloc"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>&nbsp;&nbsp;
+			<span class="var-name">$sourceloc</span>
+			 = <span class="var-default"> ''</span>			<span class="smalllinenumber">[line 157]</span>
+		</span>
+	</div>
+
+		
+
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="var$template_options" id="$template_options"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">array</span>&nbsp;&nbsp;
+			<span class="var-name">$template_options</span>
+			 = <span class="var-default">array('usepear' =&gt; false)</span>			<span class="smalllinenumber">[line 153]</span>
+		</span>
+	</div>
+
+	<p align="center" class="short-description"><strong>template options.  Currently only 1 recognized option usepear
+</strong></p>
+<span class="description"><p>usepear tells the getLink() function to return a package link to PEAR and PEAR_ERROR if possible, and to link directly  to the fully-delimited link package#class.method or package#file.method in PEAR style, if possible, even if the  package is not parsed.  This will allow parsing of separate PEAR packages without parsing the entire thing at once!</p></span>	
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#var$template_options">Converter::$template_options</a></dt>
+						<dd>Options for each template, parsed from the options.ini file in the template base directory</dd>
+					</dl>
+	
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+		</div>
+	</div>
+
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Class Overview</a>
+										| <a href="#sec-inherited">Inherited Properties and Methods</a>
+															| <a href="#sec-var-summary">Property Summary</a> | <a href="#sec-vars">Properties Detail</a>
+																	| <a href="#sec-method-summary">Method Summary</a> | <span class="disabled">Methods Detail</span>
+					</div>
+		<div class="info-box-body">
+			<a name='method_detail'></a>
+
+<a name="methodXMLDocBookConverter" id="XMLDocBookConverter"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">Constructor XMLDocBookConverter</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 167]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>XMLDocBookConverter XMLDocBookConverter(
+
+&$allp, 
+&$packp, 
+&$classes, 
+&$procpages, 
+$po, 
+$pp, 
+$qm, 
+$targetDir, 
+$templateDir, 
+$title&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>sets $base_dir to $targetDir
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">&$allp:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">&$packp:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">&$classes:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">&$procpages:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$po:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$pp:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$qm:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$targetDir:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$templateDir:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$title:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/Converter.html#methodConverter">Converter::Converter()</a></td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodconvertClass" id="convertClass"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">convertClass</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 811]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void convertClass(
+<a href="../../phpDocumentor/ParserElements/parserClass.html">parserClass</a>
+&$element&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Converts class for template output
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../phpDocumentor/ParserElements/parserClass.html">parserClass</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">&$element:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/Converter.html#methodgetFormattedInheritedMethods">Converter::getFormattedInheritedMethods()</a>, <a href="../../Converters/Converter.html#methodgetFormattedInheritedVars">Converter::getFormattedInheritedVars()</a></td>
+  </tr>
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodprepareDocBlock">XMLDocBookConverter::prepareDocBlock()</a>, <a href="../../Converters/Converter.html#methodgenerateChildClassList">Converter::generateChildClassList()</a>, <a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgenerateFormattedClassTree">XMLDocBookConverter::generateFormattedClassTree()</a>, <a href="../../Converters/Converter.html#methodgetFormattedConflicts">Converter::getFormattedConflicts()</a></td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodconvertClass">Converter::convertClass()</a></dt>
+						<dd>Default Class Handler</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodconvertDefine" id="convertDefine"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">convertDefine</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1021]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void convertDefine(
+<a href="../../phpDocumentor/ParserElements/parserDefine.html">parserDefine</a>
+&$element&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Converts defines for template output
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../phpDocumentor/ParserElements/parserDefine.html">parserDefine</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">&$element:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodprepareDocBlock">XMLDocBookConverter::prepareDocBlock()</a>, <a href="../../Converters/Converter.html#methodgetFormattedConflicts">Converter::getFormattedConflicts()</a></td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodconvertDefine">Converter::convertDefine()</a></dt>
+						<dd>Converts defines for template output</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodConvertErrorLog" id="ConvertErrorLog"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">ConvertErrorLog</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 625]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void ConvertErrorLog(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Create errors.html template file output
+</strong></p>
+<span class="description"><p>This method takes all parsing errors and warnings and spits them out ordered by file and line number.</p></span>
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Global:</strong>&nbsp;&nbsp;</td><td><a href="../../phpDocumentor/Errors/ErrorTracker.html">ErrorTracker</a> $phpDocumentor_errors: We'll be using it's output facility</td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodConvertErrorLog">Converter::ConvertErrorLog()</a></dt>
+						<dd>Convert the phpDocumentor parsing/conversion error log</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodconvertFunction" id="convertFunction"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">convertFunction</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 952]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void convertFunction(
+<a href="../../phpDocumentor/ParserElements/parserFunction.html">parserFunction</a>
+&$element&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Converts function for template output
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../phpDocumentor/ParserElements/parserFunction.html">parserFunction</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">&$element:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodprepareDocBlock">XMLDocBookConverter::prepareDocBlock()</a>, <a href="../../phpDocumentor/ParserElements/parserFunction.html#methodgetFunctionCall">parserFunction::getFunctionCall()</a>, <a href="../../Converters/Converter.html#methodgetFormattedConflicts">Converter::getFormattedConflicts()</a></td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodconvertFunction">Converter::convertFunction()</a></dt>
+						<dd>Converts function for template output</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodconvertGlobal" id="convertGlobal"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">convertGlobal</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1040]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void convertGlobal(
+<a href="../../phpDocumentor/ParserElements/parserGlobal.html">parserGlobal</a>
+&$element&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Converts global variables for template output
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../phpDocumentor/ParserElements/parserGlobal.html">parserGlobal</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">&$element:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodprepareDocBlock">XMLDocBookConverter::prepareDocBlock()</a>, <a href="../../Converters/Converter.html#methodgetFormattedConflicts">Converter::getFormattedConflicts()</a></td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodconvertGlobal">Converter::convertGlobal()</a></dt>
+						<dd>Converts global variables for template output</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodconvertInclude" id="convertInclude"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">convertInclude</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1003]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void convertInclude(
+<a href="../../phpDocumentor/ParserElements/parserInclude.html">parserInclude</a>
+&$element&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Converts include elements for template output
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../phpDocumentor/ParserElements/parserInclude.html">parserInclude</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">&$element:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodprepareDocBlock">XMLDocBookConverter::prepareDocBlock()</a></td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodconvertInclude">Converter::convertInclude()</a></dt>
+						<dd>Converts includes for template output</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodconvertMethod" id="convertMethod"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">convertMethod</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 873]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void convertMethod(
+<a href="../../phpDocumentor/ParserElements/parserMethod.html">parserMethod</a>
+&$element&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Converts method for template output
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../phpDocumentor/ParserElements/parserMethod.html">parserMethod</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">&$element:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodprepareDocBlock">XMLDocBookConverter::prepareDocBlock()</a>, <a href="../../phpDocumentor/ParserElements/parserMethod.html#methodgetFunctionCall">parserMethod::getFunctionCall()</a>, <a href="../../Converters/Converter.html#methodgetFormattedDescMethods">Converter::getFormattedDescMethods()</a>, <a href="../../Converters/Converter.html#methodgetFormattedOverrides">Converter::getFormattedOverrides()</a></td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodconvertMethod">Converter::convertMethod()</a></dt>
+						<dd>Converts method for template output</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodconvertPackagePage" id="convertPackagePage"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">convertPackagePage</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 712]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void convertPackagePage(
+<a href="../../phpDocumentor/ParserElements/parserPackagePage.html">parserPackagePage</a>
+&$element&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Converts package page and sets its package as used in $package_pages
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../phpDocumentor/ParserElements/parserPackagePage.html">parserPackagePage</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">&$element:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodconvertPage" id="convertPage"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">convertPage</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1062]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void convertPage(
+<a href="../../phpDocumentor/ParserData/parserData.html">parserData</a>
+&$element&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>converts procedural pages for template output
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../phpDocumentor/ParserData/parserData.html">parserData</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">&$element:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodprepareDocBlock">XMLDocBookConverter::prepareDocBlock()</a>, <a href="../../Converters/Converter.html#methodgetClassesOnPage">Converter::getClassesOnPage()</a></td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodconvertPage">Converter::convertPage()</a></dt>
+						<dd>Default Page Handler</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodconvertTutorial" id="convertTutorial"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">convertTutorial</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 736]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void convertTutorial(
+
+&$element&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">&$element:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodconvertTutorial">Converter::convertTutorial()</a></dt>
+						<dd>Default Tutorial Handler</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodconvertVar" id="convertVar"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">convertVar</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 774]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void convertVar(
+<a href="../../phpDocumentor/ParserElements/parserVar.html">parserVar</a>
+&$element&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Converts class variables for template output.
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../phpDocumentor/ParserElements/parserVar.html">parserVar</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">&$element:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodprepareDocBlock">XMLDocBookConverter::prepareDocBlock()</a>, <a href="../../Converters/Converter.html#methodgetFormattedOverrides">Converter::getFormattedOverrides()</a></td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodconvertVar">Converter::convertVar()</a></dt>
+						<dd>Converts class variables for template output.</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodendClass" id="endClass"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">endClass</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 217]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void endClass(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Writes out the template file of $class_data and unsets the template to save memory
+</strong></p>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/Converter.html#methodendClass">Converter::endClass()</a></td>
+  </tr>
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td>registerCurrentClass()</td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodendClass">Converter::endClass()</a></dt>
+						<dd>Called by walk() while converting, when the last class element  has been parsed.</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodendPage" id="endPage"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">endPage</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 249]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void endPage(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Writes out the template file of $page_data and unsets the template to save memory
+</strong></p>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/Converter.html#methodendPage">Converter::endPage()</a></td>
+  </tr>
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td>registerCurrent()</td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodendPage">Converter::endPage()</a></dt>
+						<dd>Called by walk() while converting, when the last procedural page  element has been parsed.</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodformatIndex" id="formatIndex"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">formatIndex</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 360]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void formatIndex(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>HTMLdefaultConverter uses this function to format template index.html and packages.html
+</strong></p>
+<span class="description"><p>This function generates the package list from <a href="../../Converters/Converter.html#var$all_packages">$all_packages</a>, eliminating any  packages that don't have any entries in their package index (no files at all, due to @ignore  or other factors).  Then it uses the default package name as the first package index to display.  It sets the right pane to be either a blank file with instructions on making package-level docs,  or the package-level docs for the default package.</p></span>
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Global:</strong>&nbsp;&nbsp;</td><td>string $phpDocumentor_DefaultPackageName: Used to set the starting package to display</td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodformatIndex">Converter::formatIndex()</a></dt>
+						<dd>Called by walk() while converting.</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodformatLeftIndex" id="formatLeftIndex"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">formatLeftIndex</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 438]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void formatLeftIndex(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Generate indexes for li_package.html and classtree output files
+</strong></p>
+<span class="description"><p>This function generates the li_package.html files from the template file left.html.  It does this by  iterating through each of the $page_elements, $class_elements and  $function_elements arrays to retrieve  the pre-sorted <a href="../../phpDocumentor/Links/abstractLink.html">abstractLink</a> descendants needed for index generation.  Conversion of these links to  text is done by <a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodreturnSee">returnSee()</a>.  The <a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#var$local">$local</a> parameter is set to false to ensure that paths are correct.</p><p>Then it uses <a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgenerateFormattedClassTrees">generateFormattedClassTrees()</a> to create class trees from the template file classtrees.html.  Output  filename is classtrees_packagename.html.  This function also unsets <a href="../../Converters/Converter.html#var$elements">$elements</a> and <a href="../../Converters/Converter.html#var$pkg_elements">$pkg_elements</a> to free  up the considerable memory these two class vars use</p></span>
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/Converter.html#var$page_elements">Converter::$page_elements</a>, <a href="../../Converters/Converter.html#var$class_elements">Converter::$class_elements</a>, <a href="../../Converters/Converter.html#var$function_elements">Converter::$function_elements</a></td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodformatLeftIndex">Converter::formatLeftIndex()</a></dt>
+						<dd>Called by walk() while converting.</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodformatPkgIndex" id="formatPkgIndex"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">formatPkgIndex</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 327]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void formatPkgIndex(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>HTMLdefaultConverter chooses to format both package indexes and the complete index here
+</strong></p>
+<span class="description"><p>This function formats output for the elementindex.html and pkgelementindex.html template files.  It then  writes them to the target directory</p></span>
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgenerateElementIndex">XMLDocBookConverter::generateElementIndex()</a>, <a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgeneratePkgElementIndex">XMLDocBookConverter::generatePkgElementIndex()</a></td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodformatPkgIndex">Converter::formatPkgIndex()</a></dt>
+						<dd>Called by walk() while converting.</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgenerateElementIndex" id="generateElementIndex"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">generateElementIndex</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1260]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void generateElementIndex(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Generate alphabetical index of all elements
+</strong></p>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/Converter.html#var$elements">Converter::$elements</a>, <a href="../../Converters/Converter.html#methodwalk">Converter::walk()</a></td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgenerateFormattedClassTree" id="generateFormattedClassTree"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">generateFormattedClassTree</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1122]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>array generateFormattedClassTree(
+<a href="../../phpDocumentor/ParserElements/parserClass.html">parserClass</a>
+$class&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>returns an array containing the class inheritance tree from the root object to the class
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../phpDocumentor/ParserElements/parserClass.html">parserClass</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$class:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> class variable</span>			</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Return:</strong>&nbsp;&nbsp;</td><td>Format: array(root,child,child,child,...,$class)</td>
+  </tr>
+  <tr>
+    <td class="indent"><strong>Uses:</strong>&nbsp;&nbsp;</td><td><a href="../../phpDocumentor/ParserElements/parserClass.html#methodgetParentClassTree">parserClass::getParentClassTree()</a></td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodgenerateFormattedClassTree">Converter::generateFormattedClassTree()</a></dt>
+						<dd>returns an array containing the class inheritance tree from the root  object to the class.</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgenerateFormattedClassTrees" id="generateFormattedClassTrees"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">generateFormattedClassTrees</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1172]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void generateFormattedClassTrees(
+string
+$package&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>returns a template-enabled array of class trees
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$package:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> package to generate a class tree for</span>			</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td>$roots, HTMLConverter::getRootTree()</td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgeneratePkgElementIndex" id="generatePkgElementIndex"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">generatePkgElementIndex</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1448]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void generatePkgElementIndex(
+string
+$package&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Generate alphabetical index of all elements by package and subpackage
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$package:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> name of a package</span>			</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/Converter.html#var$pkg_elements">Converter::$pkg_elements</a>, <a href="../../Converters/Converter.html#methodwalk">Converter::walk()</a>, <a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgeneratePkgElementIndexes">XMLDocBookConverter::generatePkgElementIndexes()</a></td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgeneratePkgElementIndexes" id="generatePkgElementIndexes"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">generatePkgElementIndexes</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1588]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void generatePkgElementIndexes(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgeneratePkgElementIndex">XMLDocBookConverter::generatePkgElementIndex()</a></td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgetCData" id="getCData"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">getCData</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 703]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void getCData(
+
+$value&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$value:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgetClassLink" id="getClassLink"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">getClassLink</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1628]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>mixed getClassLink(
+string
+$expr, string
+$package, [string
+$file = false], [boolean
+$text = false], [boolean
+$local = true], [
+$with_a = true]&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$expr:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> name of class</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$package:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> package name</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$file:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> full path to look in (used in index generation)</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">boolean</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$text:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> deprecated</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">boolean</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$local:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> return just the URL, or enclose it in an html a tag</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$with_a:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Return:</strong>&nbsp;&nbsp;</td><td>false if not found, or an html a link to the class's documentation</td>
+  </tr>
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/Converter.html#methodgetClassLink">Converter::getClassLink()</a></td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodgetClassLink">Converter::getClassLink()</a></dt>
+						<dd>return false or a <a href="../../phpDocumentor/Links/classLink.html">classLink</a> to $expr</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgetDefineLink" id="getDefineLink"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">getDefineLink</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1660]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>mixed getDefineLink(
+string
+$expr, string
+$package, [string
+$file = false], [boolean
+$text = false], [boolean
+$local = true]&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$expr:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> name of define</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$package:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> package name</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$file:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> full path to look in (used in index generation)</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">boolean</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$text:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> deprecated</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">boolean</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$local:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> return just the URL, or enclose it in an html a tag</span>			</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Return:</strong>&nbsp;&nbsp;</td><td>false if not found, or an html a link to the define's documentation</td>
+  </tr>
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/Converter.html#methodgetDefineLink">Converter::getDefineLink()</a></td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodgetDefineLink">Converter::getDefineLink()</a></dt>
+						<dd>return false or a <a href="../../phpDocumentor/Links/defineLink.html">defineLink</a> to $expr</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgetFunctionLink" id="getFunctionLink"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">getFunctionLink</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1644]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>mixed getFunctionLink(
+string
+$expr, string
+$package, [string
+$file = false], [boolean
+$text = false], [boolean
+$local = true]&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$expr:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> name of function</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$package:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> package name</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$file:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> full path to look in (used in index generation)</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">boolean</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$text:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> deprecated</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">boolean</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$local:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> return just the URL, or enclose it in an html a tag</span>			</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Return:</strong>&nbsp;&nbsp;</td><td>false if not found, or an html a link to the function's documentation</td>
+  </tr>
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/Converter.html#methodgetFunctionLink">Converter::getFunctionLink()</a></td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodgetFunctionLink">Converter::getFunctionLink()</a></dt>
+						<dd>return false or a <a href="../../phpDocumentor/Links/functionLink.html">functionLink</a> to $expr</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgetGlobalLink" id="getGlobalLink"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">getGlobalLink</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1676]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>mixed getGlobalLink(
+string
+$expr, string
+$package, [string
+$file = false], [boolean
+$text = false], [boolean
+$local = true]&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$expr:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> name of global variable</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$package:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> package name</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$file:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> full path to look in (used in index generation)</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">boolean</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$text:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> deprecated</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">boolean</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$local:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> return just the URL, or enclose it in an html a tag</span>			</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Return:</strong>&nbsp;&nbsp;</td><td>false if not found, or an html a link to the global variable's documentation</td>
+  </tr>
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/Converter.html#methodgetGlobalLink">Converter::getGlobalLink()</a></td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodgetGlobalLink">Converter::getGlobalLink()</a></dt>
+						<dd>return false or a <a href="../../phpDocumentor/Links/globalLink.html">globalLink</a> to $expr</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgetId" id="getId"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">getId</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 574]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string getId(
+mixed
+&$el&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>Get the id value needed to allow linking
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">mixed</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">&$el:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> descendant of parserElement or parserData/parserPage</span>			</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Return:</strong>&nbsp;&nbsp;</td><td>the id value for this element type</td>
+  </tr>
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../phpDocumentor/ParserElements/parserElement.html">parserElement</a>, <a href="../../phpDocumentor/ParserData/parserData.html">parserData</a>, <a href="../../phpDocumentor/ParserData/parserPage.html">parserPage</a></td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodgetId">Converter::getId()</a></dt>
+						<dd>take <a href="../../phpDocumentor/Links/abstractLink.html">abstractLink</a> descendant and text $eltext and return a</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgetLink" id="getLink"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">getLink</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 175]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void &amp;getLink(
+
+$expr, [
+$package = false], [
+$packages = false]&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>do that stuff in $template_options
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$expr:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$package:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$packages:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodgetLink">Converter::getLink()</a></dt>
+						<dd>The meat of the @see tag and inline {@link} tag</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgetMethodLink" id="getMethodLink"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">getMethodLink</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1709]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>mixed getMethodLink(
+string
+$expr, string
+$class, string
+$package, [string
+$file = false], [boolean
+$text = false], [boolean
+$local = true]&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$expr:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> name of method</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$class:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> class containing method</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$package:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> package name</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$file:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> full path to look in (used in index generation)</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">boolean</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$text:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> deprecated</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">boolean</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$local:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> return just the URL, or enclose it in an html a tag</span>			</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Return:</strong>&nbsp;&nbsp;</td><td>false if not found, or an html a link to the method's documentation</td>
+  </tr>
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/Converter.html#methodgetMethodLink">Converter::getMethodLink()</a></td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodgetMethodLink">Converter::getMethodLink()</a></dt>
+						<dd>return false or a <a href="../../phpDocumentor/Links/methodLink.html">methodLink</a> to $expr in $class</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgetPageLink" id="getPageLink"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">getPageLink</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1692]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>mixed getPageLink(
+string
+$expr, string
+$package, [string
+$path = false], [boolean
+$text = false], [boolean
+$local = true]&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$expr:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> name of procedural page</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$package:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> package name</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$path:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> full path to look in (used in index generation)</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">boolean</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$text:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> deprecated</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">boolean</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$local:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> return just the URL, or enclose it in an html a tag</span>			</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Return:</strong>&nbsp;&nbsp;</td><td>false if not found, or an html a link to the procedural page's documentation</td>
+  </tr>
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/Converter.html#methodgetPageLink">Converter::getPageLink()</a></td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodgetPageLink">Converter::getPageLink()</a></dt>
+						<dd>return false or a <a href="../../phpDocumentor/Links/pageLink.html">pageLink</a> to $expr</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgetPageName" id="getPageName"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">getPageName</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1109]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void getPageName(
+
+&$element&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">&$element:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgetRootTree" id="getRootTree"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">getRootTree</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1191]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string getRootTree(
+array
+$tree, 
+$package&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>return formatted class tree for the Class Trees page
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">array</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$tree:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> output from <a href="../../Converters/Converter.html#methodgetSortedClassTreeFromClass">getSortedClassTreeFromClass()</a></span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$package:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td>Classes::$definitechild, <a href="../../Converters/XMLDocBook/XMLDocBookConverter.html#methodgenerateFormattedClassTrees">XMLDocBookConverter::generateFormattedClassTrees()</a></td>
+  </tr>
+</table>
+<br />
+
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgetTutorialId" id="getTutorialId"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">getTutorialId</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 696]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void getTutorialId(
+
+$package, 
+$subpackage, 
+$tutorial, 
+$id&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$package:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$subpackage:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$tutorial:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$id:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodgetTutorialId">Converter::getTutorialId()</a></dt>
+						<dd>Return a converter-specific id to distinguish tutorials and their  sections</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodgetVarLink" id="getVarLink"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">getVarLink</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1726]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>mixed getVarLink(
+string
+$expr, string
+$class, string
+$package, [string
+$file = false], [boolean
+$text = false], [boolean
+$local = true]&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$expr:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> name of var</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$class:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> class containing var</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$package:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> package name</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$file:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> full path to look in (used in index generation)</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">boolean</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$text:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> deprecated</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">boolean</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$local:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> return just the URL, or enclose it in an html a tag</span>			</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Return:</strong>&nbsp;&nbsp;</td><td>false if not found, or an html a link to the var's documentation</td>
+  </tr>
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/Converter.html#methodgetVarLink">Converter::getVarLink()</a></td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodgetVarLink">Converter::getVarLink()</a></dt>
+						<dd>return false or a <a href="../../phpDocumentor/Links/varLink.html">varLink</a> to $expr in $class</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodmakeLeft" id="makeLeft"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">makeLeft</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 282]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void makeLeft(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodOutput" id="Output"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">Output</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1783]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void Output(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>This function is not used by HTMLdefaultConverter, but is required by Converter
+</strong></p>
+
+	<br />
+	
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodOutput">Converter::Output()</a></dt>
+						<dd>do all necessary output</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodpostProcess" id="postProcess"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">postProcess</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 686]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void postProcess(
+
+$text&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$text:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodpostProcess">Converter::postProcess()</a></dt>
+						<dd>This version does nothing</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodprepareDocBlock" id="prepareDocBlock"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">prepareDocBlock</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 691]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void prepareDocBlock(
+
+&$element, [
+$nopackage = true]&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">&$element:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$nopackage:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodprepareDocBlock">Converter::prepareDocBlock()</a></dt>
+						<dd>convert the element's DocBlock for output</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodrcNatCmp" id="rcNatCmp"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">rcNatCmp</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1740]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>int rcNatCmp(
+mixed
+$a, mixed
+$b&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>does a nat case sort on the specified second level value of the array
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">mixed</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$a:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">mixed</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$b:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodrcNatCmp1" id="rcNatCmp1"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">rcNatCmp1</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1756]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>int rcNatCmp1(
+mixed
+$a, mixed
+$b&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>does a nat case sort on the specified second level value of the array.
+</strong></p>
+<span class="description"><p>this one puts constructors first</p></span>
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">mixed</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$a:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">mixed</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$b:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodreturnLink" id="returnLink"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">returnLink</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 277]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>string returnLink(
+string
+$link, string
+$text&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$link:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$text:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>Return:</strong>&nbsp;&nbsp;</td><td>&amp;lt;ulink url=&quot;'.$link.'&quot;&gt;'.$text.'&lt;/ulink&amp;gt;</td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodreturnLink">Converter::returnLink()</a></dt>
+						<dd>take URL $link and text $text and return a link in the format needed for the Converter</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodreturnSee" id="returnSee"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">returnSee</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 476]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void returnSee(
+<a href="../../phpDocumentor/Links/abstractLink.html">abstractLink</a>
+&$element, [string
+$eltext = false], [boolean
+$local = true], [boolean
+$with_a = true]&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>This function takes an <a href="../../phpDocumentor/Links/abstractLink.html">abstractLink</a> descendant and returns an html link
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"><a href="../../phpDocumentor/Links/abstractLink.html">abstractLink</a></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">&$element:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> a descendant of abstractlink should be passed, and never text</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">string</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$eltext:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> text to display in the link</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">boolean</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$local:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> this parameter is not used, and is deprecated</span>			</td></tr>
+					<tr><td class="indent">
+				<span class="var-type">boolean</span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$with_a:&nbsp;</span></td>
+				<td>
+				<span class="var-description"> determines whether the returned text is enclosed in an &amp;lt;a&gt; tag</span>			</td></tr>
+				</table>
+
+	<br />
+	
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodreturnSee">Converter::returnSee()</a></dt>
+						<dd>take <a href="../../phpDocumentor/Links/abstractLink.html">abstractLink</a> descendant and text $eltext and return a link</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodsetTargetDir" id="setTargetDir"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">setTargetDir</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1388]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void setTargetDir(
+
+$dir&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	<p align="center" class="short-description"><strong>calls the converter setTargetDir, and then copies any template images and the stylesheet if they haven't been copied
+</strong></p>
+
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$dir:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	<strong>API Tags:</strong><br />
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="indent"><strong>See:</strong>&nbsp;&nbsp;</td><td><a href="../../Converters/Converter.html#methodsetTargetDir">Converter::setTargetDir()</a></td>
+  </tr>
+</table>
+<br />
+
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodsetTargetDir">Converter::setTargetDir()</a></dt>
+						<dd>Sets the output directory for generated documentation</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodsetTemplateDir" id="setTemplateDir"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">setTemplateDir</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 1378]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void setTemplateDir(
+
+$dir&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$dir:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodsetTemplateDir">Converter::setTemplateDir()</a></dt>
+						<dd>sets the template directory based on the $outputformat and $name</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodSmartyInit" id="SmartyInit"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">SmartyInit</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 205]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void &amp;SmartyInit(
+
+&$templ&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">&$templ:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodtype_adjust" id="type_adjust"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">type_adjust</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 186]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void type_adjust(
+
+$typename&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$typename:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodtype_adjust">Converter::type_adjust()</a></dt>
+						<dd>Called by <a href="../../phpDocumentor/DocBlockTags/parserReturnTag.html#methodConvert">parserReturnTag::Convert()</a> to allow converters to  change type names to desired formatting</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodunmangle" id="unmangle"><!-- --></a>
+<div class="evenrow">
+
+<div class="method-header">
+	<span class="method-title">unmangle</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 180]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void unmangle(
+
+$s, 
+$sourcecode&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$s:&nbsp;</span></td>
+				<td>
+							</td></tr>
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$sourcecode:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../../Converters/Converter.html#methodunmangle">Converter::unmangle()</a></dt>
+						<dd>Called by <a href="../../phpDocumentor/InlineTags/parserSourceInlineTag.html#methodstringConvert">parserSourceInlineTag::stringConvert()</a> to allow  converters to format the source code the way they'd like.</dd>
+					</dl>
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+<a name="methodwriteNewPPage" id="writeNewPPage"><!-- --></a>
+<div class="oddrow">
+
+<div class="method-header">
+	<span class="method-title">writeNewPPage</span>&nbsp;&nbsp;<span class="smalllinenumber">[line 406]</span>
+</div>
+<br />
+
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code-border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">&nbsp;
+		<code>void writeNewPPage(
+
+$key&nbsp;
+)</code>
+    </td></tr></table>
+    </td></tr></table><br /></div>
+
+	
+			<strong>Parameters:</strong><br />
+			<table border="0" cellspacing="0" cellpadding="0">
+					<tr><td class="indent">
+				<span class="var-type"></span>&nbsp;&nbsp;</td>
+				<td>
+				<span class="var-name">$key:&nbsp;</span></td>
+				<td>
+							</td></tr>
+				</table>
+
+	<br />
+	
+
+		
+		<br />
+	<div class="top">[ <a href="#top">Top</a> ]</div>
+</div>
+		</div>
+	</div>
+
+
+        <div class="credit">
+		    <hr class="separator" />
+		    Documentation generated on Tue, 06 Dec 2011 07:21:26 -0600 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.4</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

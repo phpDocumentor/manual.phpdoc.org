@@ -1,0 +1,867 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<title>Docs For Class phpDocumentor_XML_Beautifier_Tokenizer</title>
+	<link rel="stylesheet" type="text/css" id="layout" href="../../media/layout.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../../media/style.css" media="all">
+	<link rel="stylesheet" type="text/css" href="../../media/print.css" media="print">
+</head>
+
+<body>
+<div id="header">
+	<div id="navLinks">
+        
+                                    
+                                                	        [ <a href="../../classtrees_phpDocumentor.html">Class Tree: phpDocumentor</a> ]
+            [ <a href="../../elementindex_phpDocumentor.html">Index: phpDocumentor</a> ]
+        		[ <a href="../../elementindex.html">All elements</a> ]		
+	</div>
+	<div id="packagePosition">
+		<div id="packageTitle2">phpDocumentor</div>
+		<div id="packageTitle">phpDocumentor</div>
+		<div id="elementPath">Parsers &middot; </div>
+	</div>
+</div>
+
+<div id="nav" class="small">
+	<div id="ric">
+					<p><a href="../../ric_FAQ.html">FAQ</a></p>
+					<p><a href="../../ric_ChangeLog.html">ChangeLog</a></p>
+					<p><a href="../../ric_INSTALL.html">INSTALL</a></p>
+					<p><a href="../../ric_README.html">README</a></p>
+			</div>
+	<div id="todolist">
+			<p><a href="../../todolist.html">Todo List</a></p>
+	</div>
+	<div id="packages">
+		Packages:
+					<p><a href="../../li_phpDocumentor.html">phpDocumentor</a></p>
+					<p><a href="../../li_Converters.html">Converters</a></p>
+			</div>
+	<div id="tutorials">
+		Tutorials/Manuals:<br />
+					<strong>Package-level:</strong>
+							<ul>
+	<li><a href="../../phpDocumentor/tutorial_phpDocumentor.pkg.html">phpDocumentor Guide to Creating Fantastic Documentation</a>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_phpDocumentor.quickstart.pkg.html">phpDocumentor Quickstart</a>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_sample1.pkg.html">Source code for sample1.php</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_sample2.pkg.html">Source code for sample2.php</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_sample3.pkg.html">Source code for sample3.php</a>
+</ul>
+</li></ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_phpDocumentor.howto.pkg.html"> phpDocumentor  Tutorial</a>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_elements.pkg.html">Documentable PHP Elements</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tutorials.pkg.html">phpDocumentor Tutorials</a>
+</ul>
+</li></ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_manual.pkg.html"> phpDocumentor  Manual</a>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.pkg.html">phpDocumentor tags</a>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.abstract.pkg.html">@abstract</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.access.pkg.html">@access</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.author.pkg.html">@author</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.category.pkg.html">@category</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.copyright.pkg.html">@copyright</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.deprecated.pkg.html">@deprecated</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.example.pkg.html">@example</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.final.pkg.html">@final</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.filesource.pkg.html">@filesource</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.global.pkg.html">@global</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.ignore.pkg.html">@ignore</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.internal.pkg.html">@internal</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.license.pkg.html">@license</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.link.pkg.html">@link</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.method.pkg.html">@method</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.name.pkg.html">@name</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.package.pkg.html">@package</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.param.pkg.html">@param</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.property.pkg.html">@property</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.return.pkg.html">@return</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.see.pkg.html">@see</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.since.pkg.html">@since</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.static.pkg.html">@static</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.staticvar.pkg.html">@staticvar</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.subpackage.pkg.html">@subpackage</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.todo.pkg.html">@todo</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.tutorial.pkg.html">@tutorial</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.uses.pkg.html">@uses</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.var.pkg.html">@var</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.version.pkg.html">@version</a>
+</ul>
+</li></ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_inlinetags.pkg.html">phpDocumentor Inline tags</a>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlineexample.pkg.html">inline {@example}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlineid.pkg.html">inline {@id}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlineinternal.pkg.html">inline {@internal}}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlineinheritdoc.pkg.html">inline {@inheritdoc}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlinelink.pkg.html">inline {@link}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlinesource.pkg.html">inline {@source}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlinetoc.pkg.html">inline {@toc}</a>
+</ul>
+<ul>
+	<li><a href="../../phpDocumentor/tutorial_tags.inlinetutorial.pkg.html">inline {@tutorial}</a>
+</ul>
+</li></ul>
+</li></ul>
+</li></ul>
+
+										</div>
+
+				<div id="index">
+			<div id="files">
+								Files:<br>
+								<a href="../../phpDocumentor/_docbuilder---actions.php.html">		actions.php
+		</a><br>
+			<a href="../../phpDocumentor/_Documentation---tests---bug-560532.php.html">		bug-560532.php
+		</a><br>
+			<a href="../../phpDocumentor/_Documentation---tests---bug-772441.php.html">		bug-772441.php
+		</a><br>
+			<a href="../../phpDocumentor/_docbuilder---builder.php.html">		builder.php
+		</a><br>
+			<a href="../../phpDocumentor/_phpDocumentor---Classes.inc.html">		Classes.inc
+		</a><br>
+			<a href="../../phpDocumentor/_phpDocumentor---clone.inc.php.html">		clone.inc.php
+		</a><br>
+			<a href="../../phpDocumentor/_phpDocumentor---clone5.inc.php.html">		clone5.inc.php
+		</a><br>
+			<a href="../../phpDocumentor/_phpDocumentor---common.inc.php.html">		common.inc.php
+		</a><br>
+			<a href="../../phpDocumentor/_docbuilder---config.php.html">		config.php
+		</a><br>
+			<a href="../../phpDocumentor/_phpDocumentor---EventStack.inc.html">		EventStack.inc
+		</a><br>
+			<a href="../../phpDocumentor/_docbuilder---file_dialog.php.html">		file_dialog.php
+		</a><br>
+			<a href="../../phpDocumentor/_tests---HighlightParserTests.php.html">		HighlightParserTests.php
+		</a><br>
+			<a href="../../phpDocumentor/_phpDocumentor---IntermediateParser.inc.html">		IntermediateParser.inc
+		</a><br>
+			<a href="../../phpDocumentor/_tests---IntermediateParserTests.php.html">		IntermediateParserTests.php
+		</a><br>
+			<a href="../../phpDocumentor/_phpDocumentor---Io.inc.html">		Io.inc
+		</a><br>
+			<a href="../../phpDocumentor/_new_phpdoc.php.html">		new_phpdoc.php
+		</a><br>
+			<a href="../../phpDocumentor/_tests---ParserClassTests.php.html">		ParserClassTests.php
+		</a><br>
+			<a href="../../phpDocumentor/_phpDocumentor---ParserDescCleanup.inc.html">		ParserDescCleanup.inc
+		</a><br>
+			<a href="../../phpDocumentor/_tests---ParserPageTests.php.html">		ParserPageTests.php
+		</a><br>
+			<a href="../../phpDocumentor/_phpDocumentor---phpdoc.inc.html">		phpdoc.inc
+		</a><br>
+			<a href="../../phpDocumentor/_phpdoc.php.html">		phpdoc.php
+		</a><br>
+			<a href="../../phpDocumentor/_tests---phpDocumentorSetupTests.php.html">		phpDocumentorSetupTests.php
+		</a><br>
+			<a href="../../phpDocumentor/_tests---phpDocumentorTParserTests.php.html">		phpDocumentorTParserTests.php
+		</a><br>
+			<a href="../../phpDocumentor/_phpDocumentor---ProceduralPages.inc.html">		ProceduralPages.inc
+		</a><br>
+			<a href="../../phpDocumentor/_phpDocumentor---Publisher.inc.html">		Publisher.inc
+		</a><br>
+			<a href="../../phpDocumentor/_phpDocumentor---Setup.inc.php.html">		Setup.inc.php
+		</a><br>
+			<a href="../../phpDocumentor/_docbuilder---top.php.html">		top.php
+		</a><br>
+			<a href="../../phpDocumentor/_docbuilder---includes---utilities.php.html">		utilities.php
+		</a><br>
+		subpackage <b>DescHTML</b><br>			<a href="../../phpDocumentor/DescHTML/_phpDocumentor---DescHTML.inc.html">		DescHTML.inc
+		</a><br>
+		subpackage <b>DocBlockTags</b><br>			<a href="../../phpDocumentor/DocBlockTags/_phpDocumentor---DocBlockTags.inc.html">		DocBlockTags.inc
+		</a><br>
+		subpackage <b>Errors</b><br>			<a href="../../phpDocumentor/Errors/_phpDocumentor---Errors.inc.html">		Errors.inc
+		</a><br>
+		subpackage <b>InlineTags</b><br>			<a href="../../phpDocumentor/InlineTags/_phpDocumentor---InlineTags.inc.html">		InlineTags.inc
+		</a><br>
+		subpackage <b>Links</b><br>			<a href="../../phpDocumentor/Links/_phpDocumentor---LinkClasses.inc.html">		LinkClasses.inc
+		</a><br>
+		subpackage <b>ParserData</b><br>			<a href="../../phpDocumentor/ParserData/_phpDocumentor---ParserData.inc.html">		ParserData.inc
+		</a><br>
+		subpackage <b>ParserDocBlock</b><br>			<a href="../../phpDocumentor/ParserDocBlock/_phpDocumentor---ParserDocBlock.inc.html">		ParserDocBlock.inc
+		</a><br>
+		subpackage <b>ParserElements</b><br>			<a href="../../phpDocumentor/ParserElements/_phpDocumentor---ParserElements.inc.html">		ParserElements.inc
+		</a><br>
+		subpackage <b>Parsers</b><br>			<a href="../../phpDocumentor/Parsers/_phpDocumentor---Converters---XML---DocBook---peardoc2---Beautifier.php.html">		Beautifier.php
+		</a><br>
+			<a href="../../phpDocumentor/Parsers/_phpDocumentor---HighlightParser.inc.html">		HighlightParser.inc
+		</a><br>
+			<a href="../../phpDocumentor/Parsers/_phpDocumentor---Parser.inc.html">		Parser.inc
+		</a><br>
+			<a href="../../phpDocumentor/Parsers/_phpDocumentor---phpDocumentorTParser.inc.html">		phpDocumentorTParser.inc
+		</a><br>
+			<a href="../../phpDocumentor/Parsers/_phpDocumentor---Converters---XML---DocBook---peardoc2---Tokenizer.php.html">		Tokenizer.php
+		</a><br>
+			<a href="../../phpDocumentor/Parsers/_phpDocumentor---TutorialHighlightParser.inc.html">		TutorialHighlightParser.inc
+		</a><br>
+			<a href="../../phpDocumentor/Parsers/_phpDocumentor---XMLpackagePageParser.inc.html">		XMLpackagePageParser.inc
+		</a><br>
+		subpackage <b>setup</b><br>			<a href="../../phpDocumentor/setup/_phpDocumentor---find_phpdoc.php.html">		find_phpdoc.php
+		</a><br>
+		subpackage <b>Tutorial</b><br>			<a href="../../phpDocumentor/Tutorial/_phpDocumentor---PackagePageElements.inc.html">		PackagePageElements.inc
+		</a><br>
+		subpackage <b>WordParsers</b><br>			<a href="../../phpDocumentor/WordParsers/_phpDocumentor---phpDocumentorTWordParser.inc.html">		phpDocumentorTWordParser.inc
+		</a><br>
+			<a href="../../phpDocumentor/WordParsers/_phpDocumentor---WordParser.inc.html">		WordParser.inc
+		</a><br>
+				</div>
+			<div id="interfaces">
+							</div>
+			<div id="classes">
+				Classes:<br>
+					<b>Parsers</b><br>			<a href="../../phpDocumentor/Parsers/Parser.html">		Parser
+		</a><br>
+			<a href="../../phpDocumentor/Parsers/parserDescParser.html">		parserDescParser
+		</a><br>
+			<a href="../../phpDocumentor/Parsers/phpDocumentorTParser.html">		phpDocumentorTParser
+		</a><br>
+			<a href="../../phpDocumentor/Parsers/phpDocumentor_HighlightParser.html">		phpDocumentor_HighlightParser
+		</a><br>
+			<a href="../../phpDocumentor/Parsers/phpDocumentor_HighlightWordParser.html">		phpDocumentor_HighlightWordParser
+		</a><br>
+			<a href="../../phpDocumentor/Parsers/phpDocumentor_peardoc2_XML_Beautifier.html">		phpDocumentor_peardoc2_XML_Beautifier
+		</a><br>
+			<a href="../../phpDocumentor/Parsers/phpDocumentor_TutorialHighlightParser.html">		phpDocumentor_TutorialHighlightParser
+		</a><br>
+			<a href="../../phpDocumentor/Parsers/phpDocumentor_XML_Beautifier_Tokenizer.html">		phpDocumentor_XML_Beautifier_Tokenizer
+		</a><br>
+			<a href="../../phpDocumentor/Parsers/ppageParser.html">		ppageParser
+		</a><br>
+			<a href="../../phpDocumentor/Parsers/XMLPackagePageParser.html">		XMLPackagePageParser
+		</a><br>
+					<a href="../../phpDocumentor/bug_772441.html">		bug_772441
+		</a><br>
+			<a href="../../phpDocumentor/Classes.html">		Classes
+		</a><br>
+			<a href="../../phpDocumentor/EventStack.html">		EventStack
+		</a><br>
+			<a href="../../phpDocumentor/Io.html">		Io
+		</a><br>
+			<a href="../../phpDocumentor/phpDocumentor_IntermediateParser.html">		phpDocumentor_IntermediateParser
+		</a><br>
+			<a href="../../phpDocumentor/phpDocumentor_setup.html">		phpDocumentor_setup
+		</a><br>
+			<a href="../../phpDocumentor/ProceduralPages.html">		ProceduralPages
+		</a><br>
+			<a href="../../phpDocumentor/Publisher.html">		Publisher
+		</a><br>
+			<a href="../../phpDocumentor/tests_HighlightParserTests.html">		tests_HighlightParserTests
+		</a><br>
+			<a href="../../phpDocumentor/tests_IntermediateParserTests.html">		tests_IntermediateParserTests
+		</a><br>
+			<a href="../../phpDocumentor/tests_ParserClassTests.html">		tests_ParserClassTests
+		</a><br>
+			<a href="../../phpDocumentor/tests_ParserPageTests.html">		tests_ParserPageTests
+		</a><br>
+			<a href="../../phpDocumentor/tests_phpDocumentorSetupTests.html">		tests_phpDocumentorSetupTests
+		</a><br>
+			<a href="../../phpDocumentor/tests_phpDocumentorTParserTests.html">		tests_phpDocumentorTParserTests
+		</a><br>
+		<b>DescHTML</b><br>			<a href="../../phpDocumentor/DescHTML/parserB.html">		parserB
+		</a><br>
+			<a href="../../phpDocumentor/DescHTML/parserBr.html">		parserBr
+		</a><br>
+			<a href="../../phpDocumentor/DescHTML/parserCode.html">		parserCode
+		</a><br>
+			<a href="../../phpDocumentor/DescHTML/parserDescVar.html">		parserDescVar
+		</a><br>
+			<a href="../../phpDocumentor/DescHTML/parserI.html">		parserI
+		</a><br>
+			<a href="../../phpDocumentor/DescHTML/parserKbd.html">		parserKbd
+		</a><br>
+			<a href="../../phpDocumentor/DescHTML/parserList.html">		parserList
+		</a><br>
+			<a href="../../phpDocumentor/DescHTML/parserPre.html">		parserPre
+		</a><br>
+			<a href="../../phpDocumentor/DescHTML/parserSamp.html">		parserSamp
+		</a><br>
+		<b>DocBlockTags</b><br>			<a href="../../phpDocumentor/DocBlockTags/parserAccessTag.html">		parserAccessTag
+		</a><br>
+			<a href="../../phpDocumentor/DocBlockTags/parserExampleTag.html">		parserExampleTag
+		</a><br>
+			<a href="../../phpDocumentor/DocBlockTags/parserFileSourceTag.html">		parserFileSourceTag
+		</a><br>
+			<a href="../../phpDocumentor/DocBlockTags/parserLicenseTag.html">		parserLicenseTag
+		</a><br>
+			<a href="../../phpDocumentor/DocBlockTags/parserLinkTag.html">		parserLinkTag
+		</a><br>
+			<a href="../../phpDocumentor/DocBlockTags/parserMethodTag.html">		parserMethodTag
+		</a><br>
+			<a href="../../phpDocumentor/DocBlockTags/parserNameTag.html">		parserNameTag
+		</a><br>
+			<a href="../../phpDocumentor/DocBlockTags/parserParamTag.html">		parserParamTag
+		</a><br>
+			<a href="../../phpDocumentor/DocBlockTags/parserPropertyReadTag.html">		parserPropertyReadTag
+		</a><br>
+			<a href="../../phpDocumentor/DocBlockTags/parserPropertyTag.html">		parserPropertyTag
+		</a><br>
+			<a href="../../phpDocumentor/DocBlockTags/parserPropertyWriteTag.html">		parserPropertyWriteTag
+		</a><br>
+			<a href="../../phpDocumentor/DocBlockTags/parserReturnTag.html">		parserReturnTag
+		</a><br>
+			<a href="../../phpDocumentor/DocBlockTags/parserSeeTag.html">		parserSeeTag
+		</a><br>
+			<a href="../../phpDocumentor/DocBlockTags/parserStaticvarTag.html">		parserStaticvarTag
+		</a><br>
+			<a href="../../phpDocumentor/DocBlockTags/parserTag.html">		parserTag
+		</a><br>
+			<a href="../../phpDocumentor/DocBlockTags/parserTutorialTag.html">		parserTutorialTag
+		</a><br>
+			<a href="../../phpDocumentor/DocBlockTags/parserUsedByTag.html">		parserUsedByTag
+		</a><br>
+			<a href="../../phpDocumentor/DocBlockTags/parserUsesTag.html">		parserUsesTag
+		</a><br>
+			<a href="../../phpDocumentor/DocBlockTags/parserVarTag.html">		parserVarTag
+		</a><br>
+		<b>Errors</b><br>			<a href="../../phpDocumentor/Errors/ErrorTracker.html">		ErrorTracker
+		</a><br>
+			<a href="../../phpDocumentor/Errors/RecordError.html">		RecordError
+		</a><br>
+			<a href="../../phpDocumentor/Errors/RecordWarning.html">		RecordWarning
+		</a><br>
+		<b>InlineTags</b><br>			<a href="../../phpDocumentor/InlineTags/parserExampleInlineTag.html">		parserExampleInlineTag
+		</a><br>
+			<a href="../../phpDocumentor/InlineTags/parserIdInlineTag.html">		parserIdInlineTag
+		</a><br>
+			<a href="../../phpDocumentor/InlineTags/parserInheritdocInlineTag.html">		parserInheritdocInlineTag
+		</a><br>
+			<a href="../../phpDocumentor/InlineTags/parserInlineTag.html">		parserInlineTag
+		</a><br>
+			<a href="../../phpDocumentor/InlineTags/parserLinkInlineTag.html">		parserLinkInlineTag
+		</a><br>
+			<a href="../../phpDocumentor/InlineTags/parserSourceInlineTag.html">		parserSourceInlineTag
+		</a><br>
+			<a href="../../phpDocumentor/InlineTags/parserTocInlineTag.html">		parserTocInlineTag
+		</a><br>
+			<a href="../../phpDocumentor/InlineTags/parserTutorialInlineTag.html">		parserTutorialInlineTag
+		</a><br>
+		<b>Links</b><br>			<a href="../../phpDocumentor/Links/abstractLink.html">		abstractLink
+		</a><br>
+			<a href="../../phpDocumentor/Links/classLink.html">		classLink
+		</a><br>
+			<a href="../../phpDocumentor/Links/constLink.html">		constLink
+		</a><br>
+			<a href="../../phpDocumentor/Links/defineLink.html">		defineLink
+		</a><br>
+			<a href="../../phpDocumentor/Links/functionLink.html">		functionLink
+		</a><br>
+			<a href="../../phpDocumentor/Links/globalLink.html">		globalLink
+		</a><br>
+			<a href="../../phpDocumentor/Links/methodLink.html">		methodLink
+		</a><br>
+			<a href="../../phpDocumentor/Links/pageLink.html">		pageLink
+		</a><br>
+			<a href="../../phpDocumentor/Links/tutorialLink.html">		tutorialLink
+		</a><br>
+			<a href="../../phpDocumentor/Links/varLink.html">		varLink
+		</a><br>
+		<b>Tutorial</b><br>			<a href="../../phpDocumentor/Tutorial/parserCData.html">		parserCData
+		</a><br>
+			<a href="../../phpDocumentor/Tutorial/parserEntity.html">		parserEntity
+		</a><br>
+			<a href="../../phpDocumentor/Tutorial/parserXMLDocBookTag.html">		parserXMLDocBookTag
+		</a><br>
+		<b>ParserData</b><br>			<a href="../../phpDocumentor/ParserData/parserBase.html">		parserBase
+		</a><br>
+			<a href="../../phpDocumentor/ParserData/parserData.html">		parserData
+		</a><br>
+			<a href="../../phpDocumentor/ParserData/parserPage.html">		parserPage
+		</a><br>
+			<a href="../../phpDocumentor/ParserData/parserStringWithInlineTags.html">		parserStringWithInlineTags
+		</a><br>
+		<b>WordParsers</b><br>			<a href="../../phpDocumentor/WordParsers/ObjectWordParser.html">		ObjectWordParser
+		</a><br>
+			<a href="../../phpDocumentor/WordParsers/phpDocumentorTWordParser.html">		phpDocumentorTWordParser
+		</a><br>
+			<a href="../../phpDocumentor/WordParsers/WordParser.html">		WordParser
+		</a><br>
+		<b>ParserDocBlock</b><br>			<a href="../../phpDocumentor/ParserDocBlock/parserDesc.html">		parserDesc
+		</a><br>
+			<a href="../../phpDocumentor/ParserDocBlock/parserDocBlock.html">		parserDocBlock
+		</a><br>
+		<b>ParserElements</b><br>			<a href="../../phpDocumentor/ParserElements/parserClass.html">		parserClass
+		</a><br>
+			<a href="../../phpDocumentor/ParserElements/parserConst.html">		parserConst
+		</a><br>
+			<a href="../../phpDocumentor/ParserElements/parserDefine.html">		parserDefine
+		</a><br>
+			<a href="../../phpDocumentor/ParserElements/parserElement.html">		parserElement
+		</a><br>
+			<a href="../../phpDocumentor/ParserElements/parserFunction.html">		parserFunction
+		</a><br>
+			<a href="../../phpDocumentor/ParserElements/parserGlobal.html">		parserGlobal
+		</a><br>
+			<a href="../../phpDocumentor/ParserElements/parserInclude.html">		parserInclude
+		</a><br>
+			<a href="../../phpDocumentor/ParserElements/parserMethod.html">		parserMethod
+		</a><br>
+			<a href="../../phpDocumentor/ParserElements/parserPackagePage.html">		parserPackagePage
+		</a><br>
+			<a href="../../phpDocumentor/ParserElements/parserTutorial.html">		parserTutorial
+		</a><br>
+			<a href="../../phpDocumentor/ParserElements/parserVar.html">		parserVar
+		</a><br>
+				</div>
+		</div>
+	</div>
+
+<div id="body">
+	    		<h1>Class: phpDocumentor_XML_Beautifier_Tokenizer</h1>
+	<p style="margin: 0px;">Source Location: /phpDocumentor/Converters/XML/DocBook/peardoc2/Tokenizer.php</p>
+	
+
+<div class="leftcol">
+	<h3><a href="#class_details">Class Overview</a> <span class="smalllinenumber">[line <a href="../../__filesource/fsource_phpDocumentor_Parsers_phpDocumentorConvertersXMLDocBookpeardoc2Tokenizer.php.html#a50">50</a>]</span></h3>
+	<div id="classTree"><pre>XML_Beautifier_Tokenizer
+   |
+   --phpDocumentor_XML_Beautifier_Tokenizer</pre>
+</div>
+	<div class="small">
+	<p>Highlights source code using <a href="../../phpDocumentor/Parsers/XMLPackagePageParser.html#methodparse">parse()</a></p>
+		<h4>Author(s):</h4>
+	<ul>
+			</ul>
+	<h4>Version:</h4>
+	<ul>
+			</ul>
+
+	<h4>Copyright:</h4>
+	<ul>
+			</li>
+	</div>
+</div>
+
+<div class="middlecol">
+	<h3><a href="#class_vars">Variables</a></h3>
+	<ul class="small">
+				<li><a href="../../phpDocumentor/Parsers/phpDocumentor_XML_Beautifier_Tokenizer.html#var$eventHandlers">$eventHandlers</a></li>
+			</ul>
+	<h3><a href="#class_consts">Constants</a></h3>
+	<ul class="small">
+			</ul>
+</div>
+<div class="rightcol">
+	<h3><a href="#class_methods">Methods</a></h3>
+	<ul class="small">
+				<li><a href="../../phpDocumentor/Parsers/phpDocumentor_XML_Beautifier_Tokenizer.html#methodphpDocumentor_XML_Beautifier_Tokenizer">phpDocumentor_XML_Beautifier_Tokenizer</a></li>
+				<li><a href="../../phpDocumentor/Parsers/phpDocumentor_XML_Beautifier_Tokenizer.html#methodcheckEventPop">checkEventPop</a></li>
+				<li><a href="../../phpDocumentor/Parsers/phpDocumentor_XML_Beautifier_Tokenizer.html#methodcheckEventPush">checkEventPush</a></li>
+				<li><a href="../../phpDocumentor/Parsers/phpDocumentor_XML_Beautifier_Tokenizer.html#methodconfigWordParser">configWordParser</a></li>
+				<li><a href="../../phpDocumentor/Parsers/phpDocumentor_XML_Beautifier_Tokenizer.html#methodgetParserEventName">getParserEventName</a></li>
+				<li><a href="../../phpDocumentor/Parsers/phpDocumentor_XML_Beautifier_Tokenizer.html#methodincdataHandler">incdataHandler</a></li>
+				<li><a href="../../phpDocumentor/Parsers/phpDocumentor_XML_Beautifier_Tokenizer.html#methodparseString">parseString</a></li>
+				<li><a href="../../phpDocumentor/Parsers/phpDocumentor_XML_Beautifier_Tokenizer.html#methodsetupStates">setupStates</a></li>
+			</ul>
+</div>
+
+<div id="content">
+<hr>
+	<div class="contents">
+	</div>
+
+	<div class="leftCol">
+    	<h2>Inherited Variables</h2>
+		<h2>Inherited Constants</h2>
+		</div>
+
+	<div class="rightCol">
+	<h2>Inherited Methods</h2>
+		</div>
+	<br clear="all">
+	<hr>
+
+	<a name="class_details"></a>
+	<h2>Class Details</h2>
+	<p align="center"><strong>Highlights source code using <a href="../../phpDocumentor/Parsers/XMLPackagePageParser.html#methodparse">parse()</a>
+</strong></p>
+	<p class="small" style="color: #334B66;">[ <a href="#top">Top</a> ]</p>
+
+	<hr>
+	<a name="class_vars"></a>
+	<h2>Class Variables</h2>
+		<a name="var$eventHandlers"></a>
+	<p></p>
+	<h4>$eventHandlers = <span class="value">array(<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PHPDOC_XMLTOKEN_EVENT_NOEVENTS&nbsp;=&gt;&nbsp;'normalHandler',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PHPDOC_XMLTOKEN_EVENT_XML&nbsp;=&gt;&nbsp;'parseXMLHandler',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PHPDOC_XMLTOKEN_EVENT_PI&nbsp;=&gt;&nbsp;'parsePiHandler',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PHPDOC_XMLTOKEN_EVENT_ATTRIBUTE&nbsp;=&gt;&nbsp;'attrHandler',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PHPDOC_XMLTOKEN_EVENT_OPENTAG&nbsp;=&gt;&nbsp;'tagHandler',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PHPDOC_XMLTOKEN_EVENT_IN_CDATA&nbsp;=&gt;&nbsp;'realcdataHandler',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PHPDOC_XMLTOKEN_EVENT_DEF&nbsp;=&gt;&nbsp;'defHandler',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PHPDOC_XMLTOKEN_EVENT_CLOSETAG&nbsp;=&gt;&nbsp;'closetagHandler',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PHPDOC_XMLTOKEN_EVENT_ENTITY&nbsp;=&gt;&nbsp;'entityHandler',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PHPDOC_XMLTOKEN_EVENT_COMMENT&nbsp;=&gt;&nbsp;'commentHandler',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PHPDOC_XMLTOKEN_EVENT_SINGLEQUOTE&nbsp;=&gt;&nbsp;'stringHandler',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PHPDOC_XMLTOKEN_EVENT_DOUBLEQUOTE&nbsp;=&gt;&nbsp;'stringHandler',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PHPDOC_XMLTOKEN_EVENT_CDATA&nbsp;=&gt;&nbsp;'parseCdataHandler',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;)</span></h4>
+	<div class="indent">
+		<p class="linenumber">[line <a href="../../__filesource/fsource_phpDocumentor_Parsers_phpDocumentorConvertersXMLDocBookpeardoc2Tokenizer.php.html#a64">64</a>]</p>
+				<p><b>Type:</b> array</p>
+		<p><b>Overrides:</b> </p>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+
+	<hr>
+	<a name="class_methods"></a>
+	<h2>Class Methods</h2>
+	
+	<a name="methodphpDocumentor_XML_Beautifier_Tokenizer"></a>
+	<p></p>
+	<h3>phpDocumentor_XML_Beautifier_Tokenizer</h3>
+	<div class="indent">
+		<p>
+		<code>phpDocumentor_XML_Beautifier_Tokenizer phpDocumentor_XML_Beautifier_Tokenizer(
+)</code>
+		</p>
+	
+		<p class="linenumber">[line <a href="../../__filesource/fsource_phpDocumentor_Parsers_phpDocumentorConvertersXMLDocBookpeardoc2Tokenizer.php.html#a570">570</a>]</p>
+		<p align="center"><strong>Initialize the $tokenpushEvent, $wordpushEvent arrays
+</strong></p>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodcheckEventPop"></a>
+	<p></p>
+	<h3>checkEventPop</h3>
+	<div class="indent">
+		<p>
+		<code>mixed checkEventPop(
+
+$word, 
+$pevent)</code>
+		</p>
+	
+		<p class="linenumber">[line <a href="../../__filesource/fsource_phpDocumentor_Parsers_phpDocumentorConvertersXMLDocBookpeardoc2Tokenizer.php.html#a535">535</a>]</p>
+		<p align="center"><strong>this function checks whether parameter $word is a token for popping the current event off of the Event Stack.
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - returns false, or the event number popped off of the stack</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$word</b> 
+		- 
+		</li>
+			<li>
+		<span class="type"></span>
+		<b>$pevent</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodcheckEventPush"></a>
+	<p></p>
+	<h3>checkEventPush</h3>
+	<div class="indent">
+		<p>
+		<code>mixed checkEventPush(
+
+$word, 
+$pevent)</code>
+		</p>
+	
+		<p class="linenumber">[line <a href="../../__filesource/fsource_phpDocumentor_Parsers_phpDocumentorConvertersXMLDocBookpeardoc2Tokenizer.php.html#a513">513</a>]</p>
+		<p align="center"><strong>this function checks whether parameter $word is a token for pushing a new event onto the Event Stack.
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>return</b> - returns false, or the event number</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$word</b> 
+		- 
+		</li>
+			<li>
+		<span class="type"></span>
+		<b>$pevent</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodconfigWordParser"></a>
+	<p></p>
+	<h3>configWordParser</h3>
+	<div class="indent">
+		<p>
+		<code>void configWordParser(
+$value
+$e)</code>
+		</p>
+	
+		<p class="linenumber">[line <a href="../../__filesource/fsource_phpDocumentor_Parsers_phpDocumentorConvertersXMLDocBookpeardoc2Tokenizer.php.html#a504">504</a>]</p>
+		<p align="center"><strong>tell the parser's WordParser $wp to set up tokens to parse words by.
+</strong></p>
+<p>tokens are word separators.  In English, a space or punctuation are examples of tokens.  In PHP, a token can be a ;, a parenthesis, or even the word &quot;function&quot;</p><h4>Tags:</h4>
+<ul>
+	<li><b>see</b> - <a href="../../phpDocumentor/WordParsers/WordParser.html">WordParser</a></li>
+	<li><b>usedby</b> - <a href="../../phpDocumentor/Parsers/phpDocumentor_XML_Beautifier_Tokenizer.html#methodparseString">phpDocumentor_XML_Beautifier_Tokenizer::parseString()</a> - pass $parse_data to prepare retrieval of tokens</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type">$value</span>
+		<b>$e</b> 
+		- 
+		integer an event number</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodgetParserEventName"></a>
+	<p></p>
+	<h3>getParserEventName</h3>
+	<div class="indent">
+		<p>
+		<code>void getParserEventName(
+
+$value)</code>
+		</p>
+	
+		<p class="linenumber">[line <a href="../../__filesource/fsource_phpDocumentor_Parsers_phpDocumentorConvertersXMLDocBookpeardoc2Tokenizer.php.html#a661">661</a>]</p>
+				
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"></span>
+		<b>$value</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodincdataHandler"></a>
+	<p></p>
+	<h3>incdataHandler</h3>
+	<div class="indent">
+		<p>
+		<code>void incdataHandler(
+object XML
+$parser, string
+$cdata)</code>
+		</p>
+	
+		<p class="linenumber">[line <a href="../../__filesource/fsource_phpDocumentor_Parsers_phpDocumentorConvertersXMLDocBookpeardoc2Tokenizer.php.html#a408">408</a>]</p>
+		<p align="center"><strong>Handler for real character data
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>access</b> - protected</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type">object XML</span>
+		<b>$parser</b> 
+		- 
+		parser object</li>
+			<li>
+		<span class="type">string</span>
+		<b>$cdata</b> 
+		- 
+		CDATA</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodparseString"></a>
+	<p></p>
+	<h3>parseString</h3>
+	<div class="indent">
+		<p>
+		<code>bool parseString(
+string
+$parse_data, <a href="../../Converters/Converter.html">Converter</a>
+1, false|string
+2, false|integer
+3)</code>
+		</p>
+	
+		<p class="linenumber">[line <a href="../../__filesource/fsource_phpDocumentor_Parsers_phpDocumentorConvertersXMLDocBookpeardoc2Tokenizer.php.html#a108">108</a>]</p>
+		<p align="center"><strong>Parse a new file
+</strong></p>
+<p>The parse() method is a do...while() loop that retrieves tokens one by  one from the $_event_stack, and uses the token event array set up  by the class constructor to call event handlers.</p><p>The event handlers each process the tokens passed to them, and use the  _addoutput() method to append the processed tokens to the  $_line variable.  The word parser calls newLineNum()  every time a line is reached.</p><p>In addition, the event handlers use special linking functions  _link() and its cousins (_classlink(), etc.) to create in-code  hyperlinks to the documentation for source code elements that are in the  source code.</p><h4>Tags:</h4>
+<ul>
+	<li><b>staticvar</b> - integer $endrecur: used for recursion limiting if a handler for                           an event is not found</li>
+	<li><b>uses</b> - <a href="../../phpDocumentor/Parsers/phpDocumentor_XML_Beautifier_Tokenizer.html#methodsetupStates">phpDocumentor_XML_Beautifier_Tokenizer::setupStates()</a> - initialize parser state variables</li>
+	<li><b>uses</b> - <a href="../../phpDocumentor/Parsers/phpDocumentor_XML_Beautifier_Tokenizer.html#methodconfigWordParser">phpDocumentor_XML_Beautifier_Tokenizer::configWordParser()</a> - pass $parse_data to prepare retrieval of tokens</li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type"><a href="../../Converters/Converter.html">Converter</a></span>
+		<b>1</b> 
+		- 
+		</li>
+			<li>
+		<span class="type">false|string</span>
+		<b>2</b> 
+		- 
+		full path to file with @filesource tag, if this            is a @filesource parse</li>
+			<li>
+		<span class="type">false|integer</span>
+		<b>3</b> 
+		- 
+		starting line number from {@source linenum}</li>
+			<li>
+		<span class="type">string</span>
+		<b>$parse_data</b> 
+		- 
+		</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+	<a name="methodsetupStates"></a>
+	<p></p>
+	<h3>setupStates</h3>
+	<div class="indent">
+		<p>
+		<code>void setupStates(
+boolean
+$parsedata, false|string
+1)</code>
+		</p>
+	
+		<p class="linenumber">[line <a href="../../__filesource/fsource_phpDocumentor_Parsers_phpDocumentorConvertersXMLDocBookpeardoc2Tokenizer.php.html#a553">553</a>]</p>
+		<p align="center"><strong>Initialize all parser state variables
+</strong></p>
+<h4>Tags:</h4>
+<ul>
+	<li><b>usedby</b> - <a href="../../phpDocumentor/Parsers/phpDocumentor_XML_Beautifier_Tokenizer.html#methodparseString">phpDocumentor_XML_Beautifier_Tokenizer::parseString()</a> - initialize parser state variables</li>
+	<li><b>uses</b> - $_wp - sets to a new <a href="../../phpDocumentor/Parsers/phpDocumentor_HighlightWordParser.html">phpDocumentor_HighlightWordParser</a></li>
+</ul>
+		
+	
+	<h4>Parameters:</h4>
+	<ul>
+			<li>
+		<span class="type">false|string</span>
+		<b>1</b> 
+		- 
+		name of class we are going to start from</li>
+			<li>
+		<span class="type">boolean</span>
+		<b>$parsedata</b> 
+		- 
+		true if we are highlighting an inline {@source} tag's                 output</li>
+		</ul>
+	</div>
+	<p class="top">[ <a href="#top">Top</a> ]</p>
+
+	<hr>
+	<a name="class_consts"></a>
+	<h2>Class Constants</h2>
+	</div>
+	<div id="credit">
+		<hr>
+		Documentation generated on Tue, 06 Dec 2011 07:08:58 -0600 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.4</a>
+	</div>
+</div>
+</body>
+</html>
